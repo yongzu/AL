@@ -12,7 +12,7 @@ const { channel, blocks } = JSON.parse(readFileSync(join(ROOT, 'content/archive.
 const label = { ok: '책과 일치', expand: '보완 제안', revise: '용어 점검' };
 const korean = (d) => {
   const i = d.indexOf('\n---\n**EN**');
-  return (i >= 0 ? d.slice(0, i) : d).trim();
+  return (i >= 0 ? d.slice(0, i) : d).trim().replace(/^\*\*KR\*\*\s*/, '');
 };
 
 const rows = blocks.filter((b) => analysis[b.no]);

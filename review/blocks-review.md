@@ -28,9 +28,9 @@
 
 ## WK01
 
-### [ ] 1. From 5M — 용어 점검
+### [ ] 1. 그리드 위의 암시된 선 / Implied Line on a Grid — 용어 점검
 
-![From 5M](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIyMjA0NC9vcmlnaW5hbF83ZjhjMDg3YjVjZTFiZjU2NTA1MGJmZjEwYmU2OWE1OC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19)
+![그리드 위의 암시된 선 / Implied Line on a Grid](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIyMjA0NC9vcmlnaW5hbF83ZjhjMDg3YjVjZTFiZjU2NTA1MGJmZjEwYmU2OWE1OC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19)
 
 **기존 설명**
 
@@ -50,9 +50,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50222044)
 
-### [ ] 2. Silhouette — 보완 제안
+### [ ] 2. 흐린 윤곽의 보행 / Blurred Outlines in Stride — 보완 제안
 
-![Silhouette](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIyMTgxNS9vcmlnaW5hbF9hNWI5YjA2ZmE1YWM4ZWNjY2M5MjkyNzRkMGU0ZGI2My5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19)
+![흐린 윤곽의 보행 / Blurred Outlines in Stride](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIyMTgxNS9vcmlnaW5hbF9hNWI5YjA2ZmE1YWM4ZWNjY2M5MjkyNzRkMGU0ZGI2My5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19)
 
 **기존 설명**
 
@@ -72,9 +72,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50221815)
 
-### [ ] 3. Entity — 보완 제안
+### [ ] 3. 방사하는 빛의 초점 / Radiating Focal Light — 보완 제안
 
-![Entity](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIyMTgxOC9vcmlnaW5hbF80YWVlZjdmNzM1ODE0YThkZTYxMWU2MDNmMmNmMzM0OC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19)
+![방사하는 빛의 초점 / Radiating Focal Light](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDIyMTgxOC9vcmlnaW5hbF80YWVlZjdmNzM1ODE0YThkZTYxMWU2MDNmMmNmMzM0OC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo0MDAsImhlaWdodCI6NDAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9LCJ3ZWJwIjp7InF1YWxpdHkiOjc1fSwianBlZyI6eyJxdWFsaXR5Ijo3NX0sInJvdGF0ZSI6bnVsbH19)
 
 **기존 설명**
 
@@ -94,9 +94,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50221818)
 
-### [ ] 4. Contrast — 보완 제안
+### [ ] 4. 여백을 가르는 실루엣 / A Silhouette Cutting Negative Space — 보완 제안
 
-![Contrast](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTkyOS9vcmlnaW5hbF9hNDJhZmRlNDA4YTZkMGI1NDA3YWRlOGUyOTBhMGE0Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![여백을 가르는 실루엣 / A Silhouette Cutting Negative Space](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTkyOS9vcmlnaW5hbF9hNDJhZmRlNDA4YTZkMGI1NDA3YWRlOGUyOTBhMGE0Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -115,9 +115,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359929)
 
-### [ ] 5. Form and Texture — 용어 점검
+### [ ] 5. 열린 형식의 곡선 / Curvilinear Open Form — 용어 점검
 
-![Form and Texture](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTkzNS9vcmlnaW5hbF9hNDU4MTIzMjVmYThjMTA2YmU1N2EwOGM3NDRlYzA2Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![열린 형식의 곡선 / Curvilinear Open Form](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTkzNS9vcmlnaW5hbF9hNDU4MTIzMjVmYThjMTA2YmU1N2EwOGM3NDRlYzA2Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -137,9 +137,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359935)
 
-### [ ] 6. Distortion — 용어 점검
+### [ ] 6. 다가오는 손의 증폭된 원근 / Amplified Reach — 용어 점검
 
-![Distortion](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTkzOC9vcmlnaW5hbF8yZjdhYmJmYTQ3NDU1ZGE2MmE4OWNiNGJlZWY3M2ViOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![다가오는 손의 증폭된 원근 / Amplified Reach](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTkzOC9vcmlnaW5hbF8yZjdhYmJmYTQ3NDU1ZGE2MmE4OWNiNGJlZWY3M2ViOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -158,9 +158,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359938)
 
-### [ ] 7. Futuristic Vision — 책과 일치
+### [ ] 7. 대비로 빛나는 초점 / Focal Point by Contrast — 책과 일치
 
-![Futuristic Vision](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk0MC9vcmlnaW5hbF9iZDQ5ZTk1NjMxNTgzNjY2YjQxNDc1ZTdlYTI3Yzg4ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![대비로 빛나는 초점 / Focal Point by Contrast](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk0MC9vcmlnaW5hbF9iZDQ5ZTk1NjMxNTgzNjY2YjQxNDc1ZTdlYTI3Yzg4ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -178,9 +178,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359940)
 
-### [ ] 8. Luminous — 보완 제안
+### [ ] 8. 명도가 된 선 / Line Becoming Value — 보완 제안
 
-![Luminous](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk0MS9vcmlnaW5hbF81MjZhODI0N2I2YmIxZTlmMzM0ZjcyYjMyMTcyOWE2NC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![명도가 된 선 / Line Becoming Value](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk0MS9vcmlnaW5hbF81MjZhODI0N2I2YmIxZTlmMzM0ZjcyYjMyMTcyOWE2NC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -199,9 +199,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359941)
 
-### [ ] 9. Ethereal — 책과 일치
+### [ ] 9. 입자와 사라지는 윤곽 / Grain and Lost Contour — 책과 일치
 
-![Ethereal](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk0Mi9vcmlnaW5hbF8yMTljMzE0NWRhMTdiMjVlOGE5MGE3NjQ0ZGUzODZiZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![입자와 사라지는 윤곽 / Grain and Lost Contour](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk0Mi9vcmlnaW5hbF8yMTljMzE0NWRhMTdiMjVlOGE5MGE3NjQ0ZGUzODZiZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -220,9 +220,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359942)
 
-### [ ] 10. Reverse — 보완 제안
+### [ ] 10. 형과 바탕의 반전 / Figure-Ground Reversal — 보완 제안
 
-![Reverse](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk0NS9vcmlnaW5hbF83YWZjYzFmZTRhNDFjZjkxMmExODQ2MDRlYmFjODNjYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![형과 바탕의 반전 / Figure-Ground Reversal](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk0NS9vcmlnaW5hbF83YWZjYzFmZTRhNDFjZjkxMmExODQ2MDRlYmFjODNjYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -242,9 +242,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359945)
 
-### [ ] 11. Gaze — 보완 제안
+### [ ] 11. 사라졌다 나타나는 윤곽 / Lost-and-Found Contour — 보완 제안
 
-![Gaze](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk1My9vcmlnaW5hbF8zZDhmNmVkMWJiMWRiOTE4ZDA3ZGU2NDQ1ZThiZTc4Yi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![사라졌다 나타나는 윤곽 / Lost-and-Found Contour](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk1My9vcmlnaW5hbF8zZDhmNmVkMWJiMWRiOTE4ZDA3ZGU2NDQ1ZThiZTc4Yi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -263,9 +263,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359953)
 
-### [ ] 12. Cosmic — 보완 제안
+### [ ] 12. 스케일의 환상 / Fantasy of Scale — 보완 제안
 
-![Cosmic](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk1OC9vcmlnaW5hbF8xYzYzZTU0YzI3Y2ZmYWMxMTA5YWQ2OTllY2M2OGQyOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![스케일의 환상 / Fantasy of Scale](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk1OC9vcmlnaW5hbF8xYzYzZTU0YzI3Y2ZmYWMxMTA5YWQ2OTllY2M2OGQyOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -285,9 +285,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359958)
 
-### [ ] 13. Mechanical Anatomy — 책과 일치
+### [ ] 13. 투명성 속 곡선과 직선 / Curves and Edges in Transparency — 책과 일치
 
-![Mechanical Anatomy](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2MC9vcmlnaW5hbF81YjcxNThhYmZlMmQ5YzdjZDUzMmUxZTU2ZWEwYjUwMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![투명성 속 곡선과 직선 / Curves and Edges in Transparency](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2MC9vcmlnaW5hbF81YjcxNThhYmZlMmQ5YzdjZDUzMmUxZTU2ZWEwYjUwMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -305,9 +305,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359960)
 
-### [ ] 14. Augmentation — 보완 제안
+### [ ] 14. 머리를 감싸는 연속 / Continuation Around the Head — 보완 제안
 
-![Augmentation](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2MS9vcmlnaW5hbF9mY2MzMGQzYzc2MmQzNGFlMzYwMjI4OTFmODM3NjUxOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![머리를 감싸는 연속 / Continuation Around the Head](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2MS9vcmlnaW5hbF9mY2MzMGQzYzc2MmQzNGFlMzYwMjI4OTFmODM3NjUxOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -326,9 +326,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359961)
 
-### [ ] 15. Transparent skeleton — 보완 제안
+### [ ] 15. 부푼 곡선형의 외피 / Swelling Curvilinear Shell — 보완 제안
 
-![Transparent skeleton](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2Mi9vcmlnaW5hbF8xMGE1Y2Q3YWQyODBjNTJmNzEwYzA3NzJmYTg4OTg2OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![부푼 곡선형의 외피 / Swelling Curvilinear Shell](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2Mi9vcmlnaW5hbF8xMGE1Y2Q3YWQyODBjNTJmNzEwYzA3NzJmYTg4OTg2OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -346,9 +346,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359962)
 
-### [ ] 16. Cyber Deity — 책과 일치
+### [ ] 16. 후광의 방사 균형 / Radial Balance of a Halo — 책과 일치
 
-![Cyber Deity](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2My9vcmlnaW5hbF8zNGZkYmQyYzMwZjVmYzU4ZmFmYzYwNjcwMWQ5MWNjNS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![후광의 방사 균형 / Radial Balance of a Halo](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2My9vcmlnaW5hbF8zNGZkYmQyYzMwZjVmYzU4ZmFmYzYwNjcwMWQ5MWNjNS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -367,9 +367,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359963)
 
-### [ ] 17. Alien Elegance — 보완 제안
+### [ ] 17. 대칭 속 질감의 충돌 / Texture Clash in Symmetry — 보완 제안
 
-![Alien Elegance](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2NC9vcmlnaW5hbF9mYmRjOWE4ZTZkNzFmMzc1MDk3ZGE4ZGM3NzI5ODc4Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![대칭 속 질감의 충돌 / Texture Clash in Symmetry](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2NC9vcmlnaW5hbF9mYmRjOWE4ZTZkNzFmMzc1MDk3ZGE4ZGM3NzI5ODc4Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -388,9 +388,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359964)
 
-### [ ] 18. Mechanical Bone — 책과 일치
+### [ ] 18. 관절의 변화된 반복 / Varied Repetition of Joints — 책과 일치
 
-![Mechanical Bone](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2Ni9vcmlnaW5hbF8zOWZjYWJiYTA5ODRhNzg5YzAyMmQ2OTFiMWZjNjE5My5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![관절의 변화된 반복 / Varied Repetition of Joints](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2Ni9vcmlnaW5hbF8zOWZjYWJiYTA5ODRhNzg5YzAyMmQ2OTFiMWZjNjE5My5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -408,9 +408,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359966)
 
-### [ ] 19. Transparent Flora — 책과 일치
+### [ ] 19. 단색 배색의 투명 레이어 / Monochrome Transparent Layers — 책과 일치
 
-![Transparent Flora](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2OS9vcmlnaW5hbF8xNDU0ZGFjNmE3ZWE2ZTFjMDM2NzA3MDNjYjVjMWU0Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![단색 배색의 투명 레이어 / Monochrome Transparent Layers](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk2OS9vcmlnaW5hbF8xNDU0ZGFjNmE3ZWE2ZTFjMDM2NzA3MDNjYjVjMWU0Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -428,9 +428,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359969)
 
-### [ ] 20. Layered Fabric — 책과 일치
+### [ ] 20. 겹침이 만든 명도 단계 / Value Steps by Overlap — 책과 일치
 
-![Layered Fabric](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3MC9vcmlnaW5hbF8zZTc4ZDEyYmUwNmEzZGQ2ZGFkNDA5YzBhZWMzMDIyMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![겹침이 만든 명도 단계 / Value Steps by Overlap](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3MC9vcmlnaW5hbF8zZTc4ZDEyYmUwNmEzZGQ2ZGFkNDA5YzBhZWMzMDIyMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -448,9 +448,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359970)
 
-### [ ] 21. Structural Foundation — 보완 제안
+### [ ] 21. 대칭과 점진적 리듬 / Symmetry and Progressive Rhythm — 보완 제안
 
-![Structural Foundation](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3MS9vcmlnaW5hbF8xYTlkNjdmYTY5MWMwMDJiOTVjZGQzMTc2YmNlZDkwOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![대칭과 점진적 리듬 / Symmetry and Progressive Rhythm](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3MS9vcmlnaW5hbF8xYTlkNjdmYTY5MWMwMDJiOTVjZGQzMTc2YmNlZDkwOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -468,9 +468,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359971)
 
-### [ ] 22. Mechanism — 보완 제안
+### [ ] 22. 직선형을 벗어난 곡선 / A Curve Breaking the Rectilinear — 보완 제안
 
-![Mechanism](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3Mi9vcmlnaW5hbF9jNzc1ZTNkOWUwNWFhYTZmMGRlYTdkNDhjOWZjMTkwMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![직선형을 벗어난 곡선 / A Curve Breaking the Rectilinear](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3Mi9vcmlnaW5hbF9jNzc1ZTNkOWUwNWFhYTZmMGRlYTdkNDhjOWZjMTkwMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -489,9 +489,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359972)
 
-### [ ] 23. Anatomy of Tech — 책과 일치
+### [ ] 23. 명도로 잡은 초점 / Focal Point by Value — 책과 일치
 
-![Anatomy of Tech](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3My9vcmlnaW5hbF9iYjg2ZGNmYmVhMDY3YmZlOTMyOWUyOWYxNTlmYjgwMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![명도로 잡은 초점 / Focal Point by Value](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3My9vcmlnaW5hbF9iYjg2ZGNmYmVhMDY3YmZlOTMyOWUyOWYxNTlmYjgwMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -509,9 +509,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359973)
 
-### [ ] 24. Clarity of Form — 책과 일치
+### [ ] 24. 사선과 열린 형식 / Diagonal in Open Form — 책과 일치
 
-![Clarity of Form](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3NC9vcmlnaW5hbF9lYmVjYzYyNWU0YmFlZmUyODY3YTdhOTlkMzA5ZDMxYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![사선과 열린 형식 / Diagonal in Open Form](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3NC9vcmlnaW5hbF9lYmVjYzYyNWU0YmFlZmUyODY3YTdhOTlkMzA5ZDMxYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -529,9 +529,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359974)
 
-### [ ] 25. Organic Geometry — 보완 제안
+### [ ] 25. 대칭의 생물형태 / Symmetrical Biomorph — 보완 제안
 
-![Organic Geometry](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3Ni9vcmlnaW5hbF81ZGIwYzUxMzkwNTQzYjY2ZDQ4MjY5MmYwMTA5NTM3Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![대칭의 생물형태 / Symmetrical Biomorph](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3Ni9vcmlnaW5hbF81ZGIwYzUxMzkwNTQzYjY2ZDQ4MjY5MmYwMTA5NTM3Ny5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -550,9 +550,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359976)
 
-### [ ] 26. Continuous Path — 보완 제안
+### [ ] 26. 레가토로 이어진 연속 / Legato Continuation — 보완 제안
 
-![Continuous Path](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3OC9vcmlnaW5hbF9iOWY3NWE1NmY4YWMyMzYwODcyOGQ0MDEyNzQ5YTIyYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![레가토로 이어진 연속 / Legato Continuation](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM1OTk3OC9vcmlnaW5hbF9iOWY3NWE1NmY4YWMyMzYwODcyOGQ0MDEyNzQ5YTIyYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -571,9 +571,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50359978)
 
-### [ ] 27. Flowing Gradients — 책과 일치
+### [ ] 27. 흐름 끝의 대비 / Contrast at the End of a Flow — 책과 일치
 
-![Flowing Gradients](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM3OTU0MS9vcmlnaW5hbF8wOWQ2ZjM2YTM1ZjE2MmU0YmRkZmE3ZDZiZGQ4NDc3YS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![흐름 끝의 대비 / Contrast at the End of a Flow](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM3OTU0MS9vcmlnaW5hbF8wOWQ2ZjM2YTM1ZjE2MmU0YmRkZmE3ZDZiZGQ4NDc3YS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -591,9 +591,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50379541)
 
-### [ ] 28. Fluid — 책과 일치
+### [ ] 28. 저대비로 겹친 면 / Low-Contrast Overlapping Planes — 책과 일치
 
-![Fluid](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM3OTU0My9vcmlnaW5hbF8xZDVmM2QxNzZmNTc2OGRhMmM2OGM5ZjUzZWY1Mzg3NS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![저대비로 겹친 면 / Low-Contrast Overlapping Planes](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDM3OTU0My9vcmlnaW5hbF8xZDVmM2QxNzZmNTc2OGRhMmM2OGM5ZjUzZWY1Mzg3NS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -613,9 +613,9 @@
 
 ## WK02
 
-### [ ] 29. 폐허 — 용어 점검
+### [ ] 29. 생물형태와 시각적 질감 / Biomorphs and Visual Texture — 용어 점검
 
-![폐허](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MTMxMi9vcmlnaW5hbF9iNmE4MTFkNzBjY2IzMmQ4YjU3ZDFkNTQ3ZWM2M2UwMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![생물형태와 시각적 질감 / Biomorphs and Visual Texture](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MTMxMi9vcmlnaW5hbF9iNmE4MTFkNzBjY2IzMmQ4YjU3ZDFkNTQ3ZWM2M2UwMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -639,9 +639,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50571312)
 
-### [ ] 30. 흐릿한 기억 — 용어 점검
+### [ ] 30. 색면과 어긋난 윤곽선 / Line Offset from Shape — 용어 점검
 
-![흐릿한 기억](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MTMxMy9vcmlnaW5hbF80MzY1YjQ1OTExMGZiMWFjMDEzN2Y1ZTk3YjQ4N2JmYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![색면과 어긋난 윤곽선 / Line Offset from Shape](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MTMxMy9vcmlnaW5hbF80MzY1YjQ1OTExMGZiMWFjMDEzN2Y1ZTk3YjQ4N2JmYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -664,9 +664,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50571313)
 
-### [ ] 31. The Vitality of Lines — 보완 제안
+### [ ] 31. 굵기가 변하는 제스처 / Gesture in Varying Weight — 보완 제안
 
-![The Vitality of Lines](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU1NC9vcmlnaW5hbF85NDg0MGVlOWFlODhkYjNhNzI3N2NlYWNjNDBlNzk0ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![굵기가 변하는 제스처 / Gesture in Varying Weight](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU1NC9vcmlnaW5hbF85NDg0MGVlOWFlODhkYjNhNzI3N2NlYWNjNDBlNzk0ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -684,9 +684,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50572554)
 
-### [ ] 32. Combination — 책과 일치
+### [ ] 32. 윤곽선과 제스처 붓질 / Contour and Gestural Stroke — 책과 일치
 
-![Combination](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU1Ny9vcmlnaW5hbF81N2ExNWYzNGZjM2NmNDFjZGE1ODI2MTExYTI3NzBiZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![윤곽선과 제스처 붓질 / Contour and Gestural Stroke](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU1Ny9vcmlnaW5hbF81N2ExNWYzNGZjM2NmNDFjZGE1ODI2MTExYTI3NzBiZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -707,9 +707,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50572557)
 
-### [ ] 33. Expansion of Dynamics — 보완 제안
+### [ ] 33. 아래로 가라앉은 무게 / Weight Sinking Low — 보완 제안
 
-![Expansion of Dynamics](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU1OC9vcmlnaW5hbF9iNjljMTc4YTRmZTI0NmZhNzhhNTk3ODIyMGYzYTU2ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![아래로 가라앉은 무게 / Weight Sinking Low](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU1OC9vcmlnaW5hbF9iNjljMTc4YTRmZTI0NmZhNzhhNTk3ODIyMGYzYTU2ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -728,9 +728,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50572558)
 
-### [ ] 34. Form and Blur — 용어 점검
+### [ ] 34. 속도를 띤 형태 / Fast Shapes — 용어 점검
 
-![Form and Blur](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU2MS9vcmlnaW5hbF8zMzZkMzE0MWM0MWUzZmFlOWM0YjYwZTNlNWIwNWM4Yy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![속도를 띤 형태 / Fast Shapes](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU2MS9vcmlnaW5hbF8zMzZkMzE0MWM0MWUzZmFlOWM0YjYwZTNlNWIwNWM4Yy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -749,9 +749,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50572561)
 
-### [ ] 35. Multiple Exposures — 책과 일치
+### [ ] 35. 다중 이미지의 박자 / The Beat of Multiple Images — 책과 일치
 
-![Multiple Exposures](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU2Mi9vcmlnaW5hbF9hNzc1MDMzNzJhNzAwOGQ4ZjllYzhkNWE1YjBlZjY4OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![다중 이미지의 박자 / The Beat of Multiple Images](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU2Mi9vcmlnaW5hbF9hNzc1MDMzNzJhNzAwOGQ4ZjllYzhkNWE1YjBlZjY4OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -770,9 +770,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50572562)
 
-### [ ] 36. Anti-Gravity — 책과 일치
+### [ ] 36. 멈춘 동작의 대각선 / Diagonal of Arrested Action — 책과 일치
 
-![Anti-Gravity](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU2My9vcmlnaW5hbF80ZTYyNDFmYzk2OGU0ODYyNjllOGIyMjE2ZDZiM2QxMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![멈춘 동작의 대각선 / Diagonal of Arrested Action](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjU2My9vcmlnaW5hbF80ZTYyNDFmYzk2OGU0ODYyNjllOGIyMjE2ZDZiM2QxMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -790,9 +790,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50572563)
 
-### [ ] 37. Distortion — 용어 점검
+### [ ] 37. 증폭된 원근의 보폭 / Amplified Stride — 용어 점검
 
-![Distortion](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjY4OC9vcmlnaW5hbF9hMGEyZTg1ZjUxZDE4OTI1Mjg0ODQzODQ1Yzg3MmI0YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![증폭된 원근의 보폭 / Amplified Stride](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjY4OC9vcmlnaW5hbF9hMGEyZTg1ZjUxZDE4OTI1Mjg0ODQzODQ1Yzg3MmI0YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -811,9 +811,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50572688)
 
-### [ ] 38. Approaching — 용어 점검
+### [ ] 38. 방사하는 손가락의 초점 / Radiating Fingers, Central Focus — 용어 점검
 
-![Approaching](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjcwMC9vcmlnaW5hbF85YTZhNGE0MGJkNzQ3Y2Q0MTBiNjE1NzNkMDE1NGIxOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![방사하는 손가락의 초점 / Radiating Fingers, Central Focus](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDU3MjcwMC9vcmlnaW5hbF85YTZhNGE0MGJkNzQ3Y2Q0MTBiNjE1NzNkMDE1NGIxOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -834,9 +834,9 @@
 
 ## WK03
 
-### [ ] 39. Between Things — 책과 일치
+### [ ] 39. 줄기가 잇는 연속 / Continuation Along a Stem — 책과 일치
 
-![Between Things](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4MjU4MC9vcmlnaW5hbF85ODM2MWYwNzRjZTA5N2UxOTc2ZDFkNTgwYjAxZWUxYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![줄기가 잇는 연속 / Continuation Along a Stem](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4MjU4MC9vcmlnaW5hbF85ODM2MWYwNzRjZTA5N2UxOTc2ZDFkNTgwYjAxZWUxYy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -856,9 +856,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50782580)
 
-### [ ] 40. Fat Variation — 보완 제안
+### [ ] 40. 부풀린 비례의 반복 / Repetition of Inflated Proportion — 보완 제안
 
-![Fat Variation](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDM2MS9vcmlnaW5hbF81MDY3MDcwNTQ5MTZmZmVjYzNjNzdhNWI4MThiNGFlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![부풀린 비례의 반복 / Repetition of Inflated Proportion](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDM2MS9vcmlnaW5hbF81MDY3MDcwNTQ5MTZmZmVjYzNjNzdhNWI4MThiNGFlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -880,9 +880,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50784361)
 
-### [ ] 41. Structural — 보완 제안
+### [ ] 41. 소실점에 선 작은 인물 / A Tiny Figure at the Vanishing Point — 보완 제안
 
-![Structural](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4My9vcmlnaW5hbF9iMTYzOTU0OTliZTNhNzZjOGI3ODJmZGQzNTkzZGE4ZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![소실점에 선 작은 인물 / A Tiny Figure at the Vanishing Point](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4My9vcmlnaW5hbF9iMTYzOTU0OTliZTNhNzZjOGI3ODJmZGQzNTkzZGE4ZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -901,9 +901,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50784683)
 
-### [ ] 42. Rep-Stairs — 책과 일치
+### [ ] 42. 반복을 깨는 고립 / Isolation Breaking Repetition — 책과 일치
 
-![Rep-Stairs](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4NC9vcmlnaW5hbF82M2IzYzk4ZDE4OTFiNzk4OWU2NzQzODQzMjQ5YmI2YS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![반복을 깨는 고립 / Isolation Breaking Repetition](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4NC9vcmlnaW5hbF82M2IzYzk4ZDE4OTFiNzk4OWU2NzQzODQzMjQ5YmI2YS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -922,9 +922,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50784684)
 
-### [ ] 43. Grid and curves — 책과 일치
+### [ ] 43. 그리드를 감싸는 곡선 / Curves Around a Grid — 책과 일치
 
-![Grid and curves](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4NS9vcmlnaW5hbF85NmE4NmI3OWY1NmJiZWIxNmIyNGQ4OWEyNDVhNWYzZi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![그리드를 감싸는 곡선 / Curves Around a Grid](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4NS9vcmlnaW5hbF85NmE4NmI3OWY1NmJiZWIxNmIyNGQ4OWEyNDVhNWYzZi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -942,9 +942,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50784685)
 
-### [ ] 44. Cylinder — 책과 일치
+### [ ] 44. 근접으로 묶인 모듈 / Modules Bound by Proximity — 책과 일치
 
-![Cylinder](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4Ni9vcmlnaW5hbF8xZDhiMTg0ZDlhNzFiNTI0ZjJjNDI3ODkwZjVmZjA0MC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![근접으로 묶인 모듈 / Modules Bound by Proximity](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4Ni9vcmlnaW5hbF8xZDhiMTg0ZDlhNzFiNTI0ZjJjNDI3ODkwZjVmZjA0MC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -962,9 +962,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50784686)
 
-### [ ] 45. Rhythm — 보완 제안
+### [ ] 45. 그리드 위의 점진적 리듬 / Progressive Rhythm on a Grid — 보완 제안
 
-![Rhythm](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4Ny9vcmlnaW5hbF83MmZjYTEwY2ZjYjIzNzJiOGMxZmY0MzVkMjNlZDU2NS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![그리드 위의 점진적 리듬 / Progressive Rhythm on a Grid](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4Ny9vcmlnaW5hbF83MmZjYTEwY2ZjYjIzNzJiOGMxZmY0MzVkMjNlZDU2NS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -983,9 +983,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50784687)
 
-### [ ] 46. Gestalt map — 보완 제안
+### [ ] 46. 음형이 그리는 곡선 / A Curve Drawn by Negative Space — 보완 제안
 
-![Gestalt map](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4OC9vcmlnaW5hbF9lZjY4YTBkZjdkNDYxZWM2YTU4NjBlODJhMTViZmI1Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![음형이 그리는 곡선 / A Curve Drawn by Negative Space](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4OC9vcmlnaW5hbF9lZjY4YTBkZjdkNDYxZWM2YTU4NjBlODJhMTViZmI1Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1004,9 +1004,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50784688)
 
-### [ ] 47. Geometric — 책과 일치
+### [ ] 47. 드러난 내재선 / Inherent Lines Revealed — 책과 일치
 
-![Geometric](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4OS9vcmlnaW5hbF9jMjJlMmJiY2Q3NzBhYzQ3OTc1Y2U5MzQ2ZWUxM2QyZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![드러난 내재선 / Inherent Lines Revealed](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDY4OS9vcmlnaW5hbF9jMjJlMmJiY2Q3NzBhYzQ3OTc1Y2U5MzQ2ZWUxM2QyZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1024,9 +1024,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50784689)
 
-### [ ] 48. Radial — 보완 제안
+### [ ] 48. 겹침이 만든 꽃잎 / Petals Made by Overlap — 보완 제안
 
-![Radial](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDcwNy9vcmlnaW5hbF8wZmY0NmI3MjBiNTY0NDZlNGNlNzNjZTQzMmFmOWY5NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![겹침이 만든 꽃잎 / Petals Made by Overlap](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDc4NDcwNy9vcmlnaW5hbF8wZmY0NmI3MjBiNTY0NDZlNGNlNzNjZTQzMmFmOWY5NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1047,9 +1047,9 @@
 
 ## WK04
 
-### [ ] 49. Museum — 보완 제안
+### [ ] 49. 겹겹의 다중 리듬 / Layered Polyrhythm — 보완 제안
 
-![Museum](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM1Ny9vcmlnaW5hbF8xMzM4ZGJjZjlmN2ZkZDdlOWEyMDZjZDkxM2FmYWQ0Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![겹겹의 다중 리듬 / Layered Polyrhythm](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM1Ny9vcmlnaW5hbF8xMzM4ZGJjZjlmN2ZkZDdlOWEyMDZjZDkxM2FmYWQ0Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1070,9 +1070,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986357)
 
-### [ ] 50. Rise — 보완 제안
+### [ ] 50. 대기 원근 속 레가토 / Legato into Atmosphere — 보완 제안
 
-![Rise](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM1OC9vcmlnaW5hbF82NDJmZjA3YmI1ZDE0YmEyOWI2NWVhMzMwNzUxZTJhMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![대기 원근 속 레가토 / Legato into Atmosphere](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM1OC9vcmlnaW5hbF82NDJmZjA3YmI1ZDE0YmEyOWI2NWVhMzMwNzUxZTJhMi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1092,9 +1092,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986358)
 
-### [ ] 51. Staccato — 책과 일치
+### [ ] 51. 사선의 스타카토 / Diagonal Staccato — 책과 일치
 
-![Staccato](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM1OS9vcmlnaW5hbF9iODc5ZjE2NzNhMGNiM2M1NTkxMWEyZTBlY2UwNDhkMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![사선의 스타카토 / Diagonal Staccato](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM1OS9vcmlnaW5hbF9iODc5ZjE2NzNhMGNiM2M1NTkxMWEyZTBlY2UwNDhkMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1112,9 +1112,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986359)
 
-### [ ] 52. Noise — 보완 제안
+### [ ] 52. 소리 나는 질감 / Audible Texture — 보완 제안
 
-![Noise](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM2MC9vcmlnaW5hbF8yOTAzN2RlNzRhNDU3NDNmMTViNmU5OGVlZWIzM2RkZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![소리 나는 질감 / Audible Texture](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM2MC9vcmlnaW5hbF8yOTAzN2RlNzRhNDU3NDNmMTViNmU5OGVlZWIzM2RkZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1133,9 +1133,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986360)
 
-### [ ] 53. Layer — 보완 제안
+### [ ] 53. 모호한 공간의 레이어 / Layers of Equivocal Space — 보완 제안
 
-![Layer](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4NS9vcmlnaW5hbF81YTg2NjliMjZlZjAyYTA4NzQwYmE5ZWMwMWQ2NDAyOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![모호한 공간의 레이어 / Layers of Equivocal Space](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4NS9vcmlnaW5hbF81YTg2NjliMjZlZjAyYTA4NzQwYmE5ZWMwMWQ2NDAyOS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1157,9 +1157,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986385)
 
-### [ ] 54. Sequence — 용어 점검
+### [ ] 54. 명도로 진행하는 리듬 / Rhythm Progressing in Value — 용어 점검
 
-![Sequence](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4Ni9vcmlnaW5hbF80ODE4Yzk5ZmZhNGQ1NTZiMjE1ZTQxYzFlMDk5NTc1ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![명도로 진행하는 리듬 / Rhythm Progressing in Value](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4Ni9vcmlnaW5hbF80ODE4Yzk5ZmZhNGQ1NTZiMjE1ZTQxYzFlMDk5NTc1ZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1178,9 +1178,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986386)
 
-### [ ] 55. Wave — 책과 일치
+### [ ] 55. 직선 틀 속 레가토 / Legato in a Rigid Frame — 책과 일치
 
-![Wave](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4Ny9vcmlnaW5hbF82NmEwOGRhZTM4MDdlMzZmMzViYTdjM2NkZDU3YWU3OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![직선 틀 속 레가토 / Legato in a Rigid Frame](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4Ny9vcmlnaW5hbF82NmEwOGRhZTM4MDdlMzZmMzViYTdjM2NkZDU3YWU3OS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1198,9 +1198,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986387)
 
-### [ ] 56. Twist — 책과 일치
+### [ ] 56. 각도의 점진적 리듬 / Progressive Rhythm of Angles — 책과 일치
 
-![Twist](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4OC9vcmlnaW5hbF9hYmNkNDc2NjA0YWZkYzJmOGY4NTE4MzZmOThhNWMwOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![각도의 점진적 리듬 / Progressive Rhythm of Angles](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4OC9vcmlnaW5hbF9hYmNkNDc2NjA0YWZkYzJmOGY4NTE4MzZmOThhNWMwOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1218,9 +1218,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986388)
 
-### [ ] 57. Resistance — 보완 제안
+### [ ] 57. 저항의 운동감각 / Kinesthetic Resistance — 보완 제안
 
-![Resistance](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4OS9vcmlnaW5hbF84MTA4NzBiOWMzYjgzNWM0NWYyNmI1MDQ2MDY1YWQ5My5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![저항의 운동감각 / Kinesthetic Resistance](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM4OS9vcmlnaW5hbF84MTA4NzBiOWMzYjgzNWM0NWYyNmI1MDQ2MDY1YWQ5My5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 
@@ -1239,9 +1239,9 @@
 
 [Are.na에서 보기](https://www.are.na/block/50986389)
 
-### [ ] 58. Column — 책과 일치
+### [ ] 58. 흔들리며 쌓인 리듬 / A Swaying Stack — 책과 일치
 
-![Column](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM5MC9vcmlnaW5hbF9hYzE2NmNjNjJkZTJkMDk0YzBhZWY1NzRiMGM5ZmQ2Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+![흔들리며 쌓인 리듬 / A Swaying Stack](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM5MC9vcmlnaW5hbF9hYzE2NmNjNjJkZTJkMDk0YzBhZWY1NzRiMGM5ZmQ2Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
 
 **기존 설명**
 

@@ -135,3 +135,4 @@
 .score-edit__clear { font-weight: var(--font-weight-medium); color: var(--color-text-tertiary); }
 .score-edit__clear:disabled { opacity: 0.4; cursor: default; }
 @media (max-width: 720px) { .archive__filter-key { width: 100%; } }
+.archive-card__en { margin-top: -6px; overflow: hidden; font-size: 12px; font-weight: var(--font-weight-medium); white-space: nowrap; text-overflow: ellipsis; color: var(--color-text-tertiary); }

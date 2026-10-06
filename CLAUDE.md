@@ -6,8 +6,10 @@ Aesthetic Literacy 학습 사이트(https://yongzu.github.io/AL/)와 Are.na 채�
 
 - **저작권:** `book/`(『Design Basics』 9판 PDF · 추출 원문)은 읽기만 하고 절대 커밋하지 않는다. 사이트 · content에는 직접 요약한 글과 쪽수만 쓴다. 원문을 길게 옮기지 않는다.
 - **토큰:** `.env`의 `ARENA_TOKEN`은 출력하거나 커밋하지 않는다. 스크립트(scripts/arena.mjs)만 읽는다.
-- **Are.na의 한국어 원문은 바꾸지 않는다.** 영어 설명은 `---` 아래에만 덧붙인다(arena-push.mjs 형식).
+- **Are.na의 한국어 원문 문장은 고치지 않는다.** 앞에 `**KR** `만 붙이고, 영어 설명은 `---` 아래 `**EN**`으로 덧붙인다(arena-push.mjs 형식).
+- **제목:** `번호. 한글 / English`. 대상(오브제) 이름이 아니라 그 이미지의 핵심 조형 장치 · 라우어 개념으로 짓는다(content/titles.ts). 다른 블록과 겹치지 않게.
 - **점수(1–10)는 사용자가 매긴다.** Claude는 점수를 정하지 않는다. 채점은 `npm run dev` → 아카이브 → 이미지 → 1–10 버튼(content/scores.json에 저장).
+- **Are.na 쓰기 한도:** 무료 계정은 분당 30회 · 시간당 300회. 한도에 걸리면 scripts/arena.mjs가 retry-after만큼 기다렸다 이어 쓴다(멈춘 것처럼 보여도 기다리는 중). 대량 작업은 한 시간에 한 번.
 - 학습 자료 문장은 95% 한국어. 사이트 디자인은 yongzu/BI의 토큰 · 컴포넌트를 따른다.
 
 ## "새 블록 처리해줘"
@@ -19,6 +21,7 @@ Aesthetic Literacy 학습 사이트(https://yongzu.github.io/AL/)와 Are.na 채�
    - `en`: 2–3문장 영어 설명(무엇이 보이는지 → 어떤 조형 장치 → 효과)
    - `concepts`: content/chapters-*.ts의 개념 id 3–4개(존재하는 id만)
    - `check`: ok · expand · revise, `notes`: 책 쪽수를 단 한국어 점검 메모(content/book.ts의 termMap 기준 포함: 강제 원근법 → 증폭된 원근 등)
+   - content/titles.ts에 조형 개념 제목(한글 / English)을 추가한다.
    - 주차가 새로 시작되면 content/book.ts의 `weeks`에 주제를 추가한다(Expression List 기준).
 3. **컬렉션** — content/collections.ts에서 맞는 컬렉션의 `blocks`에 번호를 더한다. 맞는 것이 없고 같은 소재 · 형식의 블록이 3개 이상 모이면 새 컬렉션을 만든다. 모든 블록은 최소 1개 컬렉션에 속한다.
 4. **검증** — 개념 id 확인, `npx tsc -b`, `npm run review`.

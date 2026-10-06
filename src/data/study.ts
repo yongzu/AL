@@ -41,7 +41,13 @@ export const EN_MARKER = '**EN**';
 /** 반영된 설명에서 한국어 원문만 */
 export function koreanPart(description: string) {
   const i = description.indexOf(`\n---\n${EN_MARKER}`);
-  return (i >= 0 ? description.slice(0, i) : description).trim();
+  return (i >= 0 ? description.slice(0, i) : description).trim().replace(/^\*\*KR\*\*\s*/, '');
+}
+
+/** "한글 / English" 제목을 나눈다(옛 제목은 한 줄 그대로) */
+export function splitTitle(title: string) {
+  const [ko, ...rest] = title.split(' / ');
+  return { ko: ko.trim(), en: rest.join(' / ').trim() || null };
 }
 
 export const blocks: Block[] = (archiveJson.blocks as RawBlock[])

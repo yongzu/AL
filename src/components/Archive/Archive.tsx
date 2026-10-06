@@ -8,6 +8,7 @@ import {
   collectionsByBlock,
   conceptIndex,
   koreanPart,
+  splitTitle,
   termAnchor,
   weeks,
   type Block,
@@ -115,8 +116,9 @@ export function Archive({ onOpen }: { onOpen: (b: Block) => void }) {
               </span>
               <span className="archive-card__meta">
                 <span className="archive-card__no">{String(b.no).padStart(2, '0')}</span>
-                <span className="archive-card__title">{b.title}</span>
+                <span className="archive-card__title">{splitTitle(b.title).ko}</span>
               </span>
+              {splitTitle(b.title).en && <span className="archive-card__en">{splitTitle(b.title).en}</span>}
               <span className="archive-card__sub">
                 <span>{b.week}</span>
                 {b.analysis && <span className="status" data-check={b.analysis.check}>{checkLabels[b.analysis.check].ko}</span>}
@@ -197,7 +199,8 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
           <div className="block-dialog__body">
             <header className="block-dialog__head">
               <Text as="p" typography="Label" color="tertiary">{block.week} · {String(block.no).padStart(2, '0')}</Text>
-              <Text as="h3" typography="Subheading">{block.title}</Text>
+              <Text as="h3" typography="Subheading">{splitTitle(block.title).ko}</Text>
+              {splitTitle(block.title).en && <Text as="p" typography="Label" color="tertiary" lang="en">{splitTitle(block.title).en}</Text>}
               <div className="block-dialog__links">
                 {a && <span className="status" data-check={a.check}>{checkLabels[a.check].ko}</span>}
                 <a className="link" href={block.url} target="_blank" rel="noreferrer">Are.na에서 보기</a>

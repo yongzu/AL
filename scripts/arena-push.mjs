@@ -2,12 +2,13 @@
 //
 //   node scripts/arena-push.mjs                  → dry run: prints what would change, writes nothing
 //   node scripts/arena-push.mjs --only 1,2,3     → only these block numbers
-//   node scripts/arena-push.mjs --apply          → really update descriptions + alt text
+//   node scripts/arena-push.mjs --apply          → really update title + description + alt text
 //   node scripts/arena-push.mjs --connect        → (with --apply) also connect blocks to chapter channels
 //
-// Description format (the Korean original is never touched — only the part below `---` is replaced):
+// Title: `번호. 한글 / English` from content/titles.ts (blocks without an entry keep their title).
+// Description format (the Korean text itself is never edited — only the **KR** label and the part below `---`):
 //
-//   <기존 한국어 설명>
+//   **KR** <기존 한국어 설명>
 //
 //   ---
 //   **EN** <English description>
@@ -20,6 +21,7 @@ import { join } from 'node:path';
 import { arena, ROOT } from './arena.mjs';
 import { analysis } from '../content/analysis.ts';
 import { conceptIndex, chapters } from '../content/book.ts';
+import { titles, blockTitle } from '../content/titles.ts';
 
 const args = process.argv.slice(2);
 const apply = args.includes('--apply');
@@ -30,9 +32,10 @@ const only = onlyArg ? new Set((onlyArg.includes('=') ? onlyArg.split('=')[1] : 
 const MARK = '\n\n---\n**EN** ';
 const { blocks } = JSON.parse(readFileSync(join(ROOT, 'content/archive.json'), 'utf8'));
 
+/** 한국어 원문만 — **KR** 표시와 --- 아래 영어 부분을 떼어 낸다(여러 번 실행해도 KR이 겹치지 않게) */
 const korean = (d) => {
   const i = d.indexOf('\n---\n**EN**');
-  return (i >= 0 ? d.slice(0, i) : d).trimEnd();
+  return (i >= 0 ? d.slice(0, i) : d).trim().replace(/^\*\*KR\*\*\s*/, '');
 };
 const lauerLine = (ids) => ids.map((id) => `${conceptIndex[id].en} (p.${conceptIndex[id].page})`).join(' · ');
 
@@ -40,14 +43,17 @@ const plan = [];
 for (const b of blocks) {
   const a = analysis[b.no];
   if (!a || (only && !only.has(b.no))) continue;
-  const next = `${korean(b.description)}${MARK}${a.en}\n\n**Lauer** ${lauerLine(a.concepts)}`;
+  const next = `**KR** ${korean(b.description)}${MARK}${a.en}\n\n**Lauer** ${lauerLine(a.concepts)}`;
   const chapterIds = [...new Set(a.concepts.map((id) => conceptIndex[id].chapter.id))];
-  plan.push({ id: b.id, no: b.no, title: b.title, changed: next !== b.description, description: next, alt: a.en, chapterIds });
+  const current = `${b.no}. ${b.title}`;
+  const title = titles[b.no] ? blockTitle(b.no) : current;
+  plan.push({ id: b.id, no: b.no, title, oldTitle: current, changed: next !== b.description || title !== current, description: next, alt: a.en, chapterIds });
 }
 
-console.log(`${apply ? 'APPLY' : 'DRY RUN'} — ${plan.length} blocks, ${plan.filter((p) => p.changed).length} with a changed description\n`);
+console.log(`${apply ? 'APPLY' : 'DRY RUN'} — ${plan.length} blocks, ${plan.filter((p) => p.changed).length} to update\n`);
 for (const p of plan) {
   console.log(`#${p.no} ${p.title}${p.changed ? '' : '  (no change)'}`);
+  if (p.title !== p.oldTitle) console.log(`   was   ${p.oldTitle}`);
   console.log(`   EN    ${p.alt.slice(0, 110)}${p.alt.length > 110 ? '…' : ''}`);
   console.log(`   장    ${p.chapterIds.join(', ')}`);
 }
@@ -61,7 +67,7 @@ if (!apply) {
 const log = [];
 for (const p of plan) {
   if (!p.changed) continue;
-  await arena(`/blocks/${p.id}`, { method: 'PUT', body: { description: p.description, alt_text: p.alt }, write: true });
+  await arena(`/blocks/${p.id}`, { method: 'PUT', body: { title: p.title, description: p.description, alt_text: p.alt }, write: true });
   log.push({ no: p.no, id: p.id, at: new Date().toISOString() });
   console.log(`  updated #${p.no}`);
 }
