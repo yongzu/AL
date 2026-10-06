@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Typography tokens — Figma "Phi Design Institute" (node 1650:6417)
+   --------------------------------------------------------------------------
+   Pretendard only. Values measured on a 1920px frame; large sizes scale down
+   fluidly below that width. Tracking is -3% everywhere except body (-2%).
+
+     Display   180 / Bold    / 0.9  / -3%   hero lines (Toss hero size 215 → 180, 2026-10-04)
+     Heading    48 / Bold    / 1.2  / -3%   section titles
+     Subheading 36 / Bold    / 1.2  / -3%   panel titles
+     Lead       20 / Regular / 1.4  / -3%   section intro (70%)
+     Intro      20 / Regular / 1.4  / -3%   hero copy (70%)
+     Title      24 / Bold    / 1.2  / -3%   item & group titles
+     Label      16 / Medium  / 1.2  / -3%   English sub-labels (40%)
+     Body       16 / Regular / 1.6  / -2%   item copy (70%)
+   ========================================================================== */
+
+:root {
+  --font-family-sans: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
+    'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --tracking-tight: -0.03em;
+  --tracking-body: -0.02em;
+
+  /* 44 → 215: 토스뱅크 디자인 채용 히어로(Simplify / Banking)를 1920×1080 화면에서 실측한 크기(사용자 지시 2026-10-03).
+     토스 글자 높이(위 끝 → 아래 끝 397px, 줄 간격 193px)에 Pretendard를 맞추면 215px · 줄 간격 0.9.
+     1440×1080 이상에서 215, 그보다 좁거나 낮으면 폭(÷1440) · 높이(÷1080) 중 작은 쪽 비율로 줄어 첫 화면 비율이 유지된다.
+     215 → 180(사용자 지시 2026-10-04): 최대 11.25rem, 줄어드는 비율도 그대로(180/1440 = 12.5vw, 180/1080 = 16.67svh) */
+  --typo-display-size: max(2.75rem, min(11.25rem, 12.5vw, 16.67svh));
+  --typo-heading-size: clamp(2.25rem, 3.34vw, 3rem);    /* 36 → 48 */
+  --typo-subheading-size: clamp(1.75rem, 1.88vw, 2.25rem); /* 28 → 36 */
+  --typo-lead-size: 1.25rem;                            /* 20 */
+  --typo-intro-size: clamp(1.0625rem, 1.05vw, 1.25rem); /* 17 → 20 */
+  --typo-title-size: clamp(1.25rem, 1.25vw, 1.5rem);    /* 20 → 24 */
+  --typo-label-size: 1rem;                              /* 16 */
+  --typo-body-size: 1rem;                               /* 16 */
+}
+
+/* ---------- Semantic styles (consumed by <Text />) ---------- */
+.typo-display { font-size: var(--typo-display-size); line-height: 0.9; font-weight: var(--font-weight-bold); letter-spacing: var(--tracking-tight); }
+.typo-heading { font-size: var(--typo-heading-size); line-height: 1.2; font-weight: var(--font-weight-bold); letter-spacing: var(--tracking-tight); }
+.typo-subheading { font-size: var(--typo-subheading-size); line-height: 1.2; font-weight: var(--font-weight-bold); letter-spacing: var(--tracking-tight); }
+.typo-lead    { font-size: var(--typo-lead-size); line-height: 1.4; font-weight: var(--font-weight-regular); letter-spacing: var(--tracking-tight); }
+.typo-intro   { font-size: var(--typo-intro-size); line-height: 1.4; font-weight: var(--font-weight-regular); letter-spacing: var(--tracking-tight); }
+.typo-title   { font-size: var(--typo-title-size); line-height: 1.2; font-weight: var(--font-weight-bold); letter-spacing: var(--tracking-tight); }
+.typo-label   { font-size: var(--typo-label-size); line-height: 1.2; font-weight: var(--font-weight-medium); letter-spacing: var(--tracking-tight); }
+.typo-body    { font-size: var(--typo-body-size); line-height: 1.6; font-weight: var(--font-weight-regular); letter-spacing: var(--tracking-body); }
+
+.color-primary   { color: var(--color-text-primary); }
+.color-secondary { color: var(--color-text-secondary); }
+.color-tertiary  { color: var(--color-text-tertiary); }
+.color-inherit   { color: inherit; }

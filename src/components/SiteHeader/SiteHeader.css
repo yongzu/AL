@@ -1,0 +1,109 @@
+/* Toolbar values from the Phi Brain style kit: 16px/32px padding, 24px gap,
+   10pt type, 6px 12px pills with a 20px squircle radius, #F8F9FA hover fill. */
+.site-header {
+  --sh-fs: 10pt;
+  --sh-pad-x: 12px;
+  --sh-radius: 20px;
+  --sh-fill: var(--color-bg-subtle);
+  --sh-gray: #999999;
+  /* 상단바는 완전 투명, 페이지와 함께 스크롤된다 — 메뉴(About · Programs · Experts · Admissions)는
+     맨 위에서만 보이고, 로고와 CTA만 화면에 고정되어 따라온다(사용자 지시 2026-09-30) */
+  /* 첫 화면(Full Viewport 히어로) 위에 겹쳐 놓는다 — 히어로가 화면 전체 높이를 기준으로 가운데 정렬되게 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 57px; /* 로고 · CTA가 고정으로 빠져도 상단바 높이는 그대로(16 + 25 + 16) */
+  padding: 16px 32px 16px 44px;
+  background: transparent;
+}
+
+/* ---------- Pinned logo ---------- */
+.site-header__brand {
+  position: fixed;
+  top: 18px; /* 맨 위에서 메뉴 줄과 같은 높이(패딩 16 + 가운데 정렬 2) */
+  left: 44px;
+  z-index: 60;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.04em;
+  color: var(--color-text-primary);
+}
+
+.site-header__nav { display: flex; align-items: center; gap: 4px; margin-left: auto; }
+
+.site-header__link {
+  padding: 6px var(--sh-pad-x);
+  border-radius: var(--sh-radius);
+  corner-shape: squircle;
+  font-size: var(--sh-fs);
+  line-height: 1.45;
+  color: var(--sh-gray);
+  white-space: nowrap;
+  transition: background 140ms, color 140ms;
+}
+.site-header__link:hover,
+.site-header__link:focus-visible,
+.site-header__link[aria-current='page'] { background: var(--sh-fill); color: var(--color-text-primary); }
+
+/* ---------- Pinned CTA ---------- */
+.site-header__cta-space { width: 96px; flex: none; }
+.site-header__cta {
+  position: fixed;
+  top: 13px;
+  right: 32px;
+  z-index: 60;
+  padding: 8px 16px;
+  border-radius: var(--sh-radius);
+  corner-shape: squircle;
+  background: var(--color-text-primary);
+  color: var(--color-bg-default);
+  font-size: var(--sh-fs);
+  line-height: 1.45;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transition: background 160ms, transform 240ms var(--ease);
+}
+.site-header__cta:hover { background: #000; transform: translateY(-1px); }
+
+/* ---------- Back to top ---------- */
+.back-to-top {
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--color-text-primary);
+  color: var(--color-bg-default);
+  font-size: 18px;
+  line-height: 1;
+  cursor: var(--cursor-pointer);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+  transition: opacity 240ms var(--ease), transform 240ms var(--ease), background 160ms;
+}
+.back-to-top[data-shown='true'] { opacity: 1; transform: none; pointer-events: auto; }
+.back-to-top:hover { background: #000; }
+.back-to-top:focus-visible { outline: 2px solid var(--color-text-primary); outline-offset: 3px; }
+
+@media (max-width: 720px) {
+  .back-to-top { right: 20px; bottom: 20px; }
+  .site-header { min-height: 53px; padding: 14px 20px; gap: 12px; }
+  .site-header__brand { top: 14px; left: 20px; }
+  .site-header__nav { display: none; }
+  .site-header__cta { right: 20px; top: 11px; }
+}

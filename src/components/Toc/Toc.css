@@ -1,0 +1,92 @@
+/* Page TOC — values from Figma node 1654:6874 ("Nav - 페이지 목차"), placed at the left. */
+/* Responsive to scroll: scrolls with the page from its starting line,
+   then sticks below the pinned CTA, and releases at the end of the rail. */
+.toc {
+  position: sticky;
+  /* 화면 세로 가운데에 붙는다(사용자 지시 2026-10-04) — 높이(--toc-h)는 Toc.tsx가 잰다. 상단바(88px) 아래로는 안 올라감 */
+  top: max(88px, calc(50vh - var(--toc-h, 0px) / 2));
+  z-index: 40;
+  width: var(--toc-width);
+  max-height: min(1020px, calc(100vh - 120px));
+  overflow-y: auto;
+  padding-left: 14px;
+  border-left: 1px solid var(--color-nav-rule);
+  background: transparent;
+  scrollbar-width: none;
+}
+.toc::-webkit-scrollbar { display: none; }
+
+/* 나타나기: 투명 · 24px 위에서 제자리로(Toc.tsx data-shown). 사라질 땐 다 투명해진 뒤 visibility로 감춰
+   보이지 않는 목차에 초점이 가지 않게 한다. 움직임 줄이기면 그냥 보인다 */
+.toc {
+  transition:
+    opacity 600ms var(--ease-reveal),
+    transform 600ms var(--ease-reveal),
+    visibility 0s;
+}
+.toc[data-shown='false'] {
+  opacity: 0;
+  transform: translateY(-24px);
+  visibility: hidden;
+  transition:
+    opacity 300ms var(--ease),
+    transform 300ms var(--ease),
+    visibility 0s linear 300ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  .toc[data-shown='false'] { opacity: 1; transform: none; visibility: visible; }
+}
+
+.toc__title {
+  margin-bottom: 12px;
+  font-size: 11px;
+  line-height: 16.5px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.02em;
+  color: var(--color-nav-faint);
+}
+
+.toc ul { display: flex; flex-direction: column; }
+.toc > ul { gap: 2px; } /* 14 → 2px: 항목 간격 약 44 → 32px(사용자 지시 2026-09-30) */
+
+.toc a {
+  position: relative;
+  display: block;
+  margin-left: -15px;
+  padding: 5px 0 5px 10px;
+  font-size: 13px;
+  line-height: 19.5px;
+  letter-spacing: -0.16px;
+  color: var(--color-nav);
+  white-space: nowrap;
+  transition: color 150ms;
+}
+.toc a:hover { color: var(--color-nav-strong); }
+.toc a.is-active { color: var(--color-nav-strong); font-weight: var(--font-weight-bold); }
+
+/* Active-section bar: one element that glides along the rule to the active link
+   (its place and height come from Toc.tsx), instead of jumping between links */
+.toc__bar {
+  position: absolute;
+  top: 0;
+  left: -1px; /* sits on the 1px rule */
+  width: 3px;
+  height: 0;
+  border-radius: 2px;
+  background: var(--color-nav-strong);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 420ms var(--ease-reveal),
+    height 420ms var(--ease-reveal),
+    opacity 200ms var(--ease);
+}
+
+/* 지금 보는 섹션만 진하게, 나머지는 회색(사용자 지시 2026-10-04) — 굵기는 그대로 둬 바뀔 때 글자 폭이 흔들리지 않게 */
+.toc__lv1 > a { font-weight: var(--font-weight-bold); color: var(--color-nav-faint); }
+.toc__lv2 > a { padding-left: 24px; }
+.toc__lv3 > a { padding-left: 38px; font-size: 12px; line-height: 18px; }
+
+@media (max-width: 1279px) {
+  .toc-rail { display: none; }
+}

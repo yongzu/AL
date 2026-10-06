@@ -1,0 +1,299 @@
+/* AL 학습 페이지 — BI(Phi Programs) programs.css의 레이아웃 · 줄 · 박스를 그대로 따른다. Tokens only. */
+
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.link { color: var(--color-text-primary); text-decoration: underline; text-decoration-color: var(--color-border); text-underline-offset: 4px; transition: text-decoration-color var(--duration) var(--ease); }
+.link:hover { text-decoration-color: var(--color-text-primary); }
+
+/* ---------- Content column (BI와 같음) ---------- */
+.container {
+  width: 100%;
+  max-width: calc(var(--content-width) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+@media (min-width: 1280px) {
+  .container {
+    width: min(var(--content-width), calc(100% - var(--toc-space) - var(--gutter)));
+    max-width: none;
+    margin-left: max(var(--toc-space), calc((100% - var(--content-width)) / 2 + var(--design-offset)));
+    margin-right: auto;
+    padding-inline: 0;
+  }
+  .hero.container {
+    width: min(var(--content-width), calc(100% - 2 * var(--gutter)));
+    margin-inline: auto;
+  }
+}
+
+/* ---------- Page shell & TOC rail ---------- */
+.page-shell { position: relative; }
+.toc-rail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--toc-left);
+  width: var(--toc-width);
+  pointer-events: none;
+}
+.toc-rail > * { pointer-events: auto; }
+
+/* ---------- Hero: 한 화면 높이, 내용은 세로 가운데 ---------- */
+.hero {
+  --hs: min(1px, 100vw / 1440, 100svh / 1080);
+  --fs: min(1px, 100vw / 1440);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding-block: max(80px, 120 * var(--hs)) max(48px, 80 * var(--hs));
+  text-align: center;
+}
+.hero .hero__title { font-size: max(52px, 150 * var(--hs)); line-height: 0.92; }
+.hero__intro { max-width: 783px; margin-top: max(40px, 96 * var(--hs)); }
+.hero .hero__statement { font-size: max(22px, 30 * var(--fs)); line-height: 1.333; }
+.hero__intro .blur-reveal__body { margin-top: 8px; }
+.hero__intro .blur-reveal__body > * { font-size: max(16px, 19 * var(--fs)); line-height: 1.5; }
+.hero__cta { display: flex; flex-direction: column; align-items: center; gap: max(28px, 48 * var(--hs)); margin-top: max(28px, 48 * var(--hs)); }
+.hero .hero__meta { color: var(--color-text-primary); font-size: max(15px, 18 * var(--fs)); }
+.hero .apply-button { padding: max(13px, 16 * var(--fs)) max(28px, 35 * var(--fs)); border-radius: max(20px, 24 * var(--fs)); font-size: max(17px, 20 * var(--fs)); }
+.hero__fade { opacity: 0; transform: translateY(24px); transition: opacity 900ms var(--ease-reveal) 1.1s, transform 900ms var(--ease-reveal) 1.1s; }
+.hero[data-ready='true'] .hero__fade { opacity: 1; transform: none; }
+
+/* ---------- 과목 개요: 왼쪽 글 · 오른쪽 사실(BI hero-more) ---------- */
+.overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding-block: 88px;
+}
+.overview__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 420px);
+  gap: 64px;
+  max-width: 1040px;
+  margin-inline: auto;
+  text-align: left;
+}
+.overview__head { padding-bottom: 12px; border-bottom: 1px solid var(--color-border); }
+.overview__para { margin-top: 16px; font-size: 17px; line-height: 1.75; }
+.overview__row { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 16px; padding: 10px 0; }
+.overview__row + .overview__row { border-top: 1px solid var(--color-border); }
+.overview__row dt { align-self: center; }
+.overview__row :is(dt, dd) { font-size: 15px; }
+@media (max-width: 860px) {
+  .overview__inner { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .overview__facts { padding-top: 32px; }
+}
+
+/* ---------- Sections ---------- */
+.section {
+  padding-top: var(--space-section);
+  scroll-margin-top: calc(88px - 40px - var(--space-section));
+}
+.section--last { padding-bottom: var(--space-section); }
+.section-header { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; }
+.section-header .typo-lead { max-width: var(--lead-width); }
+.group { margin-top: var(--space-group); scroll-margin-top: 48px; }
+.section-header + .group { margin-top: clamp(80px, 5.8vw, 110px); }
+.group + .group { margin-top: clamp(72px, 5vw, 96px); }
+.group-label { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; }
+.group__lead { max-width: var(--lead-width); margin-top: 12px; }
+
+/* 분류 표시: 작은 회색 글씨 + 오른쪽 가는 선(BI device-group__label) */
+.rule-label { display: flex; align-items: center; gap: 16px; }
+.rule-label > * { flex: none; font-size: 15px; }
+.rule-label::after { content: ''; flex: 1; height: 1px; background: var(--color-border); }
+
+/* ---------- 두 단 줄 목록(BI 역량 · 태도) ---------- */
+.pillar-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px var(--grid-gap); align-items: start; }
+@media (max-width: 900px) { .pillar-columns { grid-template-columns: 1fr; } }
+.pillar-list {
+  --row-pad-x: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 32px calc(-1 * var(--row-pad-x)) 0;
+}
+.pillar-row__hit {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: center;
+  width: 100%;
+  min-height: 72px;
+  padding: 18px var(--row-pad-x);
+  border-radius: 12px;
+  text-align: left;
+  cursor: var(--cursor-pointer);
+  transition: background var(--duration) var(--ease);
+}
+.pillar-row__lead {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 20px;
+  align-items: center;
+  min-width: 0;
+  transition: transform 600ms cubic-bezier(0.34, 1.32, 0.64, 1);
+}
+.pillar-row__titles { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.pillar-row__hit:focus-visible { outline: 2px solid var(--color-text-primary); outline-offset: 2px; }
+@media (hover: hover) {
+  .pillar-row__hit:hover { background: var(--color-bg-hover); }
+  .pillar-row__hit:hover .pillar-row__lead { transform: translateX(12px); }
+}
+.pillar-row__panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 480ms var(--ease-reveal); }
+.pillar-row__clip { min-height: 0; overflow: hidden; }
+.pillar-row__body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: var(--lead-width);
+  padding: 4px 48px 26px calc(68px + var(--row-pad-x));
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity 240ms var(--ease), transform 480ms var(--ease-reveal);
+}
+.pillar-row[data-open='true'] .pillar-row__panel { grid-template-rows: 1fr; }
+.pillar-row[data-open='true'] .pillar-row__body { opacity: 1; transform: none; transition-delay: 80ms; }
+@media (max-width: 720px) {
+  .pillar-list { --row-pad-x: 12px; }
+  .pillar-row__lead { grid-template-columns: 36px minmax(0, 1fr); gap: 12px; }
+  .pillar-row__body { padding: 4px 12px 22px calc(48px + var(--row-pad-x)); }
+}
+
+/* ---------- 분석 단계 박스(BI 수업 장치 박스) ---------- */
+.grid-steps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; gap: 20px; margin: 16px -24px 0; }
+.step-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 24px 28px;
+  border-radius: 20px;
+  transition: background var(--duration) var(--ease);
+}
+.step-card:hover { background: var(--color-bg-hover); }
+.step-card__badge {
+  align-self: flex-start;
+  padding: 5px 10px;
+  border-radius: 20px;
+  corner-shape: squircle;
+  background: var(--color-bg-subtle);
+  color: var(--color-text-primary);
+  font-size: 13px;
+  line-height: 1.3;
+  font-weight: var(--font-weight-bold);
+  transition: background var(--duration) var(--ease);
+}
+.step-card:hover .step-card__badge { background: var(--color-bg-default); }
+.step-card__name { margin-top: 8px; }
+.step-card__example {
+  margin-top: 8px;
+  padding-left: 14px;
+  border-left: 2px solid var(--color-border);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+@media (max-width: 720px) { .grid-steps { grid-template-columns: 1fr; margin-inline: 0; } }
+
+/* 문장 틀 */
+.pattern {
+  margin-top: 40px;
+  padding: 28px 32px;
+  border-radius: 20px;
+  background: var(--color-bg-subtle);
+}
+.pattern__sentence { margin-top: 8px; font-size: clamp(20px, 1.8vw, 26px); line-height: 1.4; font-weight: var(--font-weight-bold); letter-spacing: var(--tracking-tight); }
+
+/* ---------- 표(수업 표현 → 책 용어) ---------- */
+.term-table { width: 100%; margin-top: 24px; border-collapse: collapse; font-size: 15px; line-height: 1.55; }
+.term-table th { padding: 0 16px 10px 0; text-align: left; font-size: 14px; font-weight: var(--font-weight-medium); color: var(--color-text-tertiary); }
+.term-table td { padding: 14px 16px 14px 0; border-top: 1px solid var(--color-border); vertical-align: top; color: var(--color-text-secondary); }
+.term-table td:first-child { color: var(--color-text-tertiary); white-space: nowrap; text-decoration: line-through; text-decoration-color: var(--color-text-tertiary); }
+.term-table td:nth-child(2) { color: var(--color-text-primary); font-weight: var(--font-weight-bold); white-space: nowrap; }
+@media (max-width: 720px) {
+  .term-table thead { display: none; }
+  .term-table tr { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; padding: 14px 0; border-top: 1px solid var(--color-border); }
+  .term-table td { padding: 0; border: 0; }
+  .term-table td:last-child { grid-column: 1 / -1; }
+}
+
+/* ---------- 캡슐(개념 태그) ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--color-bg-subtle);
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--tracking-tight);
+  white-space: nowrap;
+  color: var(--color-text-secondary);
+  transition: background var(--duration) var(--ease), color var(--duration) var(--ease);
+}
+a.chip:hover { background: var(--color-text-primary); color: var(--color-bg-default); }
+.chip__en { font-weight: var(--font-weight-medium); color: var(--color-text-tertiary); }
+a.chip:hover .chip__en { color: inherit; opacity: 0.6; }
+
+/* 점검 표시 */
+.status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: var(--font-weight-bold); color: var(--color-text-secondary); white-space: nowrap; }
+.status::before { content: ''; width: 7px; height: 7px; border-radius: 50%; border: 1.5px solid var(--color-text-primary); }
+.status[data-check='ok']::before { background: var(--color-text-primary); }
+.status[data-check='expand']::before { background: linear-gradient(90deg, var(--color-text-primary) 50%, transparent 50%); }
+.status[data-check='revise']::before { background: transparent; }
+
+/* ---------- Footer ---------- */
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-block: 64px 96px;
+  border-top: 1px solid var(--color-border);
+}
+
+/* ---------- Scroll reveal ---------- */
+[data-reveal] {
+  transition:
+    opacity 1s var(--ease-reveal) var(--reveal-delay, 0ms),
+    transform 1s var(--ease-reveal) var(--reveal-delay, 0ms);
+}
+[data-reveal='pending'] { opacity: 0; transform: translateY(40px); }
+[data-reveal='in'] { opacity: 1; transform: none; }
+
+@media (max-width: 1100px) { .section-header { gap: 16px; } }
+@media (prefers-reduced-motion: reduce) {
+  .hero__fade { opacity: 1; transform: none; transition: none; }
+}
+
+/* ---------- 수업 주차 ---------- */
+.weeks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 32px -24px 0; }
+.week { display: flex; flex-direction: column; gap: 12px; padding: 24px; border-radius: 20px; transition: background var(--duration) var(--ease); }
+.week:hover { background: var(--color-bg-hover); }
+.week:hover .chip { background: var(--color-bg-default); }
+.week:hover a.chip:hover { background: var(--color-text-primary); }
+.week__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.week__note { font-size: 15px; }
+.week__rows { display: flex; flex-direction: column; gap: 10px; margin-top: 4px; }
+.week__rows > div { display: grid; grid-template-columns: 72px minmax(0, 1fr); align-items: baseline; gap: 12px; }
+.week__key { font-size: 13px; font-weight: var(--font-weight-medium); color: var(--color-text-tertiary); }
+.week__words { font-size: 15px; font-weight: var(--font-weight-bold); letter-spacing: var(--tracking-tight); }
+.week__empty { font-size: 14px; color: var(--color-text-tertiary); }
+@media (max-width: 900px) { .weeks { grid-template-columns: 1fr; margin-inline: 0; } }
+
+.term-table__page { color: var(--color-text-tertiary); white-space: nowrap; }
+
+/* ---------- 셀프 퀴즈 ---------- */
+.quiz__tools { display: flex; justify-content: flex-end; margin-bottom: 24px; }
+.quiz__toggle { border-radius: 999px; background: var(--color-bg-subtle); color: var(--color-text-primary); }
+.quiz__chapter { margin-top: 36px; }
+.quiz__chapter .pillar-list { margin-top: 8px; }
+.quiz .pillar-row__hit { min-height: 56px; padding-block: 14px; }
+.quiz__q { font-weight: var(--font-weight-medium); color: var(--color-text-primary); }
