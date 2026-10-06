@@ -2803,7 +2803,7 @@
       "id": 50379805,
       "type": "Text",
       "created_at": "2026-09-13T09:14:02Z",
-      "updated_at": "2026-10-02T10:47:01Z",
+      "updated_at": "2026-10-06T02:55:13Z",
       "base_type": "Block",
       "title": "Expression List",
       "description": {
@@ -2826,9 +2826,9 @@
       },
       "source": null,
       "content": {
-        "markdown": "Expression List\n\nWK01\n\n1. 극도\n2. 유려한\n3. 물리적으로 결합된\n4. 유기적\n\nWK02-동세감\n\n1. 시각적 잔상\n2. 강제 원근법\n3. 중력\n4. 제스쳐\n\nWK03-통일감\n\n1. 게슈탈트\n2. 변주\n3. 응집력\n4. 파편화\n\nWK04-리듬\n\n1. 1\n2. 2\n3. 3\n4. 4",
-        "html": "<p>Expression List</p>\n\n<p>WK01</p>\n\n<ol>\n<li>극도</li>\n<li>유려한</li>\n<li>물리적으로 결합된</li>\n<li>유기적</li>\n</ol>\n\n<p>WK02-동세감</p>\n\n<ol>\n<li>시각적 잔상</li>\n<li>강제 원근법</li>\n<li>중력</li>\n<li>제스쳐</li>\n</ol>\n\n<p>WK03-통일감</p>\n\n<ol>\n<li>게슈탈트</li>\n<li>변주</li>\n<li>응집력</li>\n<li>파편화</li>\n</ol>\n\n<p>WK04-리듬</p>\n\n<ol>\n<li>1</li>\n<li>2</li>\n<li>3</li>\n<li>4</li>\n</ol>",
-        "plain": "Expression List\nWK01\n극도\n유려한\n물리적으로 결합된\n유기적\nWK02-동세감\n시각적 잔상\n강제 원근법\n중력\n제스쳐\nWK03-통일감\n게슈탈트\n변주\n응집력\n파편화\nWK04-리듬\n1\n2\n3\n4"
+        "markdown": "Expression List\n\nWK01\n\n1. 극도\n2. 유려한\n3. 물리적으로 결합된\n4. 유기적\n\nWK02-동세감\n\n1. 시각적 잔상\n2. 강제 원근법\n3. 중력\n4. 제스쳐\n\nWK03-통일감\n\n1. 게슈탈트\n2. 변주\n3. 응집력\n4. 파편화\n\nWK04-리듬\n\n1. 레가토\n2. 스타카토\n3. 교차 리듬\n4. 점진적 리듬",
+        "html": "<p>Expression List</p>\n\n<p>WK01</p>\n\n<ol>\n<li>극도</li>\n<li>유려한</li>\n<li>물리적으로 결합된</li>\n<li>유기적</li>\n</ol>\n\n<p>WK02-동세감</p>\n\n<ol>\n<li>시각적 잔상</li>\n<li>강제 원근법</li>\n<li>중력</li>\n<li>제스쳐</li>\n</ol>\n\n<p>WK03-통일감</p>\n\n<ol>\n<li>게슈탈트</li>\n<li>변주</li>\n<li>응집력</li>\n<li>파편화</li>\n</ol>\n\n<p>WK04-리듬</p>\n\n<ol>\n<li>레가토</li>\n<li>스타카토</li>\n<li>교차 리듬</li>\n<li>점진적 리듬</li>\n</ol>",
+        "plain": "Expression List\nWK01\n극도\n유려한\n물리적으로 결합된\n유기적\nWK02-동세감\n시각적 잔상\n강제 원근법\n중력\n제스쳐\nWK03-통일감\n게슈탈트\n변주\n응집력\n파편화\nWK04-리듬\n레가토\n스타카토\n교차 리듬\n점진적 리듬"
       },
       "_links": {
         "self": {
