@@ -3,7 +3,7 @@
     "id": 5686730,
     "type": "Channel",
     "created_at": "2026-09-08T01:40:04Z",
-    "updated_at": "2026-10-06T03:04:47Z",
+    "updated_at": "2026-10-06T05:41:32Z",
     "slug": "1-aesthetic-literacy-qhm68ahvlpk",
     "title": " [1기] Aesthetic Literacy: 조용주",
     "description": {
@@ -2459,7 +2459,7 @@
       "id": 50359976,
       "type": "Image",
       "created_at": "2026-09-12T13:59:47Z",
-      "updated_at": "2026-10-06T05:13:27Z",
+      "updated_at": "2026-10-06T05:31:03Z",
       "base_type": "Block",
       "title": "25. 대칭의 생물형태 / Symmetrical Biomorph",
       "description": {
@@ -2856,73 +2856,6 @@
       }
     },
     {
-      "id": 50379805,
-      "type": "Text",
-      "created_at": "2026-09-13T09:14:02Z",
-      "updated_at": "2026-10-06T02:55:13Z",
-      "base_type": "Block",
-      "title": "Expression List",
-      "description": {
-        "markdown": ".",
-        "html": "<p>.</p>",
-        "plain": "."
-      },
-      "state": "available",
-      "visibility": "public",
-      "comment_count": 0,
-      "metadata": null,
-      "user": {
-        "id": 1641595,
-        "type": "User",
-        "name": "용주 조",
-        "slug": "hkthx8f9-u0",
-        "username": "hkthx8f9-u0",
-        "avatar": null,
-        "initials": "용조"
-      },
-      "source": null,
-      "content": {
-        "markdown": "Expression List\n\nWK01\n\n1. 극도\n2. 유려한\n3. 물리적으로 결합된\n4. 유기적\n\nWK02-동세감\n\n1. 시각적 잔상\n2. 강제 원근법\n3. 중력\n4. 제스쳐\n\nWK03-통일감\n\n1. 게슈탈트\n2. 변주\n3. 응집력\n4. 파편화\n\nWK04-리듬\n\n1. 레가토\n2. 스타카토\n3. 교차 리듬\n4. 점진적 리듬",
-        "html": "<p>Expression List</p>\n\n<p>WK01</p>\n\n<ol>\n<li>극도</li>\n<li>유려한</li>\n<li>물리적으로 결합된</li>\n<li>유기적</li>\n</ol>\n\n<p>WK02-동세감</p>\n\n<ol>\n<li>시각적 잔상</li>\n<li>강제 원근법</li>\n<li>중력</li>\n<li>제스쳐</li>\n</ol>\n\n<p>WK03-통일감</p>\n\n<ol>\n<li>게슈탈트</li>\n<li>변주</li>\n<li>응집력</li>\n<li>파편화</li>\n</ol>\n\n<p>WK04-리듬</p>\n\n<ol>\n<li>레가토</li>\n<li>스타카토</li>\n<li>교차 리듬</li>\n<li>점진적 리듬</li>\n</ol>",
-        "plain": "Expression List\nWK01\n극도\n유려한\n물리적으로 결합된\n유기적\nWK02-동세감\n시각적 잔상\n강제 원근법\n중력\n제스쳐\nWK03-통일감\n게슈탈트\n변주\n응집력\n파편화\nWK04-리듬\n레가토\n스타카토\n교차 리듬\n점진적 리듬"
-      },
-      "_links": {
-        "self": {
-          "href": "https://api.are.na/v3/blocks/50379805"
-        },
-        "user": {
-          "href": "https://api.are.na/v3/users/hkthx8f9-u0"
-        },
-        "connections": {
-          "href": "https://api.are.na/v3/blocks/50379805/connections"
-        },
-        "comments": {
-          "href": "https://api.are.na/v3/blocks/50379805/comments"
-        }
-      },
-      "connection": {
-        "id": 105492560,
-        "position": 29,
-        "pinned": false,
-        "metadata": null,
-        "connected_at": "2026-09-13T09:14:02Z",
-        "connected_by": {
-          "id": 1641595,
-          "type": "User",
-          "name": "용주 조",
-          "slug": "hkthx8f9-u0",
-          "username": "hkthx8f9-u0",
-          "avatar": null,
-          "initials": "용조",
-          "_links": {
-            "self": {
-              "href": "https://api.are.na/v3/users/hkthx8f9-u0"
-            }
-          }
-        }
-      }
-    },
-    {
       "id": 50571312,
       "type": "Image",
       "created_at": "2026-09-19T08:54:40Z",
@@ -3002,7 +2935,7 @@
       },
       "connection": {
         "id": 105908629,
-        "position": 30,
+        "position": 29,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T08:54:40Z",
@@ -3102,7 +3035,7 @@
       },
       "connection": {
         "id": 105908630,
-        "position": 31,
+        "position": 30,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T08:54:41Z",
@@ -3202,7 +3135,7 @@
       },
       "connection": {
         "id": 105910913,
-        "position": 32,
+        "position": 31,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T10:38:25Z",
@@ -3302,7 +3235,7 @@
       },
       "connection": {
         "id": 105910917,
-        "position": 33,
+        "position": 32,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T10:38:34Z",
@@ -3402,7 +3335,7 @@
       },
       "connection": {
         "id": 105910918,
-        "position": 34,
+        "position": 33,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T10:38:36Z",
@@ -3502,7 +3435,7 @@
       },
       "connection": {
         "id": 105910922,
-        "position": 35,
+        "position": 34,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T10:38:41Z",
@@ -3602,7 +3535,7 @@
       },
       "connection": {
         "id": 105910923,
-        "position": 36,
+        "position": 35,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T10:38:45Z",
@@ -3702,7 +3635,7 @@
       },
       "connection": {
         "id": 105910924,
-        "position": 37,
+        "position": 36,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T10:38:49Z",
@@ -3802,7 +3735,7 @@
       },
       "connection": {
         "id": 105911172,
-        "position": 38,
+        "position": 37,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T10:52:57Z",
@@ -3902,7 +3835,7 @@
       },
       "connection": {
         "id": 105911192,
-        "position": 39,
+        "position": 38,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-19T10:53:45Z",
@@ -4002,7 +3935,7 @@
       },
       "connection": {
         "id": 106371518,
-        "position": 40,
+        "position": 39,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T03:39:08Z",
@@ -4102,7 +4035,7 @@
       },
       "connection": {
         "id": 106379615,
-        "position": 41,
+        "position": 40,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:29:39Z",
@@ -4202,7 +4135,7 @@
       },
       "connection": {
         "id": 106380289,
-        "position": 42,
+        "position": 41,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:50:43Z",
@@ -4302,7 +4235,7 @@
       },
       "connection": {
         "id": 106380290,
-        "position": 43,
+        "position": 42,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:50:43Z",
@@ -4402,7 +4335,7 @@
       },
       "connection": {
         "id": 106380291,
-        "position": 44,
+        "position": 43,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:50:43Z",
@@ -4502,7 +4435,7 @@
       },
       "connection": {
         "id": 106380292,
-        "position": 45,
+        "position": 44,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:50:43Z",
@@ -4602,7 +4535,7 @@
       },
       "connection": {
         "id": 106380293,
-        "position": 46,
+        "position": 45,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:50:43Z",
@@ -4702,7 +4635,7 @@
       },
       "connection": {
         "id": 106380294,
-        "position": 47,
+        "position": 46,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:50:43Z",
@@ -4802,7 +4735,7 @@
       },
       "connection": {
         "id": 106380295,
-        "position": 48,
+        "position": 47,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:50:43Z",
@@ -4902,7 +4835,7 @@
       },
       "connection": {
         "id": 106380329,
-        "position": 49,
+        "position": 48,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-09-26T04:52:06Z",
@@ -5002,7 +4935,7 @@
       },
       "connection": {
         "id": 106810319,
-        "position": 50,
+        "position": 49,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:31:43Z",
@@ -5102,7 +5035,7 @@
       },
       "connection": {
         "id": 106810320,
-        "position": 51,
+        "position": 50,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:31:43Z",
@@ -5202,7 +5135,7 @@
       },
       "connection": {
         "id": 106810321,
-        "position": 52,
+        "position": 51,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:31:43Z",
@@ -5302,7 +5235,7 @@
       },
       "connection": {
         "id": 106810322,
-        "position": 53,
+        "position": 52,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:31:44Z",
@@ -5402,7 +5335,7 @@
       },
       "connection": {
         "id": 106810364,
-        "position": 54,
+        "position": 53,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:32:37Z",
@@ -5502,7 +5435,7 @@
       },
       "connection": {
         "id": 106810365,
-        "position": 55,
+        "position": 54,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:32:37Z",
@@ -5602,7 +5535,7 @@
       },
       "connection": {
         "id": 106810366,
-        "position": 56,
+        "position": 55,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:32:37Z",
@@ -5702,7 +5635,7 @@
       },
       "connection": {
         "id": 106810367,
-        "position": 57,
+        "position": 56,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:32:37Z",
@@ -5802,7 +5735,7 @@
       },
       "connection": {
         "id": 106810368,
-        "position": 58,
+        "position": 57,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:32:37Z",
@@ -5902,10 +5835,77 @@
       },
       "connection": {
         "id": 106810369,
-        "position": 59,
+        "position": 58,
         "pinned": false,
         "metadata": null,
         "connected_at": "2026-10-02T10:32:37Z",
+        "connected_by": {
+          "id": 1641595,
+          "type": "User",
+          "name": "용주 조",
+          "slug": "hkthx8f9-u0",
+          "username": "hkthx8f9-u0",
+          "avatar": null,
+          "initials": "용조",
+          "_links": {
+            "self": {
+              "href": "https://api.are.na/v3/users/hkthx8f9-u0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 50379805,
+      "type": "Text",
+      "created_at": "2026-09-13T09:14:02Z",
+      "updated_at": "2026-10-06T05:41:32Z",
+      "base_type": "Block",
+      "title": "Expression List",
+      "description": {
+        "markdown": ".",
+        "html": "<p>.</p>",
+        "plain": "."
+      },
+      "state": "available",
+      "visibility": "public",
+      "comment_count": 0,
+      "metadata": null,
+      "user": {
+        "id": 1641595,
+        "type": "User",
+        "name": "용주 조",
+        "slug": "hkthx8f9-u0",
+        "username": "hkthx8f9-u0",
+        "avatar": null,
+        "initials": "용조"
+      },
+      "source": null,
+      "content": {
+        "markdown": "Expression List\n\nWK01 자유 수집\n- 검은 실루엣 2·4\n- 생략된 여백 11\n- 색의 소거 19\n- 번지는 경계 3·9\n- 빛으로 나눈 면 28\n- 겹친 명암 20\n- 겉과 속 13·15·18\n- 드러난 내부 22·23\n- 경계 허물기 13·16\n- 물리적 결합 14·17\n- 만져질 듯한 5\n- 무형의 빛 3·8\n- 굴곡 따라 흐르기 26\n- 맺히는 끝 27\n- 여백과 사선 4·24\n\nWK02 동세감\n- 꿈틀거리는 표면 29\n- 붓의 궤적 30\n- 굵기의 변화 31\n- 밀도 있는 붓질 32·33\n- 웅크린 힘 33\n- 흐린 윤곽 34·35\n- 겹친 실루엣 35\n- 팽팽한 도약 36\n- 중력 거스르기 36\n- 사선의 축 36·37\n- 튀어나올 듯한 37·38\n- 압도하는 손 38\n\nWK03 통일감\n- 곡선의 반복 39·40\n- 이어지는 줄기 39\n- 부푼 비례 40\n- 하나의 덩어리 40·44\n- 단일한 축 41\n- 방사하는 선 41·48\n- 작은 파격 42\n- 격자와 곡선 43\n- 촘촘한 인접 44\n- 점진적 변화 45\n- 흩어진 조각 46\n- 숨은 규칙 47\n- 겹침의 꽃잎 48\n\nWK04 리듬\n- 스타카토 49·51\n- 교차 리듬 49\n- 레가토 50·55\n- 옅어지는 깊이 50\n- 날 선 사선 51\n- 지지직거리는 질감 52\n- 모호한 레이어 53\n- 흐려지는 대비 54\n- 물결치는 직선 55\n- 비틀리는 각도 56\n- 묵직한 저항 57\n- 어긋나 쌓기 58",
+        "html": "<p>Expression List</p>\n\n<p>WK01 자유 수집<br>\n- 검은 실루엣 2·4<br>\n- 생략된 여백 11<br>\n- 색의 소거 19<br>\n- 번지는 경계 3·9<br>\n- 빛으로 나눈 면 28<br>\n- 겹친 명암 20<br>\n- 겉과 속 13·15·18<br>\n- 드러난 내부 22·23<br>\n- 경계 허물기 13·16<br>\n- 물리적 결합 14·17<br>\n- 만져질 듯한 5<br>\n- 무형의 빛 3·8<br>\n- 굴곡 따라 흐르기 26<br>\n- 맺히는 끝 27<br>\n- 여백과 사선 4·24</p>\n\n<p>WK02 동세감<br>\n- 꿈틀거리는 표면 29<br>\n- 붓의 궤적 30<br>\n- 굵기의 변화 31<br>\n- 밀도 있는 붓질 32·33<br>\n- 웅크린 힘 33<br>\n- 흐린 윤곽 34·35<br>\n- 겹친 실루엣 35<br>\n- 팽팽한 도약 36<br>\n- 중력 거스르기 36<br>\n- 사선의 축 36·37<br>\n- 튀어나올 듯한 37·38<br>\n- 압도하는 손 38</p>\n\n<p>WK03 통일감<br>\n- 곡선의 반복 39·40<br>\n- 이어지는 줄기 39<br>\n- 부푼 비례 40<br>\n- 하나의 덩어리 40·44<br>\n- 단일한 축 41<br>\n- 방사하는 선 41·48<br>\n- 작은 파격 42<br>\n- 격자와 곡선 43<br>\n- 촘촘한 인접 44<br>\n- 점진적 변화 45<br>\n- 흩어진 조각 46<br>\n- 숨은 규칙 47<br>\n- 겹침의 꽃잎 48</p>\n\n<p>WK04 리듬<br>\n- 스타카토 49·51<br>\n- 교차 리듬 49<br>\n- 레가토 50·55<br>\n- 옅어지는 깊이 50<br>\n- 날 선 사선 51<br>\n- 지지직거리는 질감 52<br>\n- 모호한 레이어 53<br>\n- 흐려지는 대비 54<br>\n- 물결치는 직선 55<br>\n- 비틀리는 각도 56<br>\n- 묵직한 저항 57<br>\n- 어긋나 쌓기 58</p>",
+        "plain": "Expression List\nWK01 자유 수집\n- 검은 실루엣 2·4\n- 생략된 여백 11\n- 색의 소거 19\n- 번지는 경계 3·9\n- 빛으로 나눈 면 28\n- 겹친 명암 20\n- 겉과 속 13·15·18\n- 드러난 내부 22·23\n- 경계 허물기 13·16\n- 물리적 결합 14·17\n- 만져질 듯한 5\n- 무형의 빛 3·8\n- 굴곡 따라 흐르기 26\n- 맺히는 끝 27\n- 여백과 사선 4·24\nWK02 동세감\n- 꿈틀거리는 표면 29\n- 붓의 궤적 30\n- 굵기의 변화 31\n- 밀도 있는 붓질 32·33\n- 웅크린 힘 33\n- 흐린 윤곽 34·35\n- 겹친 실루엣 35\n- 팽팽한 도약 36\n- 중력 거스르기 36\n- 사선의 축 36·37\n- 튀어나올 듯한 37·38\n- 압도하는 손 38\nWK03 통일감\n- 곡선의 반복 39·40\n- 이어지는 줄기 39\n- 부푼 비례 40\n- 하나의 덩어리 40·44\n- 단일한 축 41\n- 방사하는 선 41·48\n- 작은 파격 42\n- 격자와 곡선 43\n- 촘촘한 인접 44\n- 점진적 변화 45\n- 흩어진 조각 46\n- 숨은 규칙 47\n- 겹침의 꽃잎 48\nWK04 리듬\n- 스타카토 49·51\n- 교차 리듬 49\n- 레가토 50·55\n- 옅어지는 깊이 50\n- 날 선 사선 51\n- 지지직거리는 질감 52\n- 모호한 레이어 53\n- 흐려지는 대비 54\n- 물결치는 직선 55\n- 비틀리는 각도 56\n- 묵직한 저항 57\n- 어긋나 쌓기 58"
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.are.na/v3/blocks/50379805"
+        },
+        "user": {
+          "href": "https://api.are.na/v3/users/hkthx8f9-u0"
+        },
+        "connections": {
+          "href": "https://api.are.na/v3/blocks/50379805/connections"
+        },
+        "comments": {
+          "href": "https://api.are.na/v3/blocks/50379805/comments"
+        }
+      },
+      "connection": {
+        "id": 105492560,
+        "position": 59,
+        "pinned": false,
+        "metadata": null,
+        "connected_at": "2026-09-13T09:14:02Z",
         "connected_by": {
           "id": 1641595,
           "type": "User",

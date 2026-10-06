@@ -32,6 +32,13 @@ Aesthetic Literacy 학습 사이트(https://yongzu.github.io/AL/)와 Are.na 채�
    - 끝나면 `npm run arena:pull` 로 다시 가져온다.
 6. **배포** — 커밋 · `git push` · `npm run deploy`.
 
+## Expression List(텍스트 블록)
+
+- 원본은 content/expression-list.md. 매번 처음부터 새로 쓴다(이전 내용을 이어 붙이지 않는다).
+- 형식: `WK.. 주제` 아래 `- 짧은 표현 블록번호·블록번호`. 표현은 2–4어절로 짧게, 블록 설명과 이미지에서 뽑는다.
+- 쓰고 나면 Are.na 텍스트 블록(id 50379805) 내용을 교체하고 `POST /connections/{id}/move { movement: 'move_to_top' }`로 채널 맨 위(최신 위치)로 올린다.
+- "새 블록 처리해줘" 때 새 주차가 생기면 이 리스트도 다시 쓴다.
+
 ## 그 밖의 요청
 
 - "점수 반영해줘" → `npm run arena:push` 미리 보기 → `--apply`(설명 끝 Score 줄 + metadata.score) → `arena:pull` → 커밋 · 배포.

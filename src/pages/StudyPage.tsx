@@ -220,7 +220,7 @@ function Weeks() {
   );
 }
 
-/** "WK02-동세감\n\n1. 시각적 잔상\n..." → { WK02: ['시각적 잔상', ...] } */
+/** "WK02 동세감\n- 흐린 윤곽 34·35\n..." → { WK02: ['흐린 윤곽 34·35', ...] } (옛 "1. …" 형식도 읽는다) */
 function parseExpressionList(text: string) {
   const out: Record<string, string[]> = {};
   let current = '';
@@ -229,7 +229,7 @@ function parseExpressionList(text: string) {
     if (wk) {
       current = wk[1];
       out[current] = [];
-    } else if (current && /^\d+\.\s*/.test(line)) out[current].push(line.replace(/^\d+\.\s*/, ''));
+    } else if (current && /^(\d+\.|-)\s*/.test(line)) out[current].push(line.replace(/^(\d+\.|-)\s*/, ''));
   }
   return out;
 }

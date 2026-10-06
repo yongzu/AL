@@ -596,20 +596,6 @@
       "url": "https://www.are.na/block/50379543"
     },
     {
-      "id": 50379805,
-      "type": "Text",
-      "no": null,
-      "title": "Expression List",
-      "week": "WK01",
-      "created": "2026-09-13T09:14:02Z",
-      "description": ".",
-      "content": "Expression List\n\nWK01\n\n1. 극도\n2. 유려한\n3. 물리적으로 결합된\n4. 유기적\n\nWK02-동세감\n\n1. 시각적 잔상\n2. 강제 원근법\n3. 중력\n4. 제스쳐\n\nWK03-통일감\n\n1. 게슈탈트\n2. 변주\n3. 응집력\n4. 파편화\n\nWK04-리듬\n\n1. 레가토\n2. 스타카토\n3. 교차 리듬\n4. 점진적 리듬",
-      "altText": null,
-      "metadata": null,
-      "image": null,
-      "url": "https://www.are.na/block/50379805"
-    },
-    {
       "id": 50571312,
       "type": "Image",
       "no": 29,
@@ -1238,6 +1224,20 @@
         "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MDk4NjM5MC9vcmlnaW5hbF9hYzE2NmNjNjJkZTJkMDk0YzBhZWY1NzRiMGM5ZmQ2Mi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
       },
       "url": "https://www.are.na/block/50986390"
+    },
+    {
+      "id": 50379805,
+      "type": "Text",
+      "no": null,
+      "title": "Expression List",
+      "week": "WK01",
+      "created": "2026-09-13T09:14:02Z",
+      "description": ".",
+      "content": "Expression List\n\nWK01 자유 수집\n- 검은 실루엣 2·4\n- 생략된 여백 11\n- 색의 소거 19\n- 번지는 경계 3·9\n- 빛으로 나눈 면 28\n- 겹친 명암 20\n- 겉과 속 13·15·18\n- 드러난 내부 22·23\n- 경계 허물기 13·16\n- 물리적 결합 14·17\n- 만져질 듯한 5\n- 무형의 빛 3·8\n- 굴곡 따라 흐르기 26\n- 맺히는 끝 27\n- 여백과 사선 4·24\n\nWK02 동세감\n- 꿈틀거리는 표면 29\n- 붓의 궤적 30\n- 굵기의 변화 31\n- 밀도 있는 붓질 32·33\n- 웅크린 힘 33\n- 흐린 윤곽 34·35\n- 겹친 실루엣 35\n- 팽팽한 도약 36\n- 중력 거스르기 36\n- 사선의 축 36·37\n- 튀어나올 듯한 37·38\n- 압도하는 손 38\n\nWK03 통일감\n- 곡선의 반복 39·40\n- 이어지는 줄기 39\n- 부푼 비례 40\n- 하나의 덩어리 40·44\n- 단일한 축 41\n- 방사하는 선 41·48\n- 작은 파격 42\n- 격자와 곡선 43\n- 촘촘한 인접 44\n- 점진적 변화 45\n- 흩어진 조각 46\n- 숨은 규칙 47\n- 겹침의 꽃잎 48\n\nWK04 리듬\n- 스타카토 49·51\n- 교차 리듬 49\n- 레가토 50·55\n- 옅어지는 깊이 50\n- 날 선 사선 51\n- 지지직거리는 질감 52\n- 모호한 레이어 53\n- 흐려지는 대비 54\n- 물결치는 직선 55\n- 비틀리는 각도 56\n- 묵직한 저항 57\n- 어긋나 쌓기 58",
+      "altText": null,
+      "metadata": null,
+      "image": null,
+      "url": "https://www.are.na/block/50379805"
     }
   ]
 }
