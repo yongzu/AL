@@ -51,7 +51,7 @@ npm run deploy                   # https://yongzu.github.io/AL/ 에 배포
 ## 점수 매기기(1–10)
 
 ```bash
-npm run dev                          # http://localhost:5173 → 내 아카이브 → 이미지 → 1–10 버튼
+npm run dev                          # 또는 폴더의 채점하기.bat 더블클릭 → http://localhost:5173 → 내 아카이브 → 이미지 → 1–10 버튼
 npm run arena:scores -- --apply      # Are.na 블록 메타데이터(score)에 반영
 ```
 
