@@ -90,3 +90,48 @@
 @media (prefers-reduced-motion: reduce) {
   .block-dialog[open] { animation: none; }
 }
+
+/* ---------- 필터 줄 · 점수 ---------- */
+.archive__filters { flex-direction: column; align-items: stretch; gap: 14px; }
+.archive__filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; min-width: 0; }
+.archive__filter-row > .segmented { max-width: 100%; }
+.archive__filter-key { flex: none; width: 52px; font-size: 13px; font-weight: var(--font-weight-medium); color: var(--color-text-tertiary); }
+.archive__edit { display: inline-flex; align-self: flex-start; padding: 6px 12px; border-radius: 999px; background: var(--color-text-primary); color: var(--color-bg-default); font-size: 13px; }
+.archive-card__frame { position: relative; }
+.archive-card__score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: grid;
+  place-items: center;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: var(--color-text-primary);
+  color: var(--color-bg-default);
+  font-size: 13px;
+  font-weight: var(--font-weight-bold);
+}
+.score-view { font-size: 15px; color: var(--color-text-secondary); }
+.score-view strong { font-size: 28px; line-height: 1; letter-spacing: var(--tracking-tight); color: var(--color-text-primary); }
+.score-view--empty { color: var(--color-text-tertiary); }
+.score-edit { display: flex; flex-wrap: wrap; gap: 6px; }
+.score-edit__btn,
+.score-edit__clear {
+  min-width: 38px;
+  height: 38px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: var(--color-bg-subtle);
+  font-size: 14px;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-secondary);
+  cursor: var(--cursor-pointer);
+  transition: background var(--duration) var(--ease), color var(--duration) var(--ease);
+}
+.score-edit__btn:hover { color: var(--color-text-primary); }
+.score-edit__btn[aria-pressed='true'] { background: var(--color-text-primary); color: var(--color-bg-default); }
+.score-edit__clear { font-weight: var(--font-weight-medium); color: var(--color-text-tertiary); }
+.score-edit__clear:disabled { opacity: 0.4; cursor: default; }
+@media (max-width: 720px) { .archive__filter-key { width: 100%; } }

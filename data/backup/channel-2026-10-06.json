@@ -3,7 +3,7 @@
     "id": 5686730,
     "type": "Channel",
     "created_at": "2026-09-08T01:40:04Z",
-    "updated_at": "2026-10-05T05:35:18Z",
+    "updated_at": "2026-10-06T03:04:47Z",
     "slug": "1-aesthetic-literacy-qhm68ahvlpk",
     "title": " [1기] Aesthetic Literacy: 조용주",
     "description": {
@@ -59,7 +59,7 @@
       "id": 50222044,
       "type": "Image",
       "created_at": "2026-09-08T03:00:42Z",
-      "updated_at": "2026-10-06T00:19:01Z",
+      "updated_at": "2026-10-06T03:01:27Z",
       "base_type": "Block",
       "title": "1. From 5M",
       "description": {
@@ -157,7 +157,7 @@
       "id": 50221815,
       "type": "Image",
       "created_at": "2026-09-08T02:49:03Z",
-      "updated_at": "2026-09-08T03:17:57Z",
+      "updated_at": "2026-10-06T03:00:15Z",
       "base_type": "Block",
       "title": "2. Silhouette",
       "description": {
@@ -255,7 +255,7 @@
       "id": 50221818,
       "type": "Image",
       "created_at": "2026-09-08T02:49:12Z",
-      "updated_at": "2026-09-08T03:17:54Z",
+      "updated_at": "2026-10-06T03:01:19Z",
       "base_type": "Block",
       "title": "3. Entity",
       "description": {
@@ -353,7 +353,7 @@
       "id": 50359929,
       "type": "Image",
       "created_at": "2026-09-12T13:57:22Z",
-      "updated_at": "2026-10-01T20:18:42Z",
+      "updated_at": "2026-10-06T02:59:31Z",
       "base_type": "Block",
       "title": "4. Contrast",
       "description": {
@@ -451,7 +451,7 @@
       "id": 50359935,
       "type": "Image",
       "created_at": "2026-09-12T13:58:05Z",
-      "updated_at": "2026-09-12T14:00:19Z",
+      "updated_at": "2026-10-06T03:02:30Z",
       "base_type": "Block",
       "title": "5. Form and Texture",
       "description": {
@@ -549,7 +549,7 @@
       "id": 50359938,
       "type": "Image",
       "created_at": "2026-09-12T13:58:23Z",
-      "updated_at": "2026-09-12T14:00:35Z",
+      "updated_at": "2026-10-06T03:01:03Z",
       "base_type": "Block",
       "title": "6. Distortion",
       "description": {
@@ -647,7 +647,7 @@
       "id": 50359940,
       "type": "Image",
       "created_at": "2026-09-12T13:58:27Z",
-      "updated_at": "2026-09-13T08:43:32Z",
+      "updated_at": "2026-10-06T03:00:04Z",
       "base_type": "Block",
       "title": "7. Futuristic Vision",
       "description": {
@@ -745,7 +745,7 @@
       "id": 50359941,
       "type": "Image",
       "created_at": "2026-09-12T13:58:30Z",
-      "updated_at": "2026-09-12T14:01:06Z",
+      "updated_at": "2026-10-06T03:00:20Z",
       "base_type": "Block",
       "title": "8. Luminous",
       "description": {
@@ -843,7 +843,7 @@
       "id": 50359942,
       "type": "Image",
       "created_at": "2026-09-12T13:58:32Z",
-      "updated_at": "2026-10-02T17:29:54Z",
+      "updated_at": "2026-10-06T03:02:31Z",
       "base_type": "Block",
       "title": "9. Ethereal",
       "description": {
@@ -941,7 +941,7 @@
       "id": 50359945,
       "type": "Image",
       "created_at": "2026-09-12T13:58:37Z",
-      "updated_at": "2026-09-12T14:02:53Z",
+      "updated_at": "2026-10-06T02:59:45Z",
       "base_type": "Block",
       "title": "10. Reverse",
       "description": {
@@ -1039,7 +1039,7 @@
       "id": 50359953,
       "type": "Image",
       "created_at": "2026-09-12T13:58:40Z",
-      "updated_at": "2026-09-12T14:03:31Z",
+      "updated_at": "2026-10-06T03:00:20Z",
       "base_type": "Block",
       "title": "11. Gaze",
       "description": {
@@ -1137,7 +1137,7 @@
       "id": 50359958,
       "type": "Image",
       "created_at": "2026-09-12T13:58:53Z",
-      "updated_at": "2026-09-12T14:04:10Z",
+      "updated_at": "2026-10-06T03:00:21Z",
       "base_type": "Block",
       "title": "12. Cosmic",
       "description": {
@@ -1235,7 +1235,7 @@
       "id": 50359960,
       "type": "Image",
       "created_at": "2026-09-12T13:59:01Z",
-      "updated_at": "2026-10-05T19:23:01Z",
+      "updated_at": "2026-10-06T03:00:07Z",
       "base_type": "Block",
       "title": "13. Mechanical Anatomy",
       "description": {
@@ -1333,7 +1333,7 @@
       "id": 50359961,
       "type": "Image",
       "created_at": "2026-09-12T13:59:11Z",
-      "updated_at": "2026-09-13T08:41:32Z",
+      "updated_at": "2026-10-06T03:00:08Z",
       "base_type": "Block",
       "title": "14. Augmentation",
       "description": {
@@ -1431,7 +1431,7 @@
       "id": 50359962,
       "type": "Image",
       "created_at": "2026-09-12T13:59:12Z",
-      "updated_at": "2026-09-13T08:41:59Z",
+      "updated_at": "2026-10-06T03:00:09Z",
       "base_type": "Block",
       "title": "15. Transparent skeleton",
       "description": {
@@ -1529,7 +1529,7 @@
       "id": 50359963,
       "type": "Image",
       "created_at": "2026-09-12T13:59:15Z",
-      "updated_at": "2026-09-13T08:42:16Z",
+      "updated_at": "2026-10-06T03:01:20Z",
       "base_type": "Block",
       "title": "16. Cyber Deity",
       "description": {
@@ -1627,7 +1627,7 @@
       "id": 50359964,
       "type": "Image",
       "created_at": "2026-09-12T13:59:18Z",
-      "updated_at": "2026-09-13T08:42:28Z",
+      "updated_at": "2026-10-06T03:01:11Z",
       "base_type": "Block",
       "title": "17. Alien Elegance",
       "description": {
@@ -1725,7 +1725,7 @@
       "id": 50359966,
       "type": "Image",
       "created_at": "2026-09-12T13:59:26Z",
-      "updated_at": "2026-09-13T09:10:43Z",
+      "updated_at": "2026-10-06T03:00:31Z",
       "base_type": "Block",
       "title": "18. Mechanical Bone",
       "description": {
@@ -1823,7 +1823,7 @@
       "id": 50359969,
       "type": "Image",
       "created_at": "2026-09-12T13:59:27Z",
-      "updated_at": "2026-09-13T08:42:59Z",
+      "updated_at": "2026-10-06T03:03:05Z",
       "base_type": "Block",
       "title": "19. Transparent Flora",
       "description": {
@@ -1921,7 +1921,7 @@
       "id": 50359970,
       "type": "Image",
       "created_at": "2026-09-12T13:59:33Z",
-      "updated_at": "2026-09-13T08:43:10Z",
+      "updated_at": "2026-10-06T02:59:54Z",
       "base_type": "Block",
       "title": "20. Layered Fabric",
       "description": {
@@ -2019,7 +2019,7 @@
       "id": 50359971,
       "type": "Image",
       "created_at": "2026-09-12T13:59:35Z",
-      "updated_at": "2026-09-13T08:43:21Z",
+      "updated_at": "2026-10-06T03:02:04Z",
       "base_type": "Block",
       "title": "21. Structural Foundation",
       "description": {
@@ -2117,7 +2117,7 @@
       "id": 50359972,
       "type": "Image",
       "created_at": "2026-09-12T13:59:38Z",
-      "updated_at": "2026-09-13T08:49:13Z",
+      "updated_at": "2026-10-06T03:02:05Z",
       "base_type": "Block",
       "title": "22. Mechanism",
       "description": {
@@ -2215,7 +2215,7 @@
       "id": 50359973,
       "type": "Image",
       "created_at": "2026-09-12T13:59:40Z",
-      "updated_at": "2026-09-13T09:10:04Z",
+      "updated_at": "2026-10-06T02:59:58Z",
       "base_type": "Block",
       "title": "23. Anatomy of Tech",
       "description": {
@@ -2313,7 +2313,7 @@
       "id": 50359974,
       "type": "Image",
       "created_at": "2026-09-12T13:59:43Z",
-      "updated_at": "2026-09-13T08:49:47Z",
+      "updated_at": "2026-10-06T02:59:59Z",
       "base_type": "Block",
       "title": "24. Clarity of Form",
       "description": {
@@ -2411,7 +2411,7 @@
       "id": 50359976,
       "type": "Image",
       "created_at": "2026-09-12T13:59:47Z",
-      "updated_at": "2026-09-13T09:10:11Z",
+      "updated_at": "2026-10-06T03:02:13Z",
       "base_type": "Block",
       "title": "25. Organic Geometry",
       "description": {
@@ -2509,7 +2509,7 @@
       "id": 50359978,
       "type": "Image",
       "created_at": "2026-09-12T13:59:49Z",
-      "updated_at": "2026-09-13T08:50:13Z",
+      "updated_at": "2026-10-06T03:02:14Z",
       "base_type": "Block",
       "title": "26. Continuous Path",
       "description": {
@@ -2607,7 +2607,7 @@
       "id": 50379541,
       "type": "Image",
       "created_at": "2026-09-13T08:50:23Z",
-      "updated_at": "2026-09-13T08:50:43Z",
+      "updated_at": "2026-10-06T03:02:15Z",
       "base_type": "Block",
       "title": "27. Flowing Gradients",
       "description": {
@@ -2705,7 +2705,7 @@
       "id": 50379543,
       "type": "Image",
       "created_at": "2026-09-13T08:50:28Z",
-      "updated_at": "2026-09-13T08:51:58Z",
+      "updated_at": "2026-10-06T03:02:16Z",
       "base_type": "Block",
       "title": "28. Fluid",
       "description": {
@@ -2870,7 +2870,7 @@
       "id": 50571312,
       "type": "Image",
       "created_at": "2026-09-19T08:54:40Z",
-      "updated_at": "2026-09-20T09:22:19Z",
+      "updated_at": "2026-10-06T03:03:06Z",
       "base_type": "Block",
       "title": "29. 폐허",
       "description": {
@@ -2968,7 +2968,7 @@
       "id": 50571313,
       "type": "Image",
       "created_at": "2026-09-19T08:54:41Z",
-      "updated_at": "2026-09-20T09:21:26Z",
+      "updated_at": "2026-10-06T03:00:23Z",
       "base_type": "Block",
       "title": "30. 흐릿한 기억",
       "description": {
@@ -3066,7 +3066,7 @@
       "id": 50572554,
       "type": "Image",
       "created_at": "2026-09-19T10:38:25Z",
-      "updated_at": "2026-09-19T10:39:36Z",
+      "updated_at": "2026-10-06T03:00:24Z",
       "base_type": "Block",
       "title": "31. The Vitality of Lines",
       "description": {
@@ -3164,7 +3164,7 @@
       "id": 50572557,
       "type": "Image",
       "created_at": "2026-09-19T10:38:34Z",
-      "updated_at": "2026-09-27T07:34:21Z",
+      "updated_at": "2026-10-06T03:00:25Z",
       "base_type": "Block",
       "title": "32. Combination",
       "description": {
@@ -3262,7 +3262,7 @@
       "id": 50572558,
       "type": "Image",
       "created_at": "2026-09-19T10:38:36Z",
-      "updated_at": "2026-09-19T10:41:36Z",
+      "updated_at": "2026-10-06T03:00:26Z",
       "base_type": "Block",
       "title": "33. Expansion of Dynamics",
       "description": {
@@ -3360,7 +3360,7 @@
       "id": 50572561,
       "type": "Image",
       "created_at": "2026-09-19T10:38:41Z",
-      "updated_at": "2026-09-19T10:41:40Z",
+      "updated_at": "2026-10-06T03:00:16Z",
       "base_type": "Block",
       "title": "34. Form and Blur",
       "description": {
@@ -3458,7 +3458,7 @@
       "id": 50572562,
       "type": "Image",
       "created_at": "2026-09-19T10:38:45Z",
-      "updated_at": "2026-09-19T10:41:25Z",
+      "updated_at": "2026-10-06T03:00:17Z",
       "base_type": "Block",
       "title": "35. Multiple Exposures",
       "description": {
@@ -3556,7 +3556,7 @@
       "id": 50572563,
       "type": "Image",
       "created_at": "2026-09-19T10:38:49Z",
-      "updated_at": "2026-09-19T10:42:41Z",
+      "updated_at": "2026-10-06T03:00:32Z",
       "base_type": "Block",
       "title": "36. Anti-Gravity",
       "description": {
@@ -3654,7 +3654,7 @@
       "id": 50572688,
       "type": "Image",
       "created_at": "2026-09-19T10:52:57Z",
-      "updated_at": "2026-09-19T10:54:19Z",
+      "updated_at": "2026-10-06T03:01:04Z",
       "base_type": "Block",
       "title": "37. Distortion",
       "description": {
@@ -3752,7 +3752,7 @@
       "id": 50572700,
       "type": "Image",
       "created_at": "2026-09-19T10:53:45Z",
-      "updated_at": "2026-09-19T10:54:04Z",
+      "updated_at": "2026-10-06T03:01:21Z",
       "base_type": "Block",
       "title": "38. Approaching",
       "description": {
@@ -3850,7 +3850,7 @@
       "id": 50782580,
       "type": "Image",
       "created_at": "2026-09-26T03:39:08Z",
-      "updated_at": "2026-09-26T04:28:08Z",
+      "updated_at": "2026-10-06T03:03:07Z",
       "base_type": "Block",
       "title": "39. Between Things",
       "description": {
@@ -3948,7 +3948,7 @@
       "id": 50784361,
       "type": "Image",
       "created_at": "2026-09-26T04:29:39Z",
-      "updated_at": "2026-09-26T04:53:03Z",
+      "updated_at": "2026-10-06T03:00:27Z",
       "base_type": "Block",
       "title": "40. Fat Variation",
       "description": {
@@ -4046,7 +4046,7 @@
       "id": 50784683,
       "type": "Image",
       "created_at": "2026-09-26T04:50:43Z",
-      "updated_at": "2026-09-26T04:52:55Z",
+      "updated_at": "2026-10-06T03:02:21Z",
       "base_type": "Block",
       "title": "41. Structural",
       "description": {
@@ -4144,7 +4144,7 @@
       "id": 50784684,
       "type": "Image",
       "created_at": "2026-09-26T04:50:43Z",
-      "updated_at": "2026-09-26T04:53:27Z",
+      "updated_at": "2026-10-06T03:02:22Z",
       "base_type": "Block",
       "title": "42. Rep-Stairs",
       "description": {
@@ -4242,7 +4242,7 @@
       "id": 50784685,
       "type": "Image",
       "created_at": "2026-09-26T04:50:43Z",
-      "updated_at": "2026-09-30T17:32:25Z",
+      "updated_at": "2026-10-06T03:02:23Z",
       "base_type": "Block",
       "title": "43.Grid and curves",
       "description": {
@@ -4340,7 +4340,7 @@
       "id": 50784686,
       "type": "Image",
       "created_at": "2026-09-26T04:50:43Z",
-      "updated_at": "2026-09-26T04:54:29Z",
+      "updated_at": "2026-10-06T03:02:08Z",
       "base_type": "Block",
       "title": "44. Cylinder",
       "description": {
@@ -4438,7 +4438,7 @@
       "id": 50784687,
       "type": "Image",
       "created_at": "2026-09-26T04:50:43Z",
-      "updated_at": "2026-10-05T21:49:26Z",
+      "updated_at": "2026-10-06T03:01:29Z",
       "base_type": "Block",
       "title": "45. Rhythm",
       "description": {
@@ -4536,7 +4536,7 @@
       "id": 50784688,
       "type": "Image",
       "created_at": "2026-09-26T04:50:43Z",
-      "updated_at": "2026-09-26T04:56:40Z",
+      "updated_at": "2026-10-06T03:01:30Z",
       "base_type": "Block",
       "title": "46. Gestalt map",
       "description": {
@@ -4634,7 +4634,7 @@
       "id": 50784689,
       "type": "Image",
       "created_at": "2026-09-26T04:50:43Z",
-      "updated_at": "2026-09-26T04:55:23Z",
+      "updated_at": "2026-10-06T03:01:31Z",
       "base_type": "Block",
       "title": "47. Geometric",
       "description": {
@@ -4732,7 +4732,7 @@
       "id": 50784707,
       "type": "Image",
       "created_at": "2026-09-26T04:52:06Z",
-      "updated_at": "2026-09-26T04:55:41Z",
+      "updated_at": "2026-10-06T03:01:24Z",
       "base_type": "Block",
       "title": "48. Radial",
       "description": {
@@ -4830,7 +4830,7 @@
       "id": 50986357,
       "type": "Image",
       "created_at": "2026-10-02T10:31:43Z",
-      "updated_at": "2026-10-05T05:19:51Z",
+      "updated_at": "2026-10-06T03:02:24Z",
       "base_type": "Block",
       "title": "49. Museum",
       "description": {
@@ -4928,7 +4928,7 @@
       "id": 50986358,
       "type": "Image",
       "created_at": "2026-10-02T10:31:43Z",
-      "updated_at": "2026-10-05T05:20:04Z",
+      "updated_at": "2026-10-06T03:03:08Z",
       "base_type": "Block",
       "title": "50.Rise",
       "description": {
@@ -5026,7 +5026,7 @@
       "id": 50986359,
       "type": "Image",
       "created_at": "2026-10-02T10:31:43Z",
-      "updated_at": "2026-10-02T10:40:58Z",
+      "updated_at": "2026-10-06T03:02:33Z",
       "base_type": "Block",
       "title": "51. Staccato",
       "description": {
@@ -5124,7 +5124,7 @@
       "id": 50986360,
       "type": "Image",
       "created_at": "2026-10-02T10:31:43Z",
-      "updated_at": "2026-10-02T10:41:15Z",
+      "updated_at": "2026-10-06T03:04:18Z",
       "base_type": "Block",
       "title": "52. Noise",
       "description": {
@@ -5222,7 +5222,7 @@
       "id": 50986385,
       "type": "Image",
       "created_at": "2026-10-02T10:32:37Z",
-      "updated_at": "2026-10-02T10:52:43Z",
+      "updated_at": "2026-10-06T03:01:33Z",
       "base_type": "Block",
       "title": "53. Layer",
       "description": {
@@ -5320,7 +5320,7 @@
       "id": 50986386,
       "type": "Image",
       "created_at": "2026-10-02T10:32:37Z",
-      "updated_at": "2026-10-02T10:41:48Z",
+      "updated_at": "2026-10-06T03:02:09Z",
       "base_type": "Block",
       "title": "54. Sequence",
       "description": {
@@ -5418,7 +5418,7 @@
       "id": 50986387,
       "type": "Image",
       "created_at": "2026-10-02T10:32:37Z",
-      "updated_at": "2026-10-02T10:41:57Z",
+      "updated_at": "2026-10-06T03:02:26Z",
       "base_type": "Block",
       "title": "55. Wave",
       "description": {
@@ -5516,7 +5516,7 @@
       "id": 50986388,
       "type": "Image",
       "created_at": "2026-10-02T10:32:37Z",
-      "updated_at": "2026-10-02T10:42:07Z",
+      "updated_at": "2026-10-06T03:02:27Z",
       "base_type": "Block",
       "title": "56. Twist",
       "description": {
@@ -5614,7 +5614,7 @@
       "id": 50986389,
       "type": "Image",
       "created_at": "2026-10-02T10:32:37Z",
-      "updated_at": "2026-10-02T10:42:20Z",
+      "updated_at": "2026-10-06T03:03:02Z",
       "base_type": "Block",
       "title": "57. Resistance",
       "description": {
@@ -5712,7 +5712,7 @@
       "id": 50986390,
       "type": "Image",
       "created_at": "2026-10-02T10:32:37Z",
-      "updated_at": "2026-10-02T10:42:30Z",
+      "updated_at": "2026-10-06T03:03:03Z",
       "base_type": "Block",
       "title": "58. Column",
       "description": {

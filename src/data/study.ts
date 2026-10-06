@@ -4,10 +4,19 @@
 import archiveJson from '../../content/archive.json';
 import { analysis, expressionSuggestions } from '../../content/analysis.ts';
 import { book, chapters, conceptIndex, method, parts, sentencePattern, termMap, weeks } from '../../content/book.ts';
+import { collections, collectionTitle, type Collection } from '../../content/collections.ts';
+import collectionChannels from '../../content/collections-arena.json';
 import type { BlockAnalysis, Chapter } from '../../content/types.ts';
 
-export { book, chapters, conceptIndex, method, parts, sentencePattern, termMap, weeks, expressionSuggestions };
-export type { Chapter };
+export { book, chapters, conceptIndex, method, parts, sentencePattern, termMap, weeks, expressionSuggestions, collections, collectionTitle };
+export type { Chapter, Collection };
+
+/** 컬렉션 id → Are.na 채널 주소 */
+export const collectionUrl = (id: string) => (collectionChannels as Record<string, { url: string }>)[id]?.url;
+
+/** 블록 번호 → 그 블록이 속한 컬렉션들 */
+export const collectionsByBlock: Record<number, Collection[]> = {};
+for (const c of collections) for (const no of c.blocks) (collectionsByBlock[no] ??= []).push(c);
 
 type RawBlock = (typeof archiveJson.blocks)[number];
 

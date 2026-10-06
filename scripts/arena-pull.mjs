@@ -7,7 +7,7 @@
 // 2. content/archive.json            — the trimmed list the study site reads (number, week, text, image links)
 //
 // Weeks are counted in 7-day steps from the first class day (WEEK_ONE) by each block's creation date.
-import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
+import { mkdirSync, writeFileSync, existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { arena, arenaAll, CHANNEL, ROOT } from './arena.mjs';
 
@@ -56,6 +56,22 @@ writeFileSync(
   JSON.stringify({ channel: { id: channel.id, slug: channel.slug, title: channel.title.trim(), url: `https://www.are.na/${channel.owner?.slug ?? 'hkthx8f9-u0'}/${channel.slug}`, pulled: today }, blocks: archive }, null, 2) + '\n',
 );
 console.log('wrote content/archive.json and', `data/backup/channel-${today}.json`);
+
+// Scores saved on Are.na (metadata.score) fill in any block that has no local score yet
+const scoresPath = join(ROOT, 'content/scores.json');
+const scores = existsSync(scoresPath) ? JSON.parse(readFileSync(scoresPath, 'utf8')) : {};
+let filled = 0;
+for (const b of archive) {
+  const s = b.metadata?.score;
+  if (b.no != null && Number.isInteger(s) && scores[b.no] == null) {
+    scores[b.no] = s;
+    filled++;
+  }
+}
+if (filled) {
+  writeFileSync(scoresPath, JSON.stringify(Object.fromEntries(Object.entries(scores).sort(([a], [z]) => a - z)), null, 2) + '\n');
+  console.log(`filled ${filled} score(s) from Are.na into content/scores.json`);
+}
 
 if (withImages) {
   mkdirSync(join(ROOT, 'data/images'), { recursive: true });

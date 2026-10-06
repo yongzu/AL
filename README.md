@@ -17,12 +17,16 @@ AL/
 │   ├── chapters-elements.ts  ← 7–13장(디자인 요소)
 │   ├── book.ts               ← 책 정보, 분석 순서, 수업 표현 → 책 용어 표, 주차
 │   ├── analysis.ts           ← 블록 58개의 영어 설명 · 개념 태그 · 점검 메모
+│   ├── collections.ts        ← 태그 컬렉션 16개(Are.na 채널로 연결) · collections-arena.json = 채널 주소
+│   ├── scores.json           ← 내 점수(1–10)
 │   └── archive.json          ← Are.na에서 가져온 블록 목록(npm run arena:pull)
 ├── src/                      ← 학습 사이트(BI와 같은 React · Vite · 디자인 토큰)
 ├── scripts/
 │   ├── arena.mjs             ← Are.na v3 API 클라이언트(.env의 토큰 사용)
 │   ├── arena-pull.mjs        ← 채널 백업 + content/archive.json 갱신
 │   ├── arena-push.mjs        ← 승인된 분석을 Are.na에 반영(기본은 미리 보기만)
+│   ├── arena-collections.mjs ← 컬렉션 채널 만들기 · 블록 연결
+│   ├── arena-scores.mjs      ← 점수를 블록 메타데이터(score)로 반영
 │   ├── review.mjs            ← review/blocks-review.md 점검표 만들기
 │   └── deploy.mjs            ← GitHub Pages(gh-pages 브랜치) 배포
 ├── review/                   ← 점검표 · 반영 기록
@@ -42,7 +46,24 @@ npm run dev                      # 사이트 로컬 확인
 npm run deploy                   # https://yongzu.github.io/AL/ 에 배포
 ```
 
-새 블록이 추가되면: `arena:pull` → `content/analysis.ts`에 분석 추가 → `review` → 승인 → `arena:push --apply` → `deploy`.
+새 블록이 추가되면 Claude에게 **"새 블록 처리해줘"** — 절차는 CLAUDE.md에 있습니다.
+
+## 점수 매기기(1–10)
+
+```bash
+npm run dev                          # http://localhost:5173 → 내 아카이브 → 이미지 → 1–10 버튼
+npm run arena:scores -- --apply      # Are.na 블록 메타데이터(score)에 반영
+```
+
+또는 Claude에게 "점수 반영해줘".
+
+## 컬렉션(태그)
+
+블록들이 공유하는 소재 · 형식을 묶은 16개 컬렉션을 Are.na 채널(`AL · 실루엣 Silhouette` 등)로 만들고 블록을 연결했습니다. 목록은 content/collections.ts.
+
+```bash
+npm run arena:collections -- --apply  # 없는 채널 만들기 · 빠진 연결 추가(여러 번 실행해도 안전)
+```
 
 ## Are.na에 반영되는 형식
 
