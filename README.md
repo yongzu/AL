@@ -52,7 +52,7 @@ npm run deploy                   # https://yongzu.github.io/AL/ 에 배포
 
 ```bash
 npm run dev                          # 또는 폴더의 채점하기.bat 더블클릭 → http://localhost:5173 → 내 아카이브 → 이미지 → 1–10 버튼
-npm run arena:scores -- --apply      # Are.na 블록 메타데이터(score)에 반영
+npm run arena:push -- --apply        # 설명 끝 **Score** 줄 + 블록 메타데이터(score)에 반영
 ```
 
 또는 Claude에게 "점수 반영해줘".
@@ -70,12 +70,16 @@ npm run arena:collections -- --apply  # 없는 채널 만들기 · 빠진 연결
 한국어 원문은 그대로 두고, 그 아래에만 덧붙입니다.
 
 ```
-<기존 한국어 설명>
+**KR** <기존 한국어 설명>
 
 ---
 **EN** <영어 설명>
 
-**Lauer** Amplified Perspective (p.216) · Contrast of Scale (p.76) · …
+**Lauer**
+- 증폭된 원근 · Amplified Perspective · p.216
+- 스케일 대비 · Contrast of Scale · p.76
+
+**Score** 9 / 10
 ```
 
 이미지의 대체 텍스트(alt text)에도 영어 설명이 들어갑니다. `--connect`를 함께 주면 장별 채널(예: `AL · 02 Unity 통일`)을 만들고 블록을 연결합니다.

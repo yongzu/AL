@@ -6,7 +6,7 @@ Aesthetic Literacy 학습 사이트(https://yongzu.github.io/AL/)와 Are.na 채�
 
 - **저작권:** `book/`(『Design Basics』 9판 PDF · 추출 원문)은 읽기만 하고 절대 커밋하지 않는다. 사이트 · content에는 직접 요약한 글과 쪽수만 쓴다. 원문을 길게 옮기지 않는다.
 - **토큰:** `.env`의 `ARENA_TOKEN`은 출력하거나 커밋하지 않는다. 스크립트(scripts/arena.mjs)만 읽는다.
-- **Are.na의 한국어 원문 문장은 고치지 않는다.** 앞에 `**KR** `만 붙이고, 영어 설명은 `---` 아래 `**EN**`으로 덧붙인다(arena-push.mjs 형식).
+- **Are.na의 한국어 원문 문장은 고치지 않는다.** 앞에 `**KR** `만 붙이고, `---` 아래에 `**EN**` 영어 설명 → `**Lauer**` 개념 한 줄씩(한글 · English · 쪽수) → `**Score** n / 10`(arena-push.mjs 형식).
 - **제목:** `번호. 한글 / English`. 대상(오브제) 이름이 아니라 그 이미지의 핵심 조형 장치 · 라우어 개념으로 짓는다(content/titles.ts). 다른 블록과 겹치지 않게.
 - **점수(1–10)는 사용자가 매긴다.** Claude는 점수를 정하지 않는다. 채점은 `npm run dev` → 아카이브 → 이미지 → 1–10 버튼(content/scores.json에 저장).
 - **Are.na 쓰기 한도:** 무료 계정은 분당 30회 · 시간당 300회. 한도에 걸리면 scripts/arena.mjs가 retry-after만큼 기다렸다 이어 쓴다(멈춘 것처럼 보여도 기다리는 중). 대량 작업은 한 시간에 한 번.
@@ -28,11 +28,11 @@ Aesthetic Literacy 학습 사이트(https://yongzu.github.io/AL/)와 Are.na 채�
 5. **Are.na 반영** — 새 블록만:
    - `npm run arena:push -- --only <번호들>` 미리 보기 확인 후 `--apply`
    - `npm run arena:collections -- --apply` (새 채널 생성 · 연결)
-   - 사용자가 점수를 매겨 두었으면 `npm run arena:scores -- --apply`
+   - (점수가 있으면 위 push가 설명 끝 `**Score** n / 10` 줄과 metadata.score를 함께 반영한다)
    - 끝나면 `npm run arena:pull` 로 다시 가져온다.
 6. **배포** — 커밋 · `git push` · `npm run deploy`.
 
 ## 그 밖의 요청
 
-- "점수 반영해줘" → `npm run arena:scores` 미리 보기 → `--apply` → `arena:pull` → 커밋 · 배포.
+- "점수 반영해줘" → `npm run arena:push` 미리 보기 → `--apply`(설명 끝 Score 줄 + metadata.score) → `arena:pull` → 커밋 · 배포.
 - 기존 블록의 영어 설명 반영은 사용자가 번호를 승인한 것만 `arena:push --only … --apply`.

@@ -2,7 +2,7 @@
 //
 //   node scripts/arena-push.mjs                  → dry run: prints what would change, writes nothing
 //   node scripts/arena-push.mjs --only 1,2,3     → only these block numbers
-//   node scripts/arena-push.mjs --apply          → really update title + description + alt text
+//   node scripts/arena-push.mjs --apply          → really update title + description + alt text + metadata.score
 //   node scripts/arena-push.mjs --connect        → (with --apply) also connect blocks to chapter channels
 //
 // Title: `번호. 한글 / English` from content/titles.ts (blocks without an entry keep their title).
@@ -13,7 +13,11 @@
 //   ---
 //   **EN** <English description>
 //
-//   **Lauer** Amplified Perspective (p.216) · Contrast of Scale (p.76) · …
+//   **Lauer**
+//   - 증폭된 원근 · Amplified Perspective · p.216
+//   - 스케일 대비 · Contrast of Scale · p.76
+//
+//   **Score** 9 / 10          ← content/scores.json에 점수가 있을 때만(metadata.score도 함께)
 //
 // Run `npm run arena:pull` first so the Korean text is the latest one on Are.na.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -37,17 +41,20 @@ const korean = (d) => {
   const i = d.indexOf('\n---\n**EN**');
   return (i >= 0 ? d.slice(0, i) : d).trim().replace(/^\*\*KR\*\*\s*/, '');
 };
-const lauerLine = (ids) => ids.map((id) => `${conceptIndex[id].en} (p.${conceptIndex[id].page})`).join(' · ');
+/** 라우어 개념 — 한 줄에 하나씩 '한글 · English · 쪽수' */
+const lauerLines = (ids) => ids.map((id) => `- ${conceptIndex[id].ko} · ${conceptIndex[id].en} · p.${conceptIndex[id].page}`).join('\n');
+const scores = JSON.parse(readFileSync(join(ROOT, 'content/scores.json'), 'utf8'));
 
 const plan = [];
 for (const b of blocks) {
   const a = analysis[b.no];
   if (!a || (only && !only.has(b.no))) continue;
-  const next = `**KR** ${korean(b.description)}${MARK}${a.en}\n\n**Lauer** ${lauerLine(a.concepts)}`;
+  const score = scores[b.no] ?? null;
+  const next = `**KR** ${korean(b.description)}${MARK}${a.en}\n\n**Lauer**\n${lauerLines(a.concepts)}${score != null ? `\n\n**Score** ${score} / 10` : ''}`;
   const chapterIds = [...new Set(a.concepts.map((id) => conceptIndex[id].chapter.id))];
   const current = `${b.no}. ${b.title}`;
   const title = titles[b.no] ? blockTitle(b.no) : current;
-  plan.push({ id: b.id, no: b.no, title, oldTitle: current, changed: next !== b.description || title !== current, description: next, alt: a.en, chapterIds });
+  plan.push({ id: b.id, no: b.no, title, oldTitle: current, changed: next !== b.description || title !== current || (b.metadata?.score ?? null) !== score, description: next, score, alt: a.en, chapterIds });
 }
 
 console.log(`${apply ? 'APPLY' : 'DRY RUN'} — ${plan.length} blocks, ${plan.filter((p) => p.changed).length} to update\n`);
@@ -67,7 +74,7 @@ if (!apply) {
 const log = [];
 for (const p of plan) {
   if (!p.changed) continue;
-  await arena(`/blocks/${p.id}`, { method: 'PUT', body: { title: p.title, description: p.description, alt_text: p.alt }, write: true });
+  await arena(`/blocks/${p.id}`, { method: 'PUT', body: { title: p.title, description: p.description, alt_text: p.alt, metadata: { score: p.score } }, write: true });
   log.push({ no: p.no, id: p.id, at: new Date().toISOString() });
   console.log(`  updated #${p.no}`);
 }
