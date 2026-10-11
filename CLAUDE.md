@@ -39,6 +39,11 @@ Aesthetic Literacy 학습 사이트(https://yongzu.github.io/AL/)와 Are.na 채�
 - 쓰고 나면 Are.na 텍스트 블록(id 50379805) 내용을 교체하고 `POST /connections/{id}/move { movement: 'move_to_top' }`로 채널 맨 위(최신 위치)로 올린다.
 - "새 블록 처리해줘" 때 새 주차가 생기면 이 리스트도 다시 쓴다.
 
+## Color 채널(WK05 · al-color)
+
+- 컬러 이미지는 메인 채널(흑백 무드)에 넣지 않고 별도 채널 al-color에 둔다. 원본은 content/color.ts(번호 C01…, 점수 키 c1…), 이미지는 public/color/, 표현리스트는 content/expression-list-color.md.
+- 반영: `npm run arena:color` 미리 보기 → `--apply`(제목 · 설명 · 대체 텍스트 · 점수 · Expression List, content/color-arena.json 갱신) → 커밋 · 배포. 메인 채널용 arena-push · arena-collections는 Color 블록을 다루지 않는다.
+
 ## 그 밖의 요청
 
 - "점수 반영해줘" → `npm run arena:push` 미리 보기 → `--apply`(설명 끝 Score 줄 + metadata.score) → `arena:pull` → 커밋 · 배포.
