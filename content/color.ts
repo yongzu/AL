@@ -141,17 +141,20 @@ export const colorBlocks: ColorBlock[] = [
     width: 1920,
     height: 1205,
     title: { ko: '폭풍의 눈', en: 'The Eye of the Storm' },
-    ko: `화면 가득 빨강 · 파랑 · 청록 · 주황 · 보라가 소용돌이치며 폭발하듯 퍼져 나간다. 그런데 정작 시선이 가장 먼저 닿는 곳은 아무 색도 없는 하얀 얼굴이다. 주변이 고채도의 색으로 빽빽할수록 색이 비어 있는 자리가 가장 강한 초점이 된다. 이마에서 흘러내리는 붉은 선 하나는 그 흰 얼굴 위의 거의 유일한 색이라 긴장감을 더한다.
+    ko: `화면 가득 빨강 · 파랑 · 청록 · 주황 · 보라가 소용돌이치며 퍼져 나간다. 마치 색으로 된 폭풍 같다. 그런데 시선이 가장 먼저 닿는 곳은 그 한가운데, 색이 없는 하얀 얼굴이다. 주변이 고채도의 색으로 빽빽하다 보니, 오히려 색이 빠진 자리가 가장 강한 초점이 된다. 거센 소용돌이 속에서 중심만 고요한 폭풍의 눈과 닮은 구조다.
 
-빨강 · 주황의 따뜻한 흐름과 파랑 · 청록의 차가운 흐름이 얼굴 주위에서 뒤엉켜, 색끼리 부딪히는 소란이 형태를 읽기도 전에 감정을 먼저 전한다. 형태는 얼굴을 중심으로 곡선의 장식과 눈 모양들이 바깥으로 뻗어 나가는 방사 구조다. 그래서 복잡한 화면이 흩어지지 않고 한가운데로 다시 모인다.`,
+얼굴은 따로 그려져 있다기보다 주변 색들이 비워 둔 자리에 가깝다. 장식과 눈 모양들이 흩어져 있는데도 전체가 한 사람의 얼굴로 읽힌다. 이목구비는 거의 없고, 이마에는 제3의 눈 같은 빛이 박혀 있고, 장식은 후광처럼 바깥으로 뻗어 있다. 그래서 실제 사람이라기보다는 폭풍을 일으키는 쪽, 개념적이고 초월적인 존재처럼 보인다.
+
+빛은 모든 색을 섞으면 흰색이 된다는 점을 떠올리면, 이 흰 얼굴은 폭풍 속의 색들이 한데 모인 자리로도 읽을 수 있다. 빨강 · 주황의 따뜻한 흐름과 파랑 · 청록의 차가운 흐름이 얼굴 주위에서 뒤엉켜 형태보다 감정이 먼저 전해진다. 그래도 방사 구조 덕분에 이 소란은 흩어지지 않고, 폭풍이 눈을 중심으로 돌듯 가운데로 다시 모인다.`,
     analysis: {
-      en: 'Swirls of red, blue, teal, orange and violet burst outward across the frame, yet the eye lands first on the pale, colorless face at the center. The denser the saturated color around it, the stronger the empty white becomes as a focal point, and a single red drip from the forehead adds tension. Ornamental curves and eye motifs radiate from the face, so the image feels emotional before it is fully read.',
-      concepts: ['color.emphasis', 'color.emotional', 'emphasis.contrast', 'balance.radial'],
+      en: 'Swirls of red, blue, teal, orange and violet storm across the frame, yet the eye lands first on the pale, colorless face at the center, calm like the eye of a storm. The face is less drawn than left behind by the surrounding colors, and with its features nearly erased, a light like a third eye and ornaments spreading like a halo, it reads as a transcendent presence. Since all colors of light combine into white, the face can also be seen as the place where the whole storm gathers, while the radial structure keeps the turmoil circling the center.',
+      concepts: ['color.emphasis', 'shape.positive-negative', 'color.light', 'balance.radial'],
       check: 'ok',
       notes: [
-        '고채도 사이에서 색이 빠진 얼굴이 초점이 된다 — 색에 의한 강조 272쪽, 대비에 의한 강조 58쪽.',
-        '형태보다 색의 소란이 먼저 감정을 전한다 — 감정적 색 286쪽.',
-        '얼굴을 중심으로 장식이 퍼져 나가는 구조 — 방사 균형 106쪽.',
+        '고채도 사이에서 색이 빠진 얼굴이 초점이 된다 — 색에 의한 강조 272쪽, 대비에 의한 강조 58쪽. 책의 ‘초점의 부재’(66쪽)는 초점을 일부러 없애는 정반대 개념이라 구분한다.',
+        '얼굴은 주변 색이 남겨 둔 음형이 형이 된 것 — 양형과 음형 170쪽, 형과 바탕 152쪽. 흩어진 장식을 한 얼굴로 묶어 읽는 것은 게슈탈트 32쪽.',
+        '빛은 모든 색이 섞이면 흰색 — 빛과 색 혼합 256쪽. 흰색 · 후광의 초월적 인상은 색 상징 288쪽.',
+        '얼굴을 중심으로 장식이 퍼져 소란을 가운데로 모은다 — 방사 균형 106쪽. 따뜻한 색과 차가운 색의 충돌은 감정적 색 286쪽.',
       ],
     },
   },
