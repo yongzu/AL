@@ -46,7 +46,9 @@ for (const c of colorBlocks) {
   }
   const score = scores[`c${c.no}`] ?? null;
   const title = `${label(c.no)}. ${c.title.ko} / ${c.title.en}`;
-  const description = `**KR** ${c.ko}\n\n---\n**EN** ${c.analysis.en}\n\n**Lauer**\n${lauerLines(c.analysis.concepts)}${score != null ? `\n\n**Score** ${score} / 10` : ''}`;
+  // 줄 맨 앞의 "+ "(탁월성 표시)가 마크다운 목록이 되지 않게 이스케이프 — 화면에는 그대로 + 로 보인다
+  const ko = c.ko.replace(/^\+ /gm, '\\+ ');
+  const description = `**KR** ${ko}\n\n---\n**EN** ${c.analysis.en}\n\n**Lauer**\n${lauerLines(c.analysis.concepts)}${score != null ? `\n\n**Score** ${score} / 10` : ''}`;
   const current = typeof b.description === 'string' ? b.description : b.description?.markdown ?? '';
   const changed = title !== b.title || description !== current || (b.metadata?.score ?? null) !== score;
   plan.push({ no: c.no, id: b.id, oldTitle: b.title, title, description, alt: c.analysis.en, score, changed });

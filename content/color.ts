@@ -34,21 +34,21 @@ export const colorBlocks: ColorBlock[] = [
     file: 'c01.webp',
     width: 736,
     height: 1103,
-    title: { ko: '붉은 들판의 청록 섬', en: 'A Cyan Island in a Red Field' },
-    ko: `채도 높은 빨강과 초록이 화면 대부분을 메우고 있다. 그래서 형태를 읽기도 전에 색이 먼저 눈에 들어오고, 화면 전체가 강한 에너지로 다가온다. 주황 기운의 빨강 트랙과 노란 기운의 초록 잔디는 정확한 보색은 아니지만, 색상환에서 거의 마주 보는 근사 보색이다. 특히 둘 사이의 선명한 초록 띠에서 두 색이 서로를 밀어내며 실제보다 더 강렬해 보인다.
+    title: { ko: '보색이 맞닿아 생기는 강렬한 긴장감', en: 'The Intense Tension Where Complements Meet' },
+    ko: `+ 그리드와 레이아웃 - 위에서 내려다본 구도라 운동장이 깊이 없는 면으로 펼쳐지고, 그 위를 흰 라인이 나눈다. 잔디의 라인은 크고 작은 사각형을 이루고, 트랙의 라인은 같은 간격을 유지한 채 직선에서 곡선으로 매끄럽게 이어진다. 직선과 곡선이라는 서로 다른 형이 하나의 그리드 안에 정돈되어 있어 완성도 높은 조형으로 읽힌다.
 
-이 대비 사이에 청록 사각형 하나가 끼어 있다. 빛의 색으로 보면 청록은 빨강의 정확한 보색이다. 그래서 작은 면인데도 붉은 바탕 한가운데서 가장 강하게 튀어나오고, 시선이 결국 이곳으로 모인다. 빛의 3원색이 모두 들어 있지만, 이미지를 끌고 가는 힘은 넓은 근사 보색 대비와 그 안에 박힌 정확한 보색 한 점의 구성에서 나온다. 우측 하단의 회색 구역은 좁은 무채색 면으로 넓은 고채도 면의 무게를 받아 내며 화면을 진정시킨다.
++ 채도와 근사 보색 - 채도 높은 빨강과 초록이 화면 대부분을 채워 생동감이 크다. 주황 기운의 빨강과 노란 기운의 초록은 거의 마주 보는 근사 보색이라, 맞닿은 경계에서 서로를 더 강하게 만든다. 오른쪽 아래의 좁은 회색 면은 이 강한 색들의 무게를 받아 화면을 진정시킨다.
 
-곡선으로 휘어 나가는 트랙과 직각으로 자리를 지키는 잔디가 맞물리면서, 색의 대비는 곧 형태의 대비가 된다. 완전한 탑뷰라는 시점은 이 효과를 키운다. 사람 눈높이에서는 볼 수 없는 각도라 원근이 사라지고, 높이를 알려 주는 건 골대와 매트의 긴 그림자뿐이다. 그래서 트랙과 잔디가 가진 실제 고유색이 디자이너가 고른 임의색처럼 보이고, 현실의 경기장이 기하학 추상화처럼 읽힌다.`,
+− 위계 - 넓은 잔디와 트랙은 둘 다 강해서 어느 쪽이 형이고 어느 쪽이 바탕인지 정해지지 않는다. 흰 라인도 같은 굵기와 간격으로 반복되어 모든 곳이 비슷한 세기로 시선을 끈다. 빨강의 보색인 청록 구역이 초점 후보이지만, 면적이 작아 두 색면의 다툼을 이기지 못한다. 그래서 요소들의 위계가 비슷해지고 강조 지점을 찾기 어렵다.`,
     analysis: {
-      en: 'Seen straight down, a red-orange track meets yellow-green turf, near complements that intensify each other along the bright green border. A small cyan pad, the true complement of red in light, pops from the red field as the focal point, while a narrow gray strip calms the saturated planes. With perspective gone, the real local colors flatten into what looks like a designed abstraction.',
-      concepts: ['color.triadic-complementary', 'color.emphasis', 'color.balance', 'color.uses'],
+      en: 'Seen from directly above, the field spreads out as flat planes divided by white lines: rectangles on the turf, and evenly spaced lanes that bend smoothly from straight to curved, so different shapes sit within one ordered grid. Saturated red-orange and yellow-green, near complements, intensify each other where they meet, while a narrow gray strip calms them. Yet both large planes are equally strong and the repeated lines pull with equal force, so the small cyan area, the likeliest focal point, cannot win and the hierarchy stays flat.',
+      concepts: ['unity.continuity-grid', 'color.triadic-complementary', 'shape.ambiguity', 'emphasis.focal-point'],
       check: 'ok',
       notes: [
-        '빨강 트랙과 초록 잔디는 정확한 보색이 아니라 근사 보색. 그래도 맞닿은 경계에서 동시 대비(265쪽)가 일어난다 — 보색 배색 280쪽.',
-        '청록은 빛의 혼합(256쪽) 기준으로 빨강의 보색이라 작은 면적으로도 초점이 된다 — 색에 의한 강조 272쪽.',
-        '좁은 무채색이 넓은 고채도 면을 받아 내는 구도는 색과 균형(274쪽)의 반대 사례로 쓸 수 있다.',
-        '탑뷰로 원근이 사라져 고유색이 임의색처럼 보인다 — 고유색 · 임의색 284쪽, 곡선형 166쪽 · 직선형 168쪽.',
+        '+ 같은 간격의 흰 라인이 화면을 정돈한다 — 그리드 40쪽, 반복에 의한 통일 36쪽. 직선에서 곡선으로 매끄럽게 이어지는 라인은 연속 38쪽, 곡선형 166쪽 · 직선형 168쪽.',
+        '+ 근사 보색이 맞닿은 경계에서 서로를 강하게 만든다 — 보색 배색 280쪽, 동시 대비 265쪽, 채도 264쪽. 좁은 회색이 넓은 고채도를 받는 구도는 색과 균형 274쪽.',
+        '빨강과 초록은 색상 대비는 강하지만 명도는 비슷하다. 면을 또렷이 나누는 명도 대비는 흰 라인과 회색 구역에서 생긴다 — 명도와 색 246쪽.',
+        '− 잔디와 트랙이 형 · 바탕을 다투고(모호성 176쪽), 청록 초점 후보(초점 56쪽, 대비에 의한 강조 58쪽)가 이기지 못해 위계가 흐리다. 의도된 ‘초점의 부재’(66쪽)와는 구분한다.',
       ],
     },
   },
@@ -57,21 +57,21 @@ export const colorBlocks: ColorBlock[] = [
     file: 'c02.png',
     width: 736,
     height: 977,
-    title: { ko: '색으로 쌓은 깊이', en: 'Depth Stacked in Color' },
-    ko: `빨강 · 노랑 · 파랑의 1차색에 초록이 더해진 이미지다. 건물마다 각자의 색을 맡고 있다. 그중 화면 한가운데 놓인 노랑은 면적이 가장 넓지는 않지만 가장 밝고 선명해서, 시선의 중심을 잡는다.
+    title: { ko: '사각형의 변주가 주는 다양성을 지닌 통일감', en: 'Unity with Variety Through Varied Rectangles' },
+    ko: `+ 그리드와 변주 - 곡선 없이 수직 · 수평선과 직각만으로 이루어진 사각형들이 위아래 · 좌우로 맞물려 하나의 건물을 이룬다. 사각형마다 크기와 비율, 튀어나온 정도가 달라서 같은 형태 안에서 변주가 생기고, 짧은 그림자가 면의 경계와 부피를 또렷하게 한다. 건물의 형태는 제각각이지만 같은 질서를 공유해 통일감이 있다. 연한 하늘을 바탕으로 들쑥날쑥한 실루엣이 오려져 있어 단조롭지 않다.
 
-다층적인 입체감은 형태뿐 아니라 색에서도 나온다. 따뜻한 노랑과 빨강은 앞으로 튀어나오고, 차가운 파랑은 한 걸음 물러나 색만으로도 앞뒤가 생긴다. 그늘진 옆면은 다른 색을 쓰지 않고 같은 색상의 명도만 낮춰서, 평평한 색면이 상자 같은 부피로 읽힌다. 배경의 하늘은 채도 낮은 차가운 파랑이라 가장 멀리 물러나 있고, 그 덕분에 건물 전체의 실루엣을 오려내는 음의 형태가 된다. 하늘이 뒤로 빠질수록 원색의 건물은 더 앞으로 나온다.
++ 원색과 다초점 - 흰 면 사이의 노랑과 파랑이 먼저 눈에 들어오고, 작은 빨간 문과 위쪽의 초록이 약한 악센트가 된다. 강조되는 색면들이 서로 떨어져 있어 시선이 위아래 · 좌우로 움직이지만, 사각형과 색이 반복되어 여러 초점이 통일을 깨지 않는다. 그래서 어느 한 부분보다 건물 전체가 강조된다. 그리드와 원색은 몬드리안을 떠올리게 하지만, 순색만 쓴 몬드리안과 달리 초록 같은 2차색과 명도 · 채도의 변화를 더해 훨씬 다채롭다. 따뜻한 노랑 · 빨강은 앞으로, 차가운 파랑은 뒤로 물러나 색만으로도 앞뒤가 생긴다.
 
-곧은 모서리와 직각으로 이루어진 직선 구조는 계산된 인상을 준다. 그 위에 칠해진 생동감 넘치는 원색이 딱딱함을 깨고 화면을 경쾌하게 만든다. 보자마자 몬드리안이 떠올랐다. 하지만 순색에 흰색과 검정만 더한 몬드리안과 달리, 이 이미지는 같은 색 안에서 명도와 채도를 계속 바꾸고 흰 벽의 그늘에도 하늘빛이 스며 있어 훨씬 다채롭게 다가온다. 작은 빨간 문과 화분은 면적은 작아도 가장 강한 색이라 넓은 면들을 아래에서 받쳐 주는 균형추가 된다. 실제 건물의 색이라기보다 화면을 위해 고른 임의색이라는 점에서, 고유색이 임의색처럼 보이던 1번 트랙과 좋은 짝을 이룬다.`,
+− 빛과 마감, 맥락 - 그림자의 방향이 통일되어 있지 않아 빛의 논리가 어긋나고, 그만큼 부피의 설득력이 약해진다. 창문의 선이 이어지지 않는 등 마감도 정리되지 않았다. 실제 건물로 보기에는 실용성이 부족해 보이고, 직선뿐인 화면에서 유일한 곡선인 오른쪽 아래의 풀은 왜 거기 있는지 납득되지 않는다.`,
     analysis: {
-      en: 'Stacked boxes in red, yellow, blue and green rise against a pale blue sky. Warm yellow and red advance while blue recedes, and each shaded side is the same hue at a lower value, so color alone builds the layered depth. Unlike the pure primaries of Mondrian, the hues shift in value and intensity, and a small red door balances the larger planes.',
-      concepts: ['color.hue', 'color.warm-cool', 'color.value', 'shape.positive-negative'],
+      en: 'Rectangles built only from vertical and horizontal lines interlock into one building, each varying in size, proportion and depth, so a shared order holds them together while the variations and the jagged silhouette against the pale sky keep it lively. Yellow and blue catch the eye first, with a small red door and a green block as accents; the scattered color areas move the eye around, yet repeated shapes and hues keep these multiple focal points from breaking the unity, and shifts in value and intensity make it richer than Mondrian. Its weak points are shadows that fall in different directions and undermine the volume, unfinished window lines, and a lone plant whose purpose is unclear.',
+      concepts: ['unity.unity-variety', 'shape.rectilinear', 'emphasis.focal-point', 'color.warm-cool'],
       check: 'ok',
       notes: [
-        '빨강 · 노랑 · 파랑은 색료의 1차색(260쪽). 빛의 3원색(빨강 · 초록 · 파랑, 256쪽)과 구분해서 쓴다.',
-        '따뜻한 색은 앞으로, 차가운 색은 뒤로(270쪽). 그늘진 면은 같은 색상의 셰이드(262쪽)라 색면이 부피(156쪽)로 읽힌다.',
-        '하늘이 실루엣을 오려내는 음형 — 양형과 음형 170쪽. 흰 벽 그늘의 하늘빛은 맥락의 영향(259쪽).',
-        '작은 빨간 문이 넓은 면과 균형을 이룬다 — 색과 균형 274쪽. 화면을 위해 고른 임의색 — 284쪽.',
+        '+ 같은 직사각형이 크기 · 비율 · 깊이만 바꿔 반복된다 — 변화를 동반한 통일 42쪽, 변화된 반복 44쪽, 직선형 168쪽. 하늘이 실루엣을 오려내는 음형은 양형과 음형 170쪽.',
+        '+ 떨어진 색면들이 여러 초점이 되지만 반복된 형과 색이 통일을 지킨다 — 초점 56쪽, 색에 의한 강조 272쪽. 1번(C01)의 흐린 위계와 대비된다.',
+        '+ 초록은 2차색(색상 260쪽), 명도 · 채도 변화는 262 · 264쪽. 따뜻한 색은 앞으로, 차가운 색은 뒤로 — 270쪽.',
+        '− 그림자 방향이 어긋나 명암으로 만든 부피(명도와 공간 250쪽, 부피와 양감 156쪽)가 약해지고, 끊긴 창문 선은 연속(38쪽)을 깬다. 실용성은 조형 바깥의 기능 관점. 풀은 유일한 곡선이라 의도된 대비(곡선형 166쪽)로 읽을 여지도 있다.',
       ],
     },
   },
