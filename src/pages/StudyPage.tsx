@@ -14,6 +14,7 @@ import {
   arenaBlocks,
   blocks,
   colorArchive,
+  colorExpressionList,
   book,
   channel,
   chapters,
@@ -175,7 +176,8 @@ function Structure() {
 
 /** 수업 주차 — Expression List(텍스트 블록)의 표현과 책의 장 연결 */
 function Weeks() {
-  const listed = parseExpressionList(expressionList?.content ?? '');
+  // 메인 채널의 Expression List + Color 채널의 것(WK05)
+  const listed = { ...parseExpressionList(expressionList?.content ?? ''), ...parseExpressionList(colorExpressionList) };
   return (
     <div className="weeks">
       {weeks.map((w) => {

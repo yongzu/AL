@@ -484,5 +484,4 @@ export const analysis: Record<number, BlockAnalysis> = {
 /** 텍스트 블록 Expression List — WK04가 비어 있어 블록 내용에서 뽑은 후보 */
 export const expressionSuggestions = {
   WK04: ['레가토', '스타카토', '교차 리듬', '점진적 리듬', '다중 리듬'],
-  WK05: ['근사 보색 C01', '원색의 온도 C02·C08', '빛처럼 섞인 색 C04·C05', '색이 빠진 초점 C06', '따뜻한 색조 C07', '색상환 팔다리 C09', '되풀이되는 색 C10'],
 };

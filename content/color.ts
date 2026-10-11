@@ -2,7 +2,8 @@ import type { BlockAnalysis } from './types.ts';
 
 /**
  * Color 컬렉션(WK05 · 책 13장 색) — 메인 Are.na 채널(흑백 무드)에 넣지 않고 따로 모은 컬러 이미지.
- * 아직 Are.na에 올리지 않았으므로 이미지는 public/color/에 두고 사이트가 직접 보여 준다.
+ * Are.na에서는 별도 채널 al-color에 있다(npm run arena:color로 반영, 블록 id는 content/color-arena.json).
+ * 이미지는 public/color/에 두고 사이트가 직접 보여 준다.
  * 번호는 메인 채널과 겹치지 않게 C01부터 따로 센다. 점수는 content/scores.json의 `c1`… 키(사용자가 매김).
  *
  * - ko: 한국어 설명(색 중심 · 형태는 보조). Are.na에 올릴 때 `**KR**` 원문이 된다.

@@ -8,13 +8,16 @@ import { book, chapters, conceptIndex, method, parts, sentencePattern, termMap, 
 import { collections as arenaCollections, collectionTitle, type Collection } from '../../content/collections.ts';
 import collectionChannels from '../../content/collections-arena.json';
 import { colorBlocks, colorCollection } from '../../content/color.ts';
+import colorArena from '../../content/color-arena.json';
+import colorExpressionList from '../../content/expression-list-color.md?raw';
 import type { BlockAnalysis, Chapter } from '../../content/types.ts';
 
-export { book, chapters, conceptIndex, method, parts, sentencePattern, termMap, weeks, expressionSuggestions, collectionTitle, colorCollection };
+export { book, chapters, conceptIndex, method, parts, sentencePattern, termMap, weeks, expressionSuggestions, collectionTitle, colorCollection, colorExpressionList };
 export type { Chapter, Collection };
 
-/** 컬렉션 id → Are.na 채널 주소 */
-export const collectionUrl = (id: string) => (collectionChannels as Record<string, { url: string }>)[id]?.url;
+/** 컬렉션 id → Are.na 채널 주소(Color는 따로 만든 al-color 채널) */
+export const collectionUrl = (id: string) =>
+  id === colorCollection.id ? colorArena.channel.url : (collectionChannels as Record<string, { url: string }>)[id]?.url;
 
 /** Color 컬렉션 블록의 키 — 메인 채널 번호와 겹치지 않게 c1, c2 … */
 const colorKey = (no: number) => `c${no}`;
@@ -90,7 +93,8 @@ export const arenaBlocks: Block[] = (archiveJson.blocks as RawBlock[])
     pushed: b.description.includes(`\n---\n${EN_MARKER}`),
   }));
 
-/** Color 컬렉션 블록 — 이미지는 public/color/ */
+/** Color 컬렉션 블록 — 이미지는 public/color/, Are.na 블록 id는 content/color-arena.json(npm run arena:color가 갱신) */
+const colorIds = colorArena.blocks as Record<string, number>;
 const colorSrc = (file: string) => `${import.meta.env.BASE_URL}color/${file}`;
 export const colorArchive: Block[] = colorBlocks.map((b) => ({
   id: colorKey(b.no),
@@ -102,9 +106,9 @@ export const colorArchive: Block[] = colorBlocks.map((b) => ({
   week: colorCollection.week,
   description: b.ko,
   image: { width: b.width, height: b.height, small: colorSrc(b.file), medium: colorSrc(b.file), large: colorSrc(b.file) },
-  url: '',
+  url: colorIds[b.no] ? `https://www.are.na/block/${colorIds[b.no]}` : '',
   analysis: b.analysis,
-  pushed: false,
+  pushed: colorArena.pushed != null,
 }));
 
 /** 사이트의 모든 이미지 블록(메인 채널 + Color) */

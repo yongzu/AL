@@ -60,7 +60,14 @@ npm run arena:push -- --apply        # 설명 끝 **Score** 줄 + 블록 메타�
 
 ## Color 컬렉션(WK05)
 
-메인 채널의 흑백 분위기를 지키려고 컬러 이미지는 content/color.ts에 따로 모았습니다. 번호는 C01부터, 점수 키는 scores.json의 `c1`…입니다. 사이트에서는 아카이브의 컬렉션 ‘색’이나 주차 WK05를 고를 때만 보입니다. 아직 Are.na에는 올리지 않았습니다.
+메인 채널의 흑백 분위기를 지키려고 컬러 이미지는 content/color.ts에 따로 모았습니다. 번호는 C01부터, 점수 키는 scores.json의 `c1`…입니다. 사이트에서는 아카이브의 컬렉션 ‘색’이나 주차 WK05를 고를 때만 보입니다.
+
+Are.na에서는 별도 채널 [AL · 색상 Color](https://www.are.na/hkthx8f9-u0/al-color)에 있습니다. 표현리스트 원본은 content/expression-list-color.md.
+
+```bash
+npm run arena:color            # 미리 보기(아무것도 쓰지 않음)
+npm run arena:color -- --apply # 제목 · 설명(KR/EN/Lauer/Score) · 대체 텍스트 · 점수 + Expression List 반영
+```
 
 ## 컬렉션(태그)
 
