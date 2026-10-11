@@ -11,7 +11,9 @@ import { Quiz } from '../components/Quiz/Quiz';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import { scrollToTarget } from '../smoothScroll';
 import {
+  arenaBlocks,
   blocks,
+  colorArchive,
   book,
   channel,
   chapters,
@@ -110,7 +112,7 @@ function Overview() {
     { label: '교재', value: `${book.title} ${book.edition} (${book.year})` },
     { label: '저자', value: book.authors },
     { label: '구성', value: '원리 6장 · 요소 7장' },
-    { label: '아카이브', value: `${channel.title} · ${blocks.length}개 이미지` },
+    { label: '아카이브', value: `${channel.title} · ${arenaBlocks.length}개 이미지 · Color ${colorArchive.length}개` },
     { label: '진행', value: `${weeks.map((w) => w.id).join(' · ')}` },
   ];
   return (
@@ -352,7 +354,7 @@ export function StudyPage() {
           <section id="archive" className="section container">
             <SectionHeader
               title="내 아카이브"
-              lead={<>Are.na 채널의 이미지마다 책의 개념을 붙이고 기존 설명을 책과 대조했다. 이미지를 누르면 영어 설명 · 개념 · 점검 메모가 열린다.</>}
+              lead={<>Are.na 채널의 이미지마다 책의 개념을 붙이고 기존 설명을 책과 대조했다. 이미지를 누르면 영어 설명 · 개념 · 점검 메모가 열린다. 컬러 이미지는 흑백 채널과 나눠 Color 컬렉션에 따로 모았다.</>}
             />
             <div className="group">
               <Archive onOpen={setOpenBlock} />

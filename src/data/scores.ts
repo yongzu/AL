@@ -22,16 +22,16 @@ export function useScores() {
   );
 }
 
-export async function setScore(no: number, score: number | null) {
+export async function setScore(key: string, score: number | null) {
   if (!canEditScores) return;
   const prev = scores;
   const next = { ...scores };
-  if (score == null) delete next[no];
-  else next[no] = score;
+  if (score == null) delete next[key];
+  else next[key] = score;
   scores = next; // 먼저 화면에 반영하고
   emit();
   try {
-    const res = await fetch('/__al/score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ no, score }) });
+    const res = await fetch('/__al/score', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ key, score }) });
     if (!res.ok) throw new Error(await res.text());
     scores = await res.json(); // 파일에 저장된 값으로 맞춘다
   } catch (e) {

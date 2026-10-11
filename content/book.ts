@@ -70,4 +70,5 @@ export const weeks = [
   { id: 'WK02', theme: '동세감', themeEn: 'Illusion of Motion', chapters: ['motion', 'line', 'space'], note: '책 11장 동세의 환영. 선(제스처)과 증폭된 원근이 함께 쓰였다.' },
   { id: 'WK03', theme: '통일감', themeEn: 'Unity', chapters: ['unity', 'balance'], note: '책 2장 통일. 대칭 · 방사 구조는 5장 균형과도 이어진다.' },
   { id: 'WK04', theme: '리듬', themeEn: 'Rhythm', chapters: ['rhythm', 'texture'], note: '책 6장 리듬. 레가토 · 스타카토와 교차 · 점진적 리듬.' },
+  { id: 'WK05', theme: '색', themeEn: 'Color', chapters: ['color', 'shape'], note: '책 13장 색. 메인 채널의 흑백 분위기를 지키려고 Color 컬렉션에만 따로 모았다. 보색 · 따뜻한 색과 차가운 색 · 명도 · 임의색.' },
 ] as const;

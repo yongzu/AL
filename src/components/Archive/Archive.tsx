@@ -33,17 +33,19 @@ export function Archive({ onOpen }: { onOpen: (b: Block) => void }) {
   const scores = useScores();
 
   const list = useMemo(() => {
-    const members = collection === 'all' ? null : new Set(collections.find((c) => c.id === collection)?.blocks);
+    const members = collection === 'all' ? null : new Set(collections.find((c) => c.id === collection)?.keys);
+    // Color 컬렉션은 메인 채널과 분리 — 그 컬렉션이나 그 주차를 고를 때만 보인다
+    const shown = (b: Block) => b.source === 'arena' || collection === 'color' || week === b.week;
     const out = blocks.filter(
-      (b) => (week === 'all' || b.week === week) && (check === 'all' || b.analysis?.check === check) && (!members || members.has(b.no)),
+      (b) => shown(b) && (week === 'all' || b.week === week) && (check === 'all' || b.analysis?.check === check) && (!members || members.has(b.key)),
     );
-    if (sort === 'score') out.sort((a, z) => (scores[z.no] ?? 0) - (scores[a.no] ?? 0) || a.no - z.no);
+    if (sort === 'score') out.sort((a, z) => (scores[z.key] ?? 0) - (scores[a.key] ?? 0));
     return out;
   }, [week, collection, check, sort, scores]);
 
   const theme = weeks.find((w) => w.id === week);
   const picked = collections.find((c) => c.id === collection);
-  const scored = list.map((b) => scores[b.no]).filter((s): s is number => s != null);
+  const scored = list.map((b) => scores[b.key]).filter((s): s is number => s != null);
   const avg = average(scored);
 
   return (
@@ -62,7 +64,7 @@ export function Archive({ onOpen }: { onOpen: (b: Block) => void }) {
         <div className="archive__filter-row">
           <span className="archive__filter-key">컬렉션</span>
           <div className="segmented segmented--small" role="group" aria-label="컬렉션">
-            {[{ id: 'all', label: '전체' }, ...collections.map((c) => ({ id: c.id, label: `${c.ko} ${c.blocks.length}` }))].map((t) => (
+            {[{ id: 'all', label: '전체' }, ...collections.map((c) => ({ id: c.id, label: `${c.ko} ${c.keys.length}` }))].map((t) => (
               <button key={t.id} type="button" className="segmented__tab" aria-pressed={collection === t.id} onClick={() => setCollection(t.id)}>
                 {t.label}
               </button>
@@ -112,10 +114,10 @@ export function Archive({ onOpen }: { onOpen: (b: Block) => void }) {
             <button type="button" className="archive-card" onClick={() => onOpen(b)}>
               <span className="archive-card__frame">
                 <img src={b.image.small} alt="" loading="lazy" width={b.image.width} height={b.image.height} />
-                {scores[b.no] != null && <span className="archive-card__score">{scores[b.no]}</span>}
+                {scores[b.key] != null && <span className="archive-card__score">{scores[b.key]}</span>}
               </span>
               <span className="archive-card__meta">
-                <span className="archive-card__no">{String(b.no).padStart(2, '0')}</span>
+                <span className="archive-card__no">{b.label}</span>
                 <span className="archive-card__title">{splitTitle(b.title).ko}</span>
               </span>
               {splitTitle(b.title).en && <span className="archive-card__en">{splitTitle(b.title).en}</span>}
@@ -132,8 +134,8 @@ export function Archive({ onOpen }: { onOpen: (b: Block) => void }) {
 }
 
 /** 1–10점 — 개발 서버에서는 버튼, 배포본에서는 읽기 전용 */
-function ScoreField({ no }: { no: number }) {
-  const score = useScores()[no];
+function ScoreField({ scoreKey }: { scoreKey: string }) {
+  const score = useScores()[scoreKey];
   if (!canEditScores) {
     return score != null ? (
       <p className="score-view"><strong>{score}</strong> / 10</p>
@@ -144,11 +146,11 @@ function ScoreField({ no }: { no: number }) {
   return (
     <div className="score-edit" role="group" aria-label="점수">
       {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => (
-        <button key={n} type="button" className="score-edit__btn" aria-pressed={score === n} onClick={() => setScore(no, n)}>
+        <button key={n} type="button" className="score-edit__btn" aria-pressed={score === n} onClick={() => setScore(scoreKey, n)}>
           {n}
         </button>
       ))}
-      <button type="button" className="score-edit__clear" disabled={score == null} onClick={() => setScore(no, null)}>지우기</button>
+      <button type="button" className="score-edit__clear" disabled={score == null} onClick={() => setScore(scoreKey, null)}>지우기</button>
     </div>
   );
 }
@@ -167,7 +169,7 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
   }, [block]);
 
   const a = block?.analysis;
-  const inCollections = block ? collectionsByBlock[block.no] ?? [] : [];
+  const inCollections = block ? collectionsByBlock[block.key] ?? [] : [];
   const goTerm = (id: string) => {
     onClose();
     requestAnimationFrame(() => {
@@ -183,7 +185,7 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
     <dialog
       ref={ref}
       className="block-dialog"
-      aria-label={block ? `${block.no}. ${block.title}` : undefined}
+      aria-label={block ? `${block.label}. ${block.title}` : undefined}
       onClose={onClose}
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
@@ -198,22 +200,26 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
 
           <div className="block-dialog__body">
             <header className="block-dialog__head">
-              <Text as="p" typography="Label" color="tertiary">{block.week} · {String(block.no).padStart(2, '0')}</Text>
+              <Text as="p" typography="Label" color="tertiary">{block.week} · {block.label}</Text>
               <Text as="h3" typography="Subheading">{splitTitle(block.title).ko}</Text>
               {splitTitle(block.title).en && <Text as="p" typography="Label" color="tertiary" lang="en">{splitTitle(block.title).en}</Text>}
               <div className="block-dialog__links">
                 {a && <span className="status" data-check={a.check}>{checkLabels[a.check].ko}</span>}
-                <a className="link" href={block.url} target="_blank" rel="noreferrer">Are.na에서 보기</a>
+                {block.url ? (
+                  <a className="link" href={block.url} target="_blank" rel="noreferrer">Are.na에서 보기</a>
+                ) : (
+                  <span className="block-dialog__flag">Are.na 업로드 전</span>
+                )}
               </div>
             </header>
 
             <section className="block-dialog__section">
               <h4 className="block-dialog__heading">내 점수</h4>
-              <ScoreField no={block.no} />
+              <ScoreField scoreKey={block.key} />
             </section>
 
             <section className="block-dialog__section">
-              <h4 className="block-dialog__heading">기존 설명</h4>
+              <h4 className="block-dialog__heading">{block.source === 'color' ? '한국어 설명' : '기존 설명'}</h4>
               <Text typography="Body" color="secondary" className="block-dialog__ko">{koreanPart(block.description)}</Text>
             </section>
 
@@ -231,12 +237,19 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
               <section className="block-dialog__section">
                 <h4 className="block-dialog__heading">컬렉션</h4>
                 <div className="chips">
-                  {inCollections.map((c) => (
-                    <a key={c.id} href={collectionUrl(c.id)} className="chip" target="_blank" rel="noreferrer">
-                      {c.ko}
-                      <span className="chip__en">{c.blocks.length}</span>
-                    </a>
-                  ))}
+                  {inCollections.map((c) =>
+                    collectionUrl(c.id) ? (
+                      <a key={c.id} href={collectionUrl(c.id)} className="chip" target="_blank" rel="noreferrer">
+                        {c.ko}
+                        <span className="chip__en">{c.keys.length}</span>
+                      </a>
+                    ) : (
+                      <span key={c.id} className="chip">
+                        {c.ko}
+                        <span className="chip__en">{c.keys.length}</span>
+                      </span>
+                    ),
+                  )}
                 </div>
               </section>
             )}

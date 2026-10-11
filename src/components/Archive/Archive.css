@@ -50,6 +50,9 @@
 .block-dialog__figure { display: grid; place-items: center; padding: 32px; background: var(--color-bg-subtle); }
 .block-dialog__figure img { max-height: calc(100svh - 112px); width: auto; object-fit: contain; border-radius: 8px; }
 .block-dialog__body { display: flex; flex-direction: column; gap: 28px; padding: 40px 40px 48px; overflow-y: auto; overscroll-behavior: contain; }
+/* 그리드 행은 내용만큼 늘어나므로, 두 칸 모두 창 높이로 묶어야 오른쪽이 스크롤되고 이미지가 가운데에 남는다 */
+.block-dialog__figure,
+.block-dialog__body { max-height: calc(100svh - 48px); }
 .block-dialog__head { display: flex; flex-direction: column; gap: 8px; padding-right: 32px; }
 .block-dialog__links { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 4px; font-size: 14px; }
 .block-dialog__section { display: flex; flex-direction: column; gap: 10px; }
@@ -82,6 +85,8 @@
   .block-dialog__inner { grid-template-columns: 1fr; max-height: none; }
   .block-dialog__figure { padding: 20px; }
   .block-dialog__figure img { max-height: 50svh; }
+  .block-dialog__figure,
+  .block-dialog__body { max-height: none; }
   .block-dialog__body { padding: 28px 24px 36px; overflow: visible; }
 }
 @media (max-width: 560px) {

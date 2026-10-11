@@ -18,6 +18,7 @@ AL/
 │   ├── book.ts               ← 책 정보, 분석 순서, 수업 표현 → 책 용어 표, 주차
 │   ├── analysis.ts           ← 블록 58개의 영어 설명 · 개념 태그 · 점검 메모
 │   ├── collections.ts        ← 태그 컬렉션 16개(Are.na 채널로 연결) · collections-arena.json = 채널 주소
+│   ├── color.ts              ← Color 컬렉션(WK05) — 메인 채널과 분리한 컬러 이미지 10개, 이미지는 public/color/
 │   ├── scores.json           ← 내 점수(1–10)
 │   └── archive.json          ← Are.na에서 가져온 블록 목록(npm run arena:pull)
 ├── src/                      ← 학습 사이트(BI와 같은 React · Vite · 디자인 토큰)
@@ -56,6 +57,10 @@ npm run arena:push -- --apply        # 설명 끝 **Score** 줄 + 블록 메타�
 ```
 
 또는 Claude에게 "점수 반영해줘".
+
+## Color 컬렉션(WK05)
+
+메인 채널의 흑백 분위기를 지키려고 컬러 이미지는 content/color.ts에 따로 모았습니다. 번호는 C01부터, 점수 키는 scores.json의 `c1`…입니다. 사이트에서는 아카이브의 컬렉션 ‘색’이나 주차 WK05를 고를 때만 보입니다. 아직 Are.na에는 올리지 않았습니다.
 
 ## 컬렉션(태그)
 

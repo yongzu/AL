@@ -67,8 +67,8 @@ export function Glossary({ onOpenBlock }: { onOpenBlock: (b: Block) => void }) {
                       {examples.length > 0 && (
                         <span className="glossary__examples">
                           {examples.slice(0, 6).map((b) => (
-                            <button key={b.id} type="button" className="glossary__thumb" onClick={() => onOpenBlock(b)} title={`${b.no}. ${b.title}`}>
-                              <img src={b.image.small} alt={`${b.no}. ${b.title}`} loading="lazy" />
+                            <button key={b.id} type="button" className="glossary__thumb" onClick={() => onOpenBlock(b)} title={`${b.label}. ${b.title}`}>
+                              <img src={b.image.small} alt={`${b.label}. ${b.title}`} loading="lazy" />
                             </button>
                           ))}
                           {examples.length > 6 && <span className="glossary__more">+{examples.length - 6}</span>}

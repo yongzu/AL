@@ -172,9 +172,9 @@ function ChapterDetail({ chapter: ch, onOpenBlock }: { chapter: Chapter; onOpenB
             <ul className="thumb-grid">
               {examples.slice(0, 9).map((b) => (
                 <li key={b.id}>
-                  <button type="button" className="thumb" onClick={() => onOpenBlock(b)} title={`${b.no}. ${b.title}`}>
-                    <img src={b.image.small} alt={`${b.no}. ${b.title}`} loading="lazy" />
-                    <span className="thumb__no">{b.no}</span>
+                  <button type="button" className="thumb" onClick={() => onOpenBlock(b)} title={`${b.label}. ${b.title}`}>
+                    <img src={b.image.small} alt={`${b.label}. ${b.title}`} loading="lazy" />
+                    <span className="thumb__no">{b.label}</span>
                   </button>
                 </li>
               ))}
