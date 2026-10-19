@@ -1,6 +1,6 @@
 /**
  * 사이트가 쓰는 데이터 — content/의 책 정리 + Are.na 아카이브(content/archive.json) + 블록 분석을 한데 묶는다.
- * 메인 채널과 분리한 Color 컬렉션(content/color.ts)과 사이트 전용 블록(content/local-blocks.ts)도 여기서 같은 Block 꼴로 합친다.
+ * 메인 채널과 분리한 Color 컬렉션(content/color.ts)도 여기서 같은 Block 꼴로 합친다.
  */
 import archiveJson from '../../content/archive.json';
 import { analysis, expressionSuggestions } from '../../content/analysis.ts';
@@ -10,11 +10,9 @@ import collectionChannels from '../../content/collections-arena.json';
 import { colorBlocks, colorCollection } from '../../content/color.ts';
 import colorArena from '../../content/color-arena.json';
 import colorExpressionList from '../../content/expression-list-color.md?raw';
-import { localBlocks, localExpressions } from '../../content/local-blocks.ts';
-import { titles } from '../../content/titles.ts';
 import type { BlockAnalysis, Chapter } from '../../content/types.ts';
 
-export { book, chapters, conceptIndex, method, parts, sentencePattern, termMap, weeks, expressionSuggestions, collectionTitle, colorCollection, colorExpressionList, localExpressions };
+export { book, chapters, conceptIndex, method, parts, sentencePattern, termMap, weeks, expressionSuggestions, collectionTitle, colorCollection, colorExpressionList };
 export type { Chapter, Collection };
 
 /** 컬렉션 id → Are.na 채널 주소(Color는 따로 만든 al-color 채널) */
@@ -47,8 +45,8 @@ export type Block = {
   key: string;
   /** 화면에 보이는 번호 — 01 · C01 */
   label: string;
-  /** arena = 메인 Are.na 채널, color = 따로 모은 Color 컬렉션, local = Are.na에 올리지 않는 사이트 전용 블록 */
-  source: 'arena' | 'color' | 'local';
+  /** arena = 메인 Are.na 채널, color = 따로 모은 Color 컬렉션(아직 Are.na에 없음) */
+  source: 'arena' | 'color';
   title: string;
   week: string;
   description: string;
@@ -113,27 +111,8 @@ export const colorArchive: Block[] = colorBlocks.map((b) => ({
   pushed: colorArena.pushed != null,
 }));
 
-/** 사이트 전용 블록 — 메인 채널처럼 번호를 쓰고(59 …) 이미지는 public/에 있다 */
-export const localArchive: Block[] = localBlocks.map((b) => {
-  const src = `${import.meta.env.BASE_URL}${b.file}`;
-  return {
-    id: `local-${b.no}`,
-    no: b.no,
-    key: String(b.no),
-    label: String(b.no).padStart(2, '0'),
-    source: 'local' as const,
-    title: `${titles[b.no].ko} / ${titles[b.no].en}`,
-    week: b.week,
-    description: b.memo,
-    image: { width: b.width, height: b.height, small: src, medium: src, large: src },
-    url: '',
-    analysis: analysis[b.no],
-    pushed: false,
-  };
-});
-
-/** 사이트의 모든 이미지 블록(메인 채널 + 사이트 전용 + Color) */
-export const blocks: Block[] = [...arenaBlocks, ...localArchive, ...colorArchive];
+/** 사이트의 모든 이미지 블록(메인 채널 + Color) */
+export const blocks: Block[] = [...arenaBlocks, ...colorArchive];
 
 export const expressionList = (archiveJson.blocks as RawBlock[]).find((b) => b.type === 'Text' && /expression/i.test(b.title));
 

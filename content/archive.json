@@ -4,7 +4,7 @@
     "slug": "1-aesthetic-literacy-qhm68ahvlpk",
     "title": "[1기] Aesthetic Literacy: 조용주",
     "url": "https://www.are.na/hkthx8f9-u0/1-aesthetic-literacy-qhm68ahvlpk",
-    "pulled": "2026-10-06"
+    "pulled": "2026-10-19"
   },
   "blocks": [
     {
@@ -1226,6 +1226,215 @@
       "url": "https://www.are.na/block/50986390"
     },
     {
+      "id": 51542306,
+      "type": "Image",
+      "no": 59,
+      "title": "흐린 그림자 위 흰 점 글자 / White Dot Letters over Soft Shadows",
+      "week": "WK06",
+      "created": "2026-10-18T14:54:08Z",
+      "description": "**KR** 잎이 무성한 식물의 그림자가 흐릿하게 벽에 드리운 사진 위로, 흰 점들이 이어지며 큰 글자 획을 이루는 포스터이다. 가장 먼저 눈에 들어오는 것은 이 흰 점 글자이다. 화면 대부분이 노이즈 섞인 회색 그림자로 흐리게 퍼져 있는데, 흰 점들만 가장 밝고 테두리도 또렷해서 바탕의 흐름을 깨기 때문이다(대비에 의한 강조). 흐린 것들 사이의 선명한 것이 초점이 되는 경우인 것 같다. 점 하나하나는 작지만 일정한 간격으로 이어지면서 보이지 않는 선이 생기고, 그 선이 글자의 획으로 읽힌다(암시된 선). 위쪽의 회색 제목은 크기가 훨씬 크지만 바탕과 명도가 비슷해 오히려 뒤로 물러나 보인다. 크기보다 명도 차이가 강조를 정하는 것이다(명도에 의한 강조). 왼쪽 가장자리의 검은 띠와 흰 세로 글자는 화면에서 가장 강한 명도 대비라 시선이 한 번 더 옮겨 가는 보조 초점이 되고, 아래쪽 점선과 작은 본문은 마지막에 읽히는 정보이다. 거친 입자의 질감(시각적 질감)이 그림자를 더 흐리게 만들어, 흰 점 글자를 앞으로 띄우는 바탕 역할을 하는 것 같다.\n\n---\n**EN** A poster lays white dotted letterforms over a grainy, blurred shadow of a plant on a wall. The crisp, brightest dots break the soft gray pattern and become the focal point, while the faded gray title recedes and the black side band with white type serves as a sharp accent at the edge.\n\n**Lauer**\n- 대비에 의한 강조 · Emphasis by Contrast · p.58\n- 명도에 의한 강조 · Value as Emphasis · p.248\n- 암시된 선 · Implied Line · p.136\n- 시각적 질감 · Visual Texture · p.192",
+      "altText": "A poster lays white dotted letterforms over a grainy, blurred shadow of a plant on a wall. The crisp, brightest dots break the soft gray pattern and become the focal point, while the faded gray title recedes and the black side band with white type serves as a sharp accent at the edge.",
+      "metadata": null,
+      "image": {
+        "width": 1080,
+        "height": 1449,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU0MjMwNi9vcmlnaW5hbF80YmQ3NzllNDZkMDNiZmJjZjUwYmU3NjQ2ZmUwMDNlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU0MjMwNi9vcmlnaW5hbF80YmQ3NzllNDZkMDNiZmJjZjUwYmU3NjQ2ZmUwMDNlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU0MjMwNi9vcmlnaW5hbF80YmQ3NzllNDZkMDNiZmJjZjUwYmU3NjQ2ZmUwMDNlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51542306"
+    },
+    {
+      "id": 51556997,
+      "type": "Image",
+      "no": 60,
+      "title": "글자를 감싸는 동심원 / Circles Wrapping the Type",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:12Z",
+      "description": "**KR** 공통메모 · 요제프 뮐러브로크만, 〈beethoven〉, 1955\n\n일단 좌측 하단의 텍스트로 초점이 모여 보인다. 크기가 다른 호들이 가상의 동심원을 이루며 텍스트를 둘러싸고 있어서, 원의 중심이 곧 초점이 되는 방사형 배치가 만들어지기 때문이다(배치에 의한 강조). 다만 동심원의 중심은 화면 정중앙이 아니라 왼쪽 아래로 밀려 있어서, 방사 구조의 힘은 쓰면서도 중앙 배치의 뻔함은 피하는 것 같다. 여백으로 이루어진 흰색과 칠해진 검정색 면적이 크게 대비를 이루는 가운데, 작고 가는 산세리프 글자가 놓인다. 이 글자는 굵고 큰 기하 형태들과 성격이 달라 지배적인 패턴을 깨뜨리고, 그 차이가 강조점을 만든다(대비에 의한 강조). 처음엔 흑백으로 구분된 가장 큰 면적들이 보이고, 그 안에서 디테일한 요소로 초점이 이동한다. 강조에 위계가 있는 구성이다. 'beethoven'은 화면 왼쪽 끝 가까이 있어 시선이 밖으로 빠져나갈 수도 있었지만, 바깥의 호들이 감싸며 시선을 안쪽으로 되돌린다. 정보 텍스트의 오른쪽 끝도 호의 곡률을 따르듯 정렬되어 있어서, 초점이 혼자 튀는 요소가 아니라 전체 구조에 묶여 있는 셈이다. 바깥으로 갈수록 굵어지는 호의 변화는 음이 퍼져 나가는 듯한 리듬도 만든다(점진적 리듬).\n\n---\n**EN** A concert poster sets small sans-serif type at the center of concentric black arcs pushed to the lower left. The radial arcs point inward to the text, and the thin type breaks the pattern of heavy flat shapes, so the eye moves from the large black-and-white areas to the detailed text.\n\n**Lauer**\n- 배치에 의한 강조 · Emphasis by Placement · p.62\n- 대비에 의한 강조 · Emphasis by Contrast · p.58\n- 초점 · Focal Point · p.56\n- 점진적 리듬 · Progressive Rhythm · p.120",
+      "altText": "A concert poster sets small sans-serif type at the center of concentric black arcs pushed to the lower left. The radial arcs point inward to the text, and the thin type breaks the pattern of heavy flat shapes, so the eye moves from the large black-and-white areas to the detailed text.",
+      "metadata": null,
+      "image": {
+        "width": 900,
+        "height": 1272,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1Njk5Ny9vcmlnaW5hbF9lZDk5ZGY4N2Y4YmQ0ODdjMDM1NzNjYjkyNTkxYjY3NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1Njk5Ny9vcmlnaW5hbF9lZDk5ZGY4N2Y4YmQ0ODdjMDM1NzNjYjkyNTkxYjY3NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1Njk5Ny9vcmlnaW5hbF9lZDk5ZGY4N2Y4YmQ0ODdjMDM1NzNjYjkyNTkxYjY3NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51556997"
+    },
+    {
+      "id": 51557000,
+      "type": "Image",
+      "no": 61,
+      "title": "흐린 몸, 선명한 글자 / Blurred Body, Sharp Type",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:13Z",
+      "description": "**KR** 공통메모 · 아르민 호프만, 〈Giselle〉, 1959\n\n좌측에 세로로 놓인 제목이 가장 강조되어 먼저 눈에 들어온다. 페이지 전체가 검정색으로 구성되어 있는데 텍스트는 화이트로 강한 명도 대비를 가지고 있고, 차지하는 면적도 인물 다음으로 크기 때문이다(대비에 의한 강조). 인물은 크기가 큼에도 불구하고 현실의 명암을 가지고 있어 텍스트보다 대비가 적다. 약간의 블러와 노이즈 때문에 윤곽이 흐려서 주제부보다는 배경처럼 느껴지기도 한다. 선명한 것과 흐린 것의 대비가 초점을 가르는 것이다. 인물의 머리가 화면 밖으로 잘려 있다는 점도 크다(잘린 인물). 보통 가장 강한 초점이 되는 얼굴을 지워서, 인물이 제목과 초점을 다투지 않게 한다. 그렇다고 사진과 글자가 따로 놀지는 않는다. 화면에서 유일하게 완벽한 원인 'i'의 점을 향해 튀튀의 수평 블러가 뻗어 있고, 이 보이지 않는 선이 둘을 잇는다(암시된 선). 제목과 몸은 같은 흰빛을 나눠 가지면서 경계의 선명도로만 갈린다. 강한 초점이 전체와 관계를 맺으며 통일 안에 머무는 것이다. 제목은 왼쪽 가장자리에 붙어 있지만, 인물의 몸과 튀튀가 그쪽으로 향하고 있어 시선이 화면 밖으로 빠져나가지 않는다. 좌측 상단의 정보 텍스트들은 크기는 작지만 명도 대비가 있고, 인식적으로 정보를 담고 있다고 판단되기 때문에 감상자의 초점이 한 번 더 이동되는 보조 초점이다.\n\n---\n**EN** A ballet poster sets the title vertically in crisp white type against a blurred, grainy photo of a dancer whose head is cropped away. Light against dark and crisp against blurred make the title the focal point, while the dot of the i, aligned with the sweep of the tutu, ties the type to the image.\n\n**Lauer**\n- 대비에 의한 강조 · Emphasis by Contrast · p.58\n- 명도에 의한 강조 · Value as Emphasis · p.248\n- 잘린 인물 · Figure Cropped · p.235\n- 암시된 선 · Implied Line · p.136",
+      "altText": "A ballet poster sets the title vertically in crisp white type against a blurred, grainy photo of a dancer whose head is cropped away. Light against dark and crisp against blurred make the title the focal point, while the dot of the i, aligned with the sweep of the tutu, ties the type to the image.",
+      "metadata": null,
+      "image": {
+        "width": 1418,
+        "height": 2000,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMC9vcmlnaW5hbF9iZjk5MjZhZjU1ZjcyYmZhNTYyOGJkNzhhYjAxNGQ4Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMC9vcmlnaW5hbF9iZjk5MjZhZjU1ZjcyYmZhNTYyOGJkNzhhYjAxNGQ4Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMC9vcmlnaW5hbF9iZjk5MjZhZjU1ZjcyYmZhNTYyOGJkNzhhYjAxNGQ4Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557000"
+    },
+    {
+      "id": 51557002,
+      "type": "Image",
+      "no": 62,
+      "title": "모든 원이 지나는 한 점 / One Point All Circles Share",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:14Z",
+      "description": "**KR** 여러 개의 반투명한 원이 겹쳐 여덟 장의 꽃잎 모양을 이루는 이미지이다. 가장 먼저 시선이 닿는 곳은 모든 원이 만나는 정중앙의 작은 점이다. 원들이 모두 한 점을 지나도록 배치되어 있어서, 방사형 구조의 중심이 그대로 초점이 되기 때문이다(배치에 의한 강조). 눈에 띄는 색이나 큰 대비는 없지만, 원이 겹칠수록 가는 선이 촘촘해지면서 회색이 짙어지고, 이 명도 차이가 중심 쪽으로 무게를 모으는 것 같다(명도에 의한 강조). 각 꽃잎 안의 작은 흰 구멍들은 짙은 면을 끊는 밝은 점이라 시선이 한 번씩 멈추는 보조 초점처럼 느껴진다. 다만 같은 크기로 원을 그리며 반복되기 때문에 중심과 다투기보다는 시선을 중심 둘레로 돌게 만든다(방사 균형). 정중앙 배치는 자칫 뻔해 보일 수 있지만, 이 이미지에서는 투명하게 겹친 면들이 깊이를 만들어 중심에 오래 머물게 한다(투명성).\n\n---\n**EN** Translucent circles overlap into an eight-petal rosette whose lines all pass through one tiny center point. Overlaps darken toward the middle, so value and radial placement pull the eye to the center, while small white openings in each petal act as quiet accents circling it.\n\n**Lauer**\n- 배치에 의한 강조 · Emphasis by Placement · p.62\n- 방사 균형 · Radial Balance · p.106\n- 명도에 의한 강조 · Value as Emphasis · p.248\n- 투명성과 모호한 공간 · Transparency (Equivocal Space) · p.224",
+      "altText": "Translucent circles overlap into an eight-petal rosette whose lines all pass through one tiny center point. Overlaps darken toward the middle, so value and radial placement pull the eye to the center, while small white openings in each petal act as quiet accents circling it.",
+      "metadata": null,
+      "image": {
+        "width": 736,
+        "height": 736,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMi9vcmlnaW5hbF8zODk3M2UwNzMyYmY4OWRkOWE5MjA5Y2U2NWIzMDRkMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMi9vcmlnaW5hbF8zODk3M2UwNzMyYmY4OWRkOWE5MjA5Y2U2NWIzMDRkMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMi9vcmlnaW5hbF8zODk3M2UwNzMyYmY4OWRkOWE5MjA5Y2U2NWIzMDRkMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557002"
+    },
+    {
+      "id": 51557003,
+      "type": "Image",
+      "no": 63,
+      "title": "가운데가 가장 밝은 꽃 / Brightest at the Center",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:15Z",
+      "description": "**KR** 검은 바탕 위에 엑스레이처럼 투명한 꽃 한 송이가 정면으로 놓여 있다. 시선은 곧장 꽃술이 모인 중심으로 간다. 꽃잎의 선들이 모두 그곳에서 뻗어 나오고, 꽃잎이 겹치는 중심일수록 흰 선이 쌓여 가장 밝아지기 때문이다(배치에 의한 강조 · 명도에 의한 강조). 꽃잎 바깥쪽은 반투명하게 옅어져서 바탕과 섞이고, 중심의 세밀한 형태와 대비를 이룬다. 가장자리에는 가는 색선과 작은 글씨의 도면 정보가 있는데, 크기도 작고 명도도 낮아 처음에는 거의 보이지 않는다. 꽃을 한참 본 뒤에야 눈에 들어오는 보조 초점 같다. 강한 하나의 초점과 조용한 정보층이 역할을 나눠 맡고 있어서, 식물 도면이면서도 하나의 상징처럼 읽힌다(방사 균형).\n\n---\n**EN** A botanical diagram renders a cosmos flower as translucent white petals on black, viewed straight on. Every petal line radiates from the bright, dense center, which becomes the focal point, while faint technical notes at the edges serve as a secondary layer found only on a closer look.\n\n**Lauer**\n- 배치에 의한 강조 · Emphasis by Placement · p.62\n- 명도에 의한 강조 · Value as Emphasis · p.248\n- 방사 균형 · Radial Balance · p.106\n- 초점 · Focal Point · p.56",
+      "altText": "A botanical diagram renders a cosmos flower as translucent white petals on black, viewed straight on. Every petal line radiates from the bright, dense center, which becomes the focal point, while faint technical notes at the edges serve as a secondary layer found only on a closer look.",
+      "metadata": null,
+      "image": {
+        "width": 818,
+        "height": 816,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMy9vcmlnaW5hbF8xNWQ1NzMyZGE1YmRlZWY3YzY3ODVlNWE0MWM2NTJmNi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMy9vcmlnaW5hbF8xNWQ1NzMyZGE1YmRlZWY3YzY3ODVlNWE0MWM2NTJmNi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwMy9vcmlnaW5hbF8xNWQ1NzMyZGE1YmRlZWY3YzY3ODVlNWE0MWM2NTJmNi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557003"
+    },
+    {
+      "id": 51557006,
+      "type": "Image",
+      "no": 64,
+      "title": "번진 회색 속 검은 점 / Black Dots in Soft Gray",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:16Z",
+      "description": "**KR** 흰 페트리 접시 안에 회색 잉크 덩어리 네 개가 퍼져 있고, 그 사이에 검은 점 세 개가 세로로 맺혀 있다. 시선은 이 검은 점으로 가장 먼저 간다. 화면 대부분이 흰색과 부드럽게 번지는 회색으로 이루어져 있는데, 검은 점만 가장 어둡고 테두리도 또렷해서 전체의 흐름을 깨기 때문이다(대비에 의한 강조). 흐린 것들 사이에서 선명한 것이 초점이 되는 경우이다. 검은 점은 접시의 중앙이 아니라 왼쪽으로 비켜 있지만, 둥근 접시의 테두리가 시선을 감싸 안쪽에 머물게 한다. 점 옆의 작은 기포들은 같은 검은색을 조금씩 나눠 가진 보조 초점처럼 보인다. 회색 덩어리들도 결국 이 점들을 둘러싸고 밀려나는 모양이라, 초점이 혼자 떨어진 요소가 아니라 전체 형태가 생겨난 원인처럼 느껴진다(생물형태).\n\n---\n**EN** Gray ink spreads into soft rounded masses inside a white petri dish, with three crisp black dots stacked off center. The darkest, sharpest-edged marks break the soft pattern and become the focal point, and the round dish keeps the off-center emphasis inside the frame.\n\n**Lauer**\n- 대비에 의한 강조 · Emphasis by Contrast · p.58\n- 명도에 의한 강조 · Value as Emphasis · p.248\n- 초점 · Focal Point · p.56\n- 생물형태 · Biomorphic Shapes · p.163",
+      "altText": "Gray ink spreads into soft rounded masses inside a white petri dish, with three crisp black dots stacked off center. The darkest, sharpest-edged marks break the soft pattern and become the focal point, and the round dish keeps the off-center emphasis inside the frame.",
+      "metadata": null,
+      "image": {
+        "width": 564,
+        "height": 564,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwNi9vcmlnaW5hbF85MWI4ZDhlNTk5ZDBkNmM5ZTMxZDA4ZDI3ODBlYTkxZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwNi9vcmlnaW5hbF85MWI4ZDhlNTk5ZDBkNmM5ZTMxZDA4ZDI3ODBlYTkxZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwNi9vcmlnaW5hbF85MWI4ZDhlNTk5ZDBkNmM5ZTMxZDA4ZDI3ODBlYTkxZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557006"
+    },
+    {
+      "id": 51557008,
+      "type": "Image",
+      "no": 65,
+      "title": "선이 몰려 짙어진 가운데 / Lines Crowding into a Dark Core",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:17Z",
+      "description": "**KR** 가는 곡선들이 수없이 겹쳐 정육면체 같은 덩어리를 이루는 이미지이다. 뚜렷한 대상이 없어서 처음에는 화면 전체가 고르게 보이지만, 곧 중앙에서 세로로 조여드는 짙은 부분으로 시선이 모인다. 선 하나하나는 연하지만, 곡선이 한곳에 몰릴수록 겹쳐서 진해지기 때문이다(명도로서의 선). 이 이미지에서 초점은 따로 그려 넣은 것이 아니라 선의 밀도가 만든 결과인 것 같다(명도에 의한 강조). 바깥쪽 곡선은 옅고 넓게 퍼져 투명한 막처럼 보이고, 안쪽은 겹겹이 쌓여 깊이가 생긴다(투명성). 그래서 시선이 중앙의 짙은 매듭에서 출발해 곡선을 따라 바깥으로 흘러갔다가 다시 돌아온다. 초점이 하나로 꽉 잡히기보다는, 전체 형태와 중심이 번갈아 강조되는 이미지이다.\n\n---\n**EN** Countless thin curves overlap into a translucent, cube-like volume. Where the curves crowd together near the center they build a dark knot, so the focal point is created by the density of line rather than by any drawn object.\n\n**Lauer**\n- 명도로서의 선 · Line as Value · p.142\n- 명도에 의한 강조 · Value as Emphasis · p.248\n- 투명성과 모호한 공간 · Transparency (Equivocal Space) · p.224\n- 배치에 의한 강조 · Emphasis by Placement · p.62",
+      "altText": "Countless thin curves overlap into a translucent, cube-like volume. Where the curves crowd together near the center they build a dark knot, so the focal point is created by the density of line rather than by any drawn object.",
+      "metadata": null,
+      "image": {
+        "width": 600,
+        "height": 600,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwOC9vcmlnaW5hbF83ZmYwNDE1OTRiZDU4NjE1NDgyYjQ1ZWJjNTRhYmQ4NC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwOC9vcmlnaW5hbF83ZmYwNDE1OTRiZDU4NjE1NDgyYjQ1ZWJjNTRhYmQ4NC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAwOC9vcmlnaW5hbF83ZmYwNDE1OTRiZDU4NjE1NDgyYjQ1ZWJjNTRhYmQ4NC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557008"
+    },
+    {
+      "id": 51557010,
+      "type": "Image",
+      "no": 66,
+      "title": "점을 이어 읽는 글자 / Connect the Dots to Read",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:17Z",
+      "description": "**KR** 회색 띠가 왼쪽 아래에서 오른쪽 위로 지그재그를 그리며 올라가고, 그 위에 동그라미 친 글자들이 흩어져 있다. 글자들은 서로 떨어져 있어서 하나씩 따로 눈에 띄는데(고립에 의한 강조), 따라 읽다 보면 'WE GROW TOGETHER'라는 문장이 된다. 떨어진 점들을 순서대로 이으면서 보이지 않는 선이 생기고(암시된 선), 회색 띠가 그 경로를 따라 시선을 위로 끌고 간다(연속). 가장 먼저 눈에 들어오는 것은 화면 위쪽의 제목인데, 띠와 동그라미 사이에서 유일하게 큰 글자 덩어리라 크기 대비가 생기기 때문이다. 위아래의 작은 본문은 정보로 인식되어 나중에 읽히는 보조 요소이다. 각자 떨어진 점이 이어져 하나가 된다는 내용을, 고립과 연결이라는 형식으로 그대로 보여 주는 것 같다.\n\n---\n**EN** Circled letters are scattered along a zigzag gray path, each isolated from the others. Reading them in order connects the dots into an implied line that spells the title, so the form of the poster enacts its message of separate parts becoming one.\n\n**Lauer**\n- 고립에 의한 강조 · Emphasis by Isolation · p.60\n- 암시된 선 · Implied Line · p.136\n- 연속 · Continuation · p.38\n- 초점 · Focal Point · p.56",
+      "altText": "Circled letters are scattered along a zigzag gray path, each isolated from the others. Reading them in order connects the dots into an implied line that spells the title, so the form of the poster enacts its message of separate parts becoming one.",
+      "metadata": null,
+      "image": {
+        "width": 420,
+        "height": 524,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMC9vcmlnaW5hbF9mYWRlZTVjNzZkMDNkMDc1ZDBkZTgyMTJhZDU4YjgwMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMC9vcmlnaW5hbF9mYWRlZTVjNzZkMDNkMDc1ZDBkZTgyMTJhZDU4YjgwMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMC9vcmlnaW5hbF9mYWRlZTVjNzZkMDNkMDc1ZDBkZTgyMTJhZDU4YjgwMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557010"
+    },
+    {
+      "id": 51557011,
+      "type": "Image",
+      "no": 67,
+      "title": "굵은 선이 먼저 보인다 / Thick Lines Come First",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:17Z",
+      "description": "**KR** 점이 찍힌 유기적인 윤곽선들이 화면 곳곳에 무리를 이루고 있는 다이어그램이다. 처음에는 비슷한 모양이 고르게 흩어져 있어 어디를 봐야 할지 모르겠지만, 곧 화면 가운데 오른쪽의 덩어리로 시선이 간다. 이 부분만 굵은 윤곽선과 짙은 회색 빗금이 겹쳐 있어서, 가는 선과 점선으로 된 나머지와 대비되기 때문이다(대비에 의한 강조). 같은 선이라도 굵기 · 점선 · 실선이 달라지면서 무게가 달라지고, 그 차이가 그대로 강조의 위계가 된다(선의 질). 가까이 모인 점들은 같은 윤곽 안에 묶여 하나의 무리로 읽힌다(근접). 왼쪽의 큰 점선 영역이나 홀로 떨어진 굵은 원들은 작아도 다시 시선을 붙잡는 보조 초점 같다. 색 없이 선의 성격만으로 강조의 단계를 만든 이미지이다(생물형태).\n\n---\n**EN** Biomorphic outlines with dots form clusters across a white field, drawn in thick, thin and dotted lines. The cluster with the heaviest outlines and darkest hatching becomes the focal point, so line quality alone sets the hierarchy of emphasis.\n\n**Lauer**\n- 대비에 의한 강조 · Emphasis by Contrast · p.58\n- 선의 질 · Line Quality · p.140\n- 근접 · Proximity · p.34\n- 생물형태 · Biomorphic Shapes · p.163",
+      "altText": "Biomorphic outlines with dots form clusters across a white field, drawn in thick, thin and dotted lines. The cluster with the heaviest outlines and darkest hatching becomes the focal point, so line quality alone sets the hierarchy of emphasis.",
+      "metadata": null,
+      "image": {
+        "width": 1000,
+        "height": 1026,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMS9vcmlnaW5hbF85YjA4YmJmZDc0MDY2NmUyNDRkMTEzMTUxNTVjN2MwYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMS9vcmlnaW5hbF85YjA4YmJmZDc0MDY2NmUyNDRkMTEzMTUxNTVjN2MwYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMS9vcmlnaW5hbF85YjA4YmJmZDc0MDY2NmUyNDRkMTEzMTUxNTVjN2MwYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557011"
+    },
+    {
+      "id": 51557012,
+      "type": "Image",
+      "no": 68,
+      "title": "모으는 원, 흩어지는 점 / Gathering Circles, Scattered Dots",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:18Z",
+      "description": "**KR** 동심원과 십자 축이 화면 전체에 깔려 있고, 그 위에 점선으로 그린 글자와 검은 점, 네모, 화살표가 흩어져 있는 포스터이다. 구조만 보면 시선은 동심원의 중심, 십자선이 만나는 곳으로 모여야 할 것 같다(배치에 의한 강조). 그런데 실제로는 검은 점과 화살표가 화면 곳곳에 비슷한 무게로 퍼져 있어서, 시선이 한곳에 머물지 못하고 계속 옮겨 다닌다(초점의 부재). 화살표들이 제각각 다른 방향을 가리키며 시선을 끌고 다니는 것도 이유인 것 같다(암시된 선). 중심으로 모으는 구조와 흩어 놓는 요소가 부딪치면서, 무전기 신호가 흔들리는 듯한 긴장감이 생긴다. 맨 아래의 정보 텍스트는 화면에서 유일하게 정돈된 덩어리라 마지막에 시선이 내려앉는 곳이다(방사 균형).\n\n---\n**EN** An exhibition poster lays dashed letters, black dots, squares and arrows over concentric circles and crosshair axes. The radial structure points to the center, but the evenly scattered marks and arrows keep the eye moving, creating tension between a focal point and its absence.\n\n**Lauer**\n- 배치에 의한 강조 · Emphasis by Placement · p.62\n- 초점의 부재 · Absence of Focal Point · p.66\n- 암시된 선 · Implied Line · p.136\n- 방사 균형 · Radial Balance · p.106",
+      "altText": "An exhibition poster lays dashed letters, black dots, squares and arrows over concentric circles and crosshair axes. The radial structure points to the center, but the evenly scattered marks and arrows keep the eye moving, creating tension between a focal point and its absence.",
+      "metadata": null,
+      "image": {
+        "width": 735,
+        "height": 1041,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMi9vcmlnaW5hbF9iY2ViZjE2Mzk0YTMxN2FkZTRmZGJmNjc1NDI5Nzg2OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMi9vcmlnaW5hbF9iY2ViZjE2Mzk0YTMxN2FkZTRmZGJmNjc1NDI5Nzg2OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMi9vcmlnaW5hbF9iY2ViZjE2Mzk0YTMxN2FkZTRmZGJmNjc1NDI5Nzg2OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557012"
+    },
+    {
+      "id": 51557013,
+      "type": "Image",
+      "no": 69,
+      "title": "흐린 배경 위 검은 글자 / Black Type on a Faded Ground",
+      "week": "WK06",
+      "created": "2026-10-19T02:41:18Z",
+      "description": "**KR** 반투명한 회색 글자와 도형이 여러 겹 깔린 위에, 선명한 검은 요소들이 얹혀 있는 포스터이다. 가장 먼저 눈에 들어오는 것은 좌측 하단의 'ANGEL (s*)'이다. 화면 대부분이 흐리고 옅은 회색인데, 이 글자만 크고 굵은 검정이라 가장 강한 대비를 이루기 때문이다(대비에 의한 강조). 다음으로는 가운데 오른쪽의 큰 세리프 '7'로 시선이 옮겨 가는데, 크기는 크지만 획이 가늘어서 ANGEL보다 한 단계 약한 초점이 된다. 배경의 흐린 레이어에는 훨씬 큰 글자도 있지만 명도가 낮아 뒤로 물러나고, 깊이를 만드는 바탕이 된다(투명성). 가는 직선과 십자 표시는 화면을 나누는 그리드처럼 작동해서, 흩어진 작은 정보들을 하나의 체계 안에 묶는다(연속성과 그리드). 흐림과 선명함의 층을 나눠 강조의 위계를 세운 이미지인 것 같다.\n\n---\n**EN** A layered poster places crisp black type and diagrams over many translucent gray layers. The bold ANGEL (s*) stands out by contrast against the faded ground, a thin serif 7 forms a secondary focus, and fine grid lines tie the scattered details together.\n\n**Lauer**\n- 대비에 의한 강조 · Emphasis by Contrast · p.58\n- 투명성과 모호한 공간 · Transparency (Equivocal Space) · p.224\n- 초점 · Focal Point · p.56\n- 연속성과 그리드 · Continuity and the Grid · p.40",
+      "altText": "A layered poster places crisp black type and diagrams over many translucent gray layers. The bold ANGEL (s*) stands out by contrast against the faded ground, a thin serif 7 forms a secondary focus, and fine grid lines tie the scattered details together.",
+      "metadata": null,
+      "image": {
+        "width": 1200,
+        "height": 1554,
+        "small": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMy9vcmlnaW5hbF9hOWE5MzU3ZTJiODIyOTdmZGVhZmQwMTkxNmU2ZDFiMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=",
+        "medium": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMy9vcmlnaW5hbF9hOWE5MzU3ZTJiODIyOTdmZGVhZmQwMTkxNmU2ZDFiMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==",
+        "large": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTU1NzAxMy9vcmlnaW5hbF9hOWE5MzU3ZTJiODIyOTdmZGVhZmQwMTkxNmU2ZDFiMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ=="
+      },
+      "url": "https://www.are.na/block/51557013"
+    },
+    {
       "id": 50379805,
       "type": "Text",
       "no": null,
@@ -1233,7 +1442,7 @@
       "week": "WK01",
       "created": "2026-09-13T09:14:02Z",
       "description": ".",
-      "content": "Expression List\n\nWK01 자유 수집\n- 검은 실루엣 2·4\n- 생략된 여백 11\n- 색의 소거 19\n- 번지는 경계 3·9\n- 빛으로 나눈 면 28\n- 겹친 명암 20\n- 겉과 속 13·15·18\n- 드러난 내부 22·23\n- 경계 허물기 13·16\n- 물리적 결합 14·17\n- 만져질 듯한 5\n- 무형의 빛 3·8\n- 굴곡 따라 흐르기 26\n- 맺히는 끝 27\n- 여백과 사선 4·24\n\nWK02 동세감\n- 꿈틀거리는 표면 29\n- 붓의 궤적 30\n- 굵기의 변화 31\n- 밀도 있는 붓질 32·33\n- 웅크린 힘 33\n- 흐린 윤곽 34·35\n- 겹친 실루엣 35\n- 팽팽한 도약 36\n- 중력 거스르기 36\n- 사선의 축 36·37\n- 튀어나올 듯한 37·38\n- 압도하는 손 38\n\nWK03 통일감\n- 곡선의 반복 39·40\n- 이어지는 줄기 39\n- 부푼 비례 40\n- 하나의 덩어리 40·44\n- 단일한 축 41\n- 방사하는 선 41·48\n- 작은 파격 42\n- 격자와 곡선 43\n- 촘촘한 인접 44\n- 점진적 변화 45\n- 흩어진 조각 46\n- 숨은 규칙 47\n- 겹침의 꽃잎 48\n\nWK04 리듬\n- 스타카토 49·51\n- 교차 리듬 49\n- 레가토 50·55\n- 옅어지는 깊이 50\n- 날 선 사선 51\n- 지지직거리는 질감 52\n- 모호한 레이어 53\n- 흐려지는 대비 54\n- 물결치는 직선 55\n- 비틀리는 각도 56\n- 묵직한 저항 57\n- 어긋나 쌓기 58",
+      "content": "Expression List\n\nWK01 자유 수집\n- 검은 실루엣 2·4\n- 생략된 여백 11\n- 색의 소거 19\n- 번지는 경계 3·9\n- 빛으로 나눈 면 28\n- 겹친 명암 20\n- 겉과 속 13·15·18\n- 드러난 내부 22·23\n- 경계 허물기 13·16\n- 물리적 결합 14·17\n- 만져질 듯한 5\n- 무형의 빛 3·8\n- 굴곡 따라 흐르기 26\n- 맺히는 끝 27\n- 여백과 사선 4·24\n\nWK02 동세감\n- 꿈틀거리는 표면 29\n- 붓의 궤적 30\n- 굵기의 변화 31\n- 밀도 있는 붓질 32·33\n- 웅크린 힘 33\n- 흐린 윤곽 34·35\n- 겹친 실루엣 35\n- 팽팽한 도약 36\n- 중력 거스르기 36\n- 사선의 축 36·37\n- 튀어나올 듯한 37·38\n- 압도하는 손 38\n\nWK03 통일감\n- 곡선의 반복 39·40\n- 이어지는 줄기 39\n- 부푼 비례 40\n- 하나의 덩어리 40·44\n- 단일한 축 41\n- 방사하는 선 41·48\n- 작은 파격 42\n- 격자와 곡선 43\n- 촘촘한 인접 44\n- 점진적 변화 45\n- 흩어진 조각 46\n- 숨은 규칙 47\n- 겹침의 꽃잎 48\n\nWK04 리듬\n- 스타카토 49·51\n- 교차 리듬 49\n- 레가토 50·55\n- 옅어지는 깊이 50\n- 날 선 사선 51\n- 지지직거리는 질감 52\n- 모호한 레이어 53\n- 흐려지는 대비 54\n- 물결치는 직선 55\n- 비틀리는 각도 56\n- 묵직한 저항 57\n- 어긋나 쌓기 58\n\nWK06 강조와 초점\n- 흰 점 글자 59·66\n- 선명함과 흐림 59·61·64·69\n- 글자를 감싼 원 60\n- 지워진 얼굴 61\n- 한 점으로 모이기 62·63\n- 겹쳐서 짙어지기 62·65\n- 검은 점 하나 64\n- 선이 엉긴 매듭 65\n- 떨어진 글자 잇기 66\n- 굵기의 위계 67\n- 흩어지는 시선 68\n- 흐린 레이어 위 69\n- 보조 초점 59·60·61·63·69",
       "altText": null,
       "metadata": null,
       "image": null,

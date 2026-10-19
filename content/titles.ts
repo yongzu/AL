@@ -62,17 +62,18 @@ export const titles: Record<number, { ko: string; en: string }> = {
   56: { ko: '각도의 점진적 리듬', en: 'Progressive Rhythm of Angles' },
   57: { ko: '저항의 운동감각', en: 'Kinesthetic Resistance' },
   58: { ko: '흔들리며 쌓인 리듬', en: 'A Swaying Stack' },
-  // WK06 — 사이트 전용(content/local-blocks.ts)
-  59: { ko: '비켜 놓은 방사의 중심', en: 'Off-Center Radial Focus' },
-  60: { ko: '선명함과 흐림의 대비', en: 'Crisp Against Blurred' },
-  61: { ko: '겹침이 모이는 한 점', en: 'Overlaps Converging on a Point' },
-  62: { ko: '밝은 중심의 방사', en: 'A Bright Radial Center' },
-  63: { ko: '번진 면 속 검은 초점', en: 'Dark Focal Points in Soft Forms' },
-  64: { ko: '선이 엉겨 생긴 초점', en: 'Focus Where Lines Thicken' },
-  65: { ko: '고립된 점을 잇는 시선', en: 'Isolated Dots, Implied Path' },
-  66: { ko: '선 굵기로 세운 위계', en: 'Hierarchy by Line Weight' },
-  67: { ko: '중심과 흩어짐의 긴장', en: 'Center Against Scatter' },
-  68: { ko: '흐린 레이어 위의 선명한 글자', en: 'Crisp Type over Faded Layers' },
+  // WK06 강조와 초점
+  59: { ko: '흐린 그림자 위 흰 점 글자', en: 'White Dot Letters over Soft Shadows' },
+  60: { ko: '글자를 감싸는 동심원', en: 'Circles Wrapping the Type' },
+  61: { ko: '흐린 몸, 선명한 글자', en: 'Blurred Body, Sharp Type' },
+  62: { ko: '모든 원이 지나는 한 점', en: 'One Point All Circles Share' },
+  63: { ko: '가운데가 가장 밝은 꽃', en: 'Brightest at the Center' },
+  64: { ko: '번진 회색 속 검은 점', en: 'Black Dots in Soft Gray' },
+  65: { ko: '선이 몰려 짙어진 가운데', en: 'Lines Crowding into a Dark Core' },
+  66: { ko: '점을 이어 읽는 글자', en: 'Connect the Dots to Read' },
+  67: { ko: '굵은 선이 먼저 보인다', en: 'Thick Lines Come First' },
+  68: { ko: '모으는 원, 흩어지는 점', en: 'Gathering Circles, Scattered Dots' },
+  69: { ko: '흐린 배경 위 검은 글자', en: 'Black Type on a Faded Ground' },
 };
 
 /** Are.na 제목 */
