@@ -71,4 +71,5 @@ export const weeks = [
   { id: 'WK03', theme: '통일감', themeEn: 'Unity', chapters: ['unity', 'balance'], note: '책 2장 통일. 대칭 · 방사 구조는 5장 균형과도 이어진다.' },
   { id: 'WK04', theme: '리듬', themeEn: 'Rhythm', chapters: ['rhythm', 'texture'], note: '책 6장 리듬. 레가토 · 스타카토와 교차 · 점진적 리듬.' },
   { id: 'WK05', theme: '색', themeEn: 'Color', chapters: ['color', 'shape'], note: '책 13장 색. 메인 채널의 흑백 분위기를 지키려고 Color 컬렉션에만 따로 모았다. 보색 · 따뜻한 색과 차가운 색 · 명도 · 임의색.' },
+  { id: 'WK06', theme: '강조와 초점', themeEn: 'Emphasis and Focal Point', chapters: ['emphasis', 'value', 'balance'], note: '책 3장 강조와 초점. 대비 · 고립 · 배치로 만든 초점, 보조 초점, 초점의 부재. Are.na에 올리지 않고 사이트에만 실었다.' },
 ] as const;

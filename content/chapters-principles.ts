@@ -84,6 +84,7 @@ export const principleChapters: Chapter[] = [
     ko: '강조와 초점',
     en: 'Emphasis and Focal Point',
     pages: [54, 67],
+    weeks: ['WK06'],
     oneLine: '시선이 가장 먼저 닿는 곳을 설계하는 원리.',
     summary:
       '이미지가 넘쳐나는 시대에 주의를 끄는 한 방법이 초점이다. 초점은 대비 · 고립 · 배치로 만들며, 주 초점 외에 보조 초점(액센트)을 둘 수도 있다. 다만 초점은 전체와 관계를 맺어야 하고, 때로는 초점 없이 화면 전체를 강조하기도 한다.',

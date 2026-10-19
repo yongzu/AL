@@ -62,6 +62,17 @@ export const titles: Record<number, { ko: string; en: string }> = {
   56: { ko: '각도의 점진적 리듬', en: 'Progressive Rhythm of Angles' },
   57: { ko: '저항의 운동감각', en: 'Kinesthetic Resistance' },
   58: { ko: '흔들리며 쌓인 리듬', en: 'A Swaying Stack' },
+  // WK06 — 사이트 전용(content/local-blocks.ts)
+  59: { ko: '비켜 놓은 방사의 중심', en: 'Off-Center Radial Focus' },
+  60: { ko: '선명함과 흐림의 대비', en: 'Crisp Against Blurred' },
+  61: { ko: '겹침이 모이는 한 점', en: 'Overlaps Converging on a Point' },
+  62: { ko: '밝은 중심의 방사', en: 'A Bright Radial Center' },
+  63: { ko: '번진 면 속 검은 초점', en: 'Dark Focal Points in Soft Forms' },
+  64: { ko: '선이 엉겨 생긴 초점', en: 'Focus Where Lines Thicken' },
+  65: { ko: '고립된 점을 잇는 시선', en: 'Isolated Dots, Implied Path' },
+  66: { ko: '선 굵기로 세운 위계', en: 'Hierarchy by Line Weight' },
+  67: { ko: '중심과 흩어짐의 긴장', en: 'Center Against Scatter' },
+  68: { ko: '흐린 레이어 위의 선명한 글자', en: 'Crisp Type over Faded Layers' },
 };
 
 /** Are.na 제목 */

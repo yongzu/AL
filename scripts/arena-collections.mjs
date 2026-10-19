@@ -24,6 +24,11 @@ console.log(`${apply ? 'APPLY' : 'DRY RUN'} — ${collections.length} collection
 for (const c of collections) {
   const title = collectionTitle(c);
   let entry = map[c.id];
+  // 사이트 전용 블록(content/local-blocks.ts)만 있는 컬렉션은 Are.na에 만들지 않는다
+  if (!entry && !c.blocks.some((no) => idOf[no])) {
+    console.log(`- skip     ${title}  (사이트 전용 블록만)`);
+    continue;
+  }
 
   if (!entry) {
     if (!apply) {

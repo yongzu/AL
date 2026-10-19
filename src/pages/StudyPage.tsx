@@ -14,6 +14,7 @@ import {
   arenaBlocks,
   blocks,
   colorArchive,
+  localArchive,
   colorExpressionList,
   book,
   channel,
@@ -21,6 +22,7 @@ import {
   conceptCount,
   conceptIndex,
   expressionList,
+  localExpressions,
   expressionSuggestions,
   method,
   parts,
@@ -113,7 +115,7 @@ function Overview() {
     { label: '교재', value: `${book.title} ${book.edition} (${book.year})` },
     { label: '저자', value: book.authors },
     { label: '구성', value: '원리 6장 · 요소 7장' },
-    { label: '아카이브', value: `${channel.title} · ${arenaBlocks.length}개 이미지 · Color ${colorArchive.length}개` },
+    { label: '아카이브', value: `${channel.title} · ${arenaBlocks.length}개 이미지 · 사이트 전용 ${localArchive.length}개 · Color ${colorArchive.length}개` },
     { label: '진행', value: `${weeks.map((w) => w.id).join(' · ')}` },
   ];
   return (
@@ -181,7 +183,7 @@ function Weeks() {
   return (
     <div className="weeks">
       {weeks.map((w) => {
-        const words = listed[w.id] ?? [];
+        const words = listed[w.id] ?? localExpressions[w.id] ?? [];
         const empty = words.length === 0 || words.every((x) => /^\d+$/.test(x));
         const suggested = (expressionSuggestions as Record<string, string[]>)[w.id];
         return (

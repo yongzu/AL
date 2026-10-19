@@ -479,6 +479,67 @@ export const analysis: Record<number, BlockAnalysis> = {
     check: 'ok',
     notes: ['‘점진적인 위치 변화’ = 점진적 리듬(120쪽). 원판이 S자로 흔들리며 쌓여 레가토처럼 이어진다. 브러시드 금속은 시각적 질감(192쪽).'],
   },
+  // WK06 — 사이트 전용(content/local-blocks.ts). 한국어 메모가 원문이라 점검 메모는 비워 둔다.
+  59: {
+    en: 'A concert poster sets small sans-serif type at the center of concentric black arcs pushed to the lower left. The radial arcs point inward to the text, and the thin type breaks the pattern of heavy flat shapes, so the eye moves from the large black-and-white areas to the detailed text.',
+    concepts: ['emphasis.placement', 'emphasis.contrast', 'emphasis.focal-point', 'rhythm.progressive'],
+    check: 'ok',
+    notes: [],
+  },
+  60: {
+    en: 'A ballet poster sets the title vertically in crisp white type against a blurred, grainy photo of a dancer whose head is cropped away. Light against dark and crisp against blurred make the title the focal point, while the dot of the i, aligned with the sweep of the tutu, ties the type to the image.',
+    concepts: ['emphasis.contrast', 'value.emphasis', 'motion.cropped', 'line.implied'],
+    check: 'ok',
+    notes: [],
+  },
+  61: {
+    en: 'Translucent circles overlap into an eight-petal rosette whose lines all pass through one tiny center point. Overlaps darken toward the middle, so value and radial placement pull the eye to the center, while small white openings in each petal act as quiet accents circling it.',
+    concepts: ['emphasis.placement', 'balance.radial', 'value.emphasis', 'space.transparency'],
+    check: 'ok',
+    notes: [],
+  },
+  62: {
+    en: 'A botanical diagram renders a cosmos flower as translucent white petals on black, viewed straight on. Every petal line radiates from the bright, dense center, which becomes the focal point, while faint technical notes at the edges serve as a secondary layer found only on a closer look.',
+    concepts: ['emphasis.placement', 'value.emphasis', 'balance.radial', 'emphasis.focal-point'],
+    check: 'ok',
+    notes: [],
+  },
+  63: {
+    en: 'Gray ink spreads into soft rounded masses inside a white petri dish, with three crisp black dots stacked off center. The darkest, sharpest-edged marks break the soft pattern and become the focal point, and the round dish keeps the off-center emphasis inside the frame.',
+    concepts: ['emphasis.contrast', 'value.emphasis', 'emphasis.focal-point', 'shape.biomorphic'],
+    check: 'ok',
+    notes: [],
+  },
+  64: {
+    en: 'Countless thin curves overlap into a translucent, cube-like volume. Where the curves crowd together near the center they build a dark knot, so the focal point is created by the density of line rather than by any drawn object.',
+    concepts: ['line.value', 'value.emphasis', 'space.transparency', 'emphasis.placement'],
+    check: 'ok',
+    notes: [],
+  },
+  65: {
+    en: 'Circled letters are scattered along a zigzag gray path, each isolated from the others. Reading them in order connects the dots into an implied line that spells the title, so the form of the poster enacts its message of separate parts becoming one.',
+    concepts: ['emphasis.isolation', 'line.implied', 'unity.continuation', 'emphasis.focal-point'],
+    check: 'ok',
+    notes: [],
+  },
+  66: {
+    en: 'Biomorphic outlines with dots form clusters across a white field, drawn in thick, thin and dotted lines. The cluster with the heaviest outlines and darkest hatching becomes the focal point, so line quality alone sets the hierarchy of emphasis.',
+    concepts: ['emphasis.contrast', 'line.quality', 'unity.proximity', 'shape.biomorphic'],
+    check: 'ok',
+    notes: [],
+  },
+  67: {
+    en: 'An exhibition poster lays dashed letters, black dots, squares and arrows over concentric circles and crosshair axes. The radial structure points to the center, but the evenly scattered marks and arrows keep the eye moving, creating tension between a focal point and its absence.',
+    concepts: ['emphasis.placement', 'emphasis.absence', 'line.implied', 'balance.radial'],
+    check: 'ok',
+    notes: [],
+  },
+  68: {
+    en: 'A layered poster places crisp black type and diagrams over many translucent gray layers. The bold ANGEL (s*) stands out by contrast against the faded ground, a thin serif 7 forms a secondary focus, and fine grid lines tie the scattered details together.',
+    concepts: ['emphasis.contrast', 'space.transparency', 'emphasis.focal-point', 'unity.continuity-grid'],
+    check: 'ok',
+    notes: [],
+  },
 };
 
 /** 텍스트 블록 Expression List — WK04가 비어 있어 블록 내용에서 뽑은 후보 */

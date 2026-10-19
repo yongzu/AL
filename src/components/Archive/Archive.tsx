@@ -34,8 +34,8 @@ export function Archive({ onOpen }: { onOpen: (b: Block) => void }) {
 
   const list = useMemo(() => {
     const members = collection === 'all' ? null : new Set(collections.find((c) => c.id === collection)?.keys);
-    // Color 컬렉션은 메인 채널과 분리 — 그 컬렉션이나 그 주차를 고를 때만 보인다
-    const shown = (b: Block) => b.source === 'arena' || collection === 'color' || week === b.week;
+    // Color 컬렉션은 메인 채널과 분리 — 그 컬렉션이나 그 주차를 고를 때만 보인다(사이트 전용 블록은 메인처럼 늘 보인다)
+    const shown = (b: Block) => b.source !== 'color' || collection === 'color' || week === b.week;
     const out = blocks.filter(
       (b) => shown(b) && (week === 'all' || b.week === week) && (check === 'all' || b.analysis?.check === check) && (!members || members.has(b.key)),
     );
@@ -208,7 +208,7 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
                 {block.url ? (
                   <a className="link" href={block.url} target="_blank" rel="noreferrer">Are.na에서 보기</a>
                 ) : (
-                  <span className="block-dialog__flag">Are.na 업로드 전</span>
+                  <span className="block-dialog__flag">{block.source === 'local' ? '사이트 전용' : 'Are.na 업로드 전'}</span>
                 )}
               </div>
             </header>
@@ -219,7 +219,7 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
             </section>
 
             <section className="block-dialog__section">
-              <h4 className="block-dialog__heading">{block.source === 'color' ? '한국어 설명' : '기존 설명'}</h4>
+              <h4 className="block-dialog__heading">{block.source === 'color' ? '한국어 설명' : block.source === 'local' ? '메모' : '기존 설명'}</h4>
               <Text typography="Body" color="secondary" className="block-dialog__ko">{koreanPart(block.description)}</Text>
             </section>
 
@@ -227,7 +227,7 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
               <section className="block-dialog__section">
                 <h4 className="block-dialog__heading">
                   영어 설명
-                  <span className="block-dialog__flag">{block.pushed ? 'Are.na 반영됨' : '제안 · 반영 전'}</span>
+                  <span className="block-dialog__flag">{block.source === 'local' ? '사이트 전용' : block.pushed ? 'Are.na 반영됨' : '제안 · 반영 전'}</span>
                 </h4>
                 <p className="block-dialog__en" lang="en">{a.en}</p>
               </section>
@@ -279,14 +279,16 @@ export function BlockDialog({ block, onClose }: { block: Block | null; onClose: 
                   </div>
                 </section>
 
-                <section className="block-dialog__section">
-                  <h4 className="block-dialog__heading">책 기준 점검</h4>
-                  <ul className="block-dialog__notes">
-                    {a.notes.map((n) => (
-                      <li key={n}>{n}</li>
-                    ))}
-                  </ul>
-                </section>
+                {a.notes.length > 0 && (
+                  <section className="block-dialog__section">
+                    <h4 className="block-dialog__heading">책 기준 점검</h4>
+                    <ul className="block-dialog__notes">
+                      {a.notes.map((n) => (
+                        <li key={n}>{n}</li>
+                      ))}
+                    </ul>
+                  </section>
+                )}
               </>
             )}
           </div>

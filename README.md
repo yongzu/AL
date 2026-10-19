@@ -19,6 +19,7 @@ AL/
 │   ├── analysis.ts           ← 블록 58개의 영어 설명 · 개념 태그 · 점검 메모
 │   ├── collections.ts        ← 태그 컬렉션 16개(Are.na 채널로 연결) · collections-arena.json = 채널 주소
 │   ├── color.ts              ← Color 컬렉션(WK05) — 메인 채널과 분리한 컬러 이미지 10개, 이미지는 public/color/
+│   ├── local-blocks.ts       ← Are.na에 올리지 않는 사이트 전용 블록(WK06 59–68, 이미지는 public/wk06/)
 │   ├── scores.json           ← 내 점수(1–10)
 │   └── archive.json          ← Are.na에서 가져온 블록 목록(npm run arena:pull)
 ├── src/                      ← 학습 사이트(BI와 같은 React · Vite · 디자인 토큰)
