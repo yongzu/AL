@@ -546,6 +546,67 @@ export const analysis: Record<number, BlockAnalysis> = {
     check: 'ok',
     notes: [],
   },
+  // WK07 스케일과 비례 — 73이 영감메모
+  70: {
+    en: 'A small white plastic chair sits alone in a gray field below vast rolling hills and an empty sky. The chair is both the focal point and the only scale reference: because everyone knows its size, it reveals how enormous the hills are, and the empty seat invites viewers to imagine their own bodies there.',
+    concepts: ['scale.internal', 'scale.contrast', 'emphasis.isolation', 'scale.human-scale'],
+    check: 'ok',
+    notes: [],
+  },
+  71: {
+    en: 'A cloaked figure stands at the center of concentric circular steps beneath a huge round opening of light. The steps radiate from the figure and the dark silhouette meets the brightest area, so placement and contrast make it the focal point, while its tiny size makes the circle feel monumental, like an altar.',
+    concepts: ['scale.human-scale', 'emphasis.placement', 'balance.radial', 'scale.contrast'],
+    check: 'ok',
+    notes: [],
+  },
+  72: {
+    en: 'A lone dark figure stands where the curved edge between light and shadow ends on a white sand dune. The curve leads the eye to the figure, and its tiny size makes the dune feel boundless; without it, the image could read as folded paper.',
+    concepts: ['scale.contrast', 'emphasis.isolation', 'line.implied', 'scale.internal'],
+    check: 'ok',
+    notes: [],
+  },
+  73: {
+    en: 'A tiny figure walks beneath a gap of open sky between towering ranks of vertical fins and stepped platforms. The figure is both the focal point, set dark against the sky where the lines meet, and the measure of the whole scene: next to it the steps reach knee height and the fins seem to rise for dozens of meters. Countless repeated fins turn number into a sense of height, and the contrast of scale creates awe and solitude at once.',
+    concepts: ['scale.human-scale', 'scale.internal', 'scale.contrast', 'unity.repetition'],
+    check: 'ok',
+    notes: [],
+  },
+  74: {
+    en: 'Thin stacked layers curl upward into a spiral around a bright oval opening, where a small silhouette stands at the left edge. The strongest light-dark contrast and the curving lines both lead to the figure, and measured against it each layer becomes a stair, turning the structure into a vast cave.',
+    concepts: ['scale.human-scale', 'emphasis.contrast', 'line.implied', 'scale.contrast'],
+    check: 'ok',
+    notes: [],
+  },
+  75: {
+    en: 'A long reflecting pool runs toward triangular openings in a concrete hall, beyond which lies a bright sea. The pool edges converge to one point and the reflected triangle creates a vertical axis of symmetry, but with no person in view, only the formwork marks hint at size, so the space can read as either monumental or a tabletop model.',
+    concepts: ['scale.internal', 'space.one-point', 'balance.symmetrical', 'texture.tactile'],
+    check: 'ok',
+    notes: [],
+  },
+  76: {
+    en: 'Board-marked concrete blocks are stacked upward into fog, seen from below. The front blocks are dark and sharply textured while the highest dissolves into the sky, so atmospheric perspective and the low viewpoint make an ordinary building feel monumental and endless.',
+    concepts: ['space.aerial', 'space.amplified', 'scale.internal', 'scale.human-scale'],
+    check: 'ok',
+    notes: [],
+  },
+  77: {
+    en: 'A tower of twisting bay windows is seen from directly below. The repeated window modules shrink toward the top, and since each one is the size of a room, counting them measures the height, while the gradual turn of each floor sets the building spiraling upward.',
+    concepts: ['space.size', 'scale.internal', 'rhythm.progressive', 'space.amplified'],
+    check: 'ok',
+    notes: [],
+  },
+  78: {
+    en: 'Identical concrete arches repeat down a long corridor toward a bright vanishing point. Their decreasing size reads as distance, and the steady shrinking sets up a progressive rhythm echoed by the half-circle patches of light on the floor.',
+    concepts: ['space.size', 'space.one-point', 'rhythm.progressive', 'scale.internal'],
+    check: 'ok',
+    notes: [],
+  },
+  79: {
+    en: 'Dozens of curved balcony floors repeat above and below a central elevator core in a vast atrium. The mirror symmetry fixes the eye on the vertical axis, the floors narrow into endless depth, and tiny escalators and lights reveal how immense the space is.',
+    concepts: ['balance.symmetrical', 'space.size', 'scale.internal', 'scale.human-scale'],
+    check: 'ok',
+    notes: [],
+  },
 };
 
 /** 텍스트 블록 Expression List — WK04가 비어 있어 블록 내용에서 뽑은 후보 */

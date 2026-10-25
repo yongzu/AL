@@ -1,8 +1,8 @@
 # 블록 점검표
 
-- 채널: [[1기] Aesthetic Literacy: 조용주](https://www.are.na/hkthx8f9-u0/1-aesthetic-literacy-qhm68ahvlpk) · 가져온 날 2026-10-19
+- 채널: [[1기] Aesthetic Literacy: 조용주](https://www.are.na/hkthx8f9-u0/1-aesthetic-literacy-qhm68ahvlpk) · 가져온 날 2026-10-25
 - 기준: 『Design Basics』 9판(Pentak & Lauer, 2016)
-- 결과: 책과 일치 34 · 보완 제안 26 · 용어 점검 9 (총 69)
+- 결과: 책과 일치 44 · 보완 제안 26 · 용어 점검 9 (총 79)
 
 승인할 블록의 `[ ]`를 `[x]`로 바꾸거나, 채팅으로 번호를 알려 주세요. 승인된 블록만 `node scripts/arena-push.mjs --only <번호> --apply`로 Are.na에 반영합니다.
 반영되는 것: 한국어 설명 아래에 `---` + 영어 설명 + 라우어 개념 한 줄, 그리고 이미지 대체 텍스트(alt text). 한국어 원문은 바꾸지 않습니다.
@@ -1482,3 +1482,208 @@
 
 
 [Are.na에서 보기](https://www.are.na/block/51557013)
+
+## WK07
+
+### [ ] 70. 빈 의자가 알려 주는 크기 / An Empty Chair Tells the Size — 책과 일치
+
+![빈 의자가 알려 주는 크기 / An Empty Chair Tells the Size](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkxMi9vcmlnaW5hbF85OWUzOWQyZDQwMjg0ZTFlNWUwMjU4ZmNlOGI1MzllZi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 화면 아래쪽 가운데에 놓인 하얀 플라스틱 의자로 시선이 가장 먼저 간다. 하늘과 풀밭이 모두 회색으로 덮여 있는데, 의자만 유일하게 흰색이고 주변에 아무것도 없이 혼자 떨어져 있기 때문이다(고립에 의한 강조). 그런데 이 의자는 초점이면서 크기를 재는 자 역할도 하는 것 같다. 의자는 누구나 크기를 아는 물건이라, 의자가 이만큼 작다는 걸 보고 나서야 뒤의 언덕이 얼마나 거대한지 가늠하게 된다(내부 비례와 기준). 의자가 없었다면 이 언덕은 손바닥만 한 모래 더미나 천 주름처럼 보였을 것 같다. 화면 위쪽 절반 가까이가 비어 있는 하늘이라 공간이 더 막막하게 느껴지고, 작은 의자와 넓은 땅의 크기 차이가 고요하면서도 쓸쓸한 분위기를 만든다(스케일 대비). 사람이 없는 빈 의자라서, 감상자가 자기 몸을 그 자리에 앉혀 보며 크기를 느끼게 되는 것 같다(인간 스케일 기준).
+
+**영어 설명(제안)**
+
+> A small white plastic chair sits alone in a gray field below vast rolling hills and an empty sky. The chair is both the focal point and the only scale reference: because everyone knows its size, it reveals how enormous the hills are, and the empty seat invites viewers to imagine their own bodies there.
+
+**라우어 개념** 내부 비례와 기준(Internal Proportions and References, p.74) · 스케일 대비(Contrast of Scale, p.76) · 고립에 의한 강조(Emphasis by Isolation, p.60) · 인간 스케일 기준(Human Scale Reference, p.72)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849912)
+
+### [ ] 71. 거대한 원 앞의 작은 사람 / A Small Figure Before a Giant Circle — 책과 일치
+
+![거대한 원 앞의 작은 사람 / A Small Figure Before a Giant Circle](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkxMy9vcmlnaW5hbF8zNTE5NDExNzg2MzBiNjg0ZjM3ZDE4MzViNWFiZWMyNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 거대한 원형 개구부 아래, 동심원 계단 꼭대기에 선 검은 옷의 인물로 시선이 모인다. 계단의 동심원이 모두 인물이 선 자리를 중심으로 퍼져 나가서, 원의 중심이 곧 초점이 되기 때문이다(배치에 의한 강조 · 방사 균형). 인물 뒤의 밝은 원과 검은 실루엣이 맞닿아 있어서 명도 대비도 가장 강한 곳이다(대비에 의한 강조). 인물은 화면에서 아주 작은 부분만 차지하지만, 이 사람 덕분에 뒤의 원이 건물 몇 층 높이쯤 된다는 걸 알 수 있다(인간 스케일 기준). 계단 한 단의 높이도 사람 키와 견주어 보게 되어서, 계단이 몇 단인지 세다 보면 공간의 크기가 한 번 더 느껴진다. 작은 몸과 거대한 원의 크기 차이가 이곳을 일상 공간이 아니라 제단이나 의식의 장소처럼 보이게 만드는 것 같다(스케일 대비).
+
+**영어 설명(제안)**
+
+> A cloaked figure stands at the center of concentric circular steps beneath a huge round opening of light. The steps radiate from the figure and the dark silhouette meets the brightest area, so placement and contrast make it the focal point, while its tiny size makes the circle feel monumental, like an altar.
+
+**라우어 개념** 인간 스케일 기준(Human Scale Reference, p.72) · 배치에 의한 강조(Emphasis by Placement, p.62) · 방사 균형(Radial Balance, p.106) · 스케일 대비(Contrast of Scale, p.76)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849913)
+
+### [ ] 72. 능선이 데려가는 작은 사람 / The Ridge Leads to a Tiny Figure — 책과 일치
+
+![능선이 데려가는 작은 사람 / The Ridge Leads to a Tiny Figure](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkxNS9vcmlnaW5hbF8wZjcxMjNjM2JkMDg4YTgxNGVlMTUwMzQ0NGZkMWQ0NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 하얀 모래 언덕의 능선 끝에 선 작은 사람이 가장 먼저 눈에 들어온다. 화면 대부분이 옅은 회색 하늘과 흰 모래로 비어 있는데, 이 사람만 짙은 색이고 혼자 떨어져 있기 때문이다(고립에 의한 강조). 왼쪽에서 시작한 밝은 면과 그늘 면의 경계가 곡선을 그리며 올라가다가 이 사람 발밑에서 끝나서, 곡선이 시선을 사람에게 데려다준다(암시된 선). 사람은 손가락 마디만 한 크기이지만, 그 작은 크기 덕분에 모래 언덕이 끝없이 넓게 느껴진다(스케일 대비). 사람이 없었다면 이 화면은 흰 종이를 접어 찍은 추상 이미지처럼 보였을 것 같다(내부 비례와 기준). 하늘과 모래의 명도가 비슷해 지평선이 흐릿하고, 그래서 공간의 끝이 보이지 않는 막막함이 생긴다.
+
+**영어 설명(제안)**
+
+> A lone dark figure stands where the curved edge between light and shadow ends on a white sand dune. The curve leads the eye to the figure, and its tiny size makes the dune feel boundless; without it, the image could read as folded paper.
+
+**라우어 개념** 스케일 대비(Contrast of Scale, p.76) · 고립에 의한 강조(Emphasis by Isolation, p.60) · 암시된 선(Implied Line, p.136) · 내부 비례와 기준(Internal Proportions and References, p.74)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849915)
+
+### [ ] 73. 사람 하나로 재는 기둥 / Columns Measured by One Walker — 책과 일치
+
+![사람 하나로 재는 기둥 / Columns Measured by One Walker](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkxNi9vcmlnaW5hbF81ZjlhZWRmZmI2MjA4ZTY1YWE2OWVkY2IzYmNhNDdlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 영감메모
+> 일단 거대한 세로 기둥들 사이, 하늘이 열린 틈 아래를 걸어가는 작은 사람이 먼저 보인다. 화면 대부분이 회색 기둥과 계단으로 빽빽하게 채워져 있는데, 사람만 밝은 하늘을 배경으로 짙은 실루엣이 되어 있기 때문이다(대비에 의한 강조). 계단의 수평선과 기둥의 수직선이 만나는 모서리에 서 있다는 점도 크다. 선들이 모이는 자리라 시선이 자연스럽게 그쪽으로 흘러간다(배치에 의한 강조).
+> 이 이미지에서 사람은 초점이면서 동시에 크기를 재는 기준이다. 사람의 키를 기준으로 보면 계단 한 단이 거의 무릎 높이이고, 기둥은 화면 위로 끝없이 뻗어 몇십 미터는 되는 것처럼 느껴진다(인간 스케일 기준). 사람이 없었다면 이 기둥들은 책장이나 주름진 종이를 가까이서 찍은 것처럼 보였을 수도 있을 것 같다(내부 비례와 기준). 작은 사람 하나가 화면 전체의 크기를 정하는 셈이다.
+> 같은 굵기의 기둥이 촘촘하게 반복되는 것도 거대함을 키운다. 하나하나 셀 수 없을 만큼 많아서, 기둥의 개수가 곧 높이와 넓이의 감각으로 바뀐다(반복). 오른쪽으로 갈수록 기둥과 계단이 ㄱ자로 꺾이며 겹겹이 앞으로 나오는데, 이 겹침이 공간의 깊이를 만든다(겹침). 결국 작은 사람과 거대한 구조물의 크기 차이가 압도감과 고독함을 함께 만든다(스케일 대비). 사람이 기둥 안쪽이 아니라 하늘이 열린 쪽으로 걸어가고 있어서, 이 거대한 공간을 빠져나가려는 듯한 이야기도 느껴지는 것 같다.
+
+**영어 설명(제안)**
+
+> A tiny figure walks beneath a gap of open sky between towering ranks of vertical fins and stepped platforms. The figure is both the focal point, set dark against the sky where the lines meet, and the measure of the whole scene: next to it the steps reach knee height and the fins seem to rise for dozens of meters. Countless repeated fins turn number into a sense of height, and the contrast of scale creates awe and solitude at once.
+
+**라우어 개념** 인간 스케일 기준(Human Scale Reference, p.72) · 내부 비례와 기준(Internal Proportions and References, p.74) · 스케일 대비(Contrast of Scale, p.76) · 반복(Repetition, p.36)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849916)
+
+### [ ] 74. 빛나는 입구의 작은 실루엣 / A Small Silhouette at the Bright Opening — 책과 일치
+
+![빛나는 입구의 작은 실루엣 / A Small Silhouette at the Bright Opening](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkxNy9vcmlnaW5hbF83MjY3MDZiMmNjYmQ1MDFhYWQzNTM1MjRjODY5NmIxYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 얇은 판이 수없이 겹쳐 소용돌이치는 공간 위쪽, 밝게 열린 타원형 입구 가장자리에 선 작은 실루엣으로 시선이 간다. 화면에서 가장 밝은 빛이 그 입구에 모여 있고, 사람은 그 빛을 등지고 검게 서 있어서 명도 대비가 가장 강한 곳이기 때문이다(대비에 의한 강조). 아래쪽에 층층이 쌓인 판들은 모두 휘어지며 입구를 향해 말려 올라가서, 선을 따라가다 보면 시선이 결국 그 사람에게 닿는다(암시된 선). 사람의 키를 기준으로 보면 판 한 장의 두께가 계단 한 단쯤이고, 그래서 이 구조물이 몇 층 높이의 거대한 동굴처럼 느껴진다(인간 스케일 기준). 사람이 입구 한가운데가 아니라 왼쪽 끝에 작게 붙어 있어서, 공간에 삼켜질 듯한 위태로움이 생기는 것 같다(스케일 대비). 위아래의 검은 띠는 화면을 영화 장면처럼 가로로 잘라 내서, 이 장면을 하나의 이야기 속 장면처럼 보이게 한다.
+
+**영어 설명(제안)**
+
+> Thin stacked layers curl upward into a spiral around a bright oval opening, where a small silhouette stands at the left edge. The strongest light-dark contrast and the curving lines both lead to the figure, and measured against it each layer becomes a stair, turning the structure into a vast cave.
+
+**라우어 개념** 인간 스케일 기준(Human Scale Reference, p.72) · 대비에 의한 강조(Emphasis by Contrast, p.58) · 암시된 선(Implied Line, p.136) · 스케일 대비(Contrast of Scale, p.76)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849917)
+
+### [ ] 75. 크기를 알 수 없는 삼각형 / Triangles of Unknown Size — 책과 일치
+
+![크기를 알 수 없는 삼각형 / Triangles of Unknown Size](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkxOC9vcmlnaW5hbF9lMGMxNDgzNjVjOTNlODBjN2ZiYzBhZjg4MGRhZTAzYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 콘크리트 벽에 뚫린 커다란 삼각형 개구부와, 그 아래로 길게 뻗은 수조가 있는 공간이다. 시선은 수조를 따라 안쪽으로 들어가 삼각형 너머의 밝은 바다로 간다. 수조의 양쪽 모서리와 바닥의 그림자 선이 모두 안쪽 한 점으로 모이기 때문이다(1점 투시). 수면에 비친 삼각형이 위의 삼각형과 위아래로 마주 보면서 화면 가운데에 커다란 대칭축이 생긴다(대칭 균형). 그런데 이 이미지에는 사람이 한 명도 없어서 크기를 가늠하기가 어렵다. 그나마 콘크리트 표면의 거푸집 자국과 작은 구멍들이 단서가 되는데(촉각적 질감), 이걸 보면 벽 높이가 몇 층은 되는 거대한 공간 같다가도 다시 보면 책상 위 모형 같기도 하다(내부 비례와 기준). 기준이 없을 때 크기가 얼마나 모호해지는지 보여 주는 이미지인 것 같다.
+
+**영어 설명(제안)**
+
+> A long reflecting pool runs toward triangular openings in a concrete hall, beyond which lies a bright sea. The pool edges converge to one point and the reflected triangle creates a vertical axis of symmetry, but with no person in view, only the formwork marks hint at size, so the space can read as either monumental or a tabletop model.
+
+**라우어 개념** 내부 비례와 기준(Internal Proportions and References, p.74) · 1점 투시(One-Point Perspective, p.210) · 대칭 균형(Symmetrical Balance, p.92) · 촉각적 질감(Tactile Texture, p.188)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849918)
+
+### [ ] 76. 안개로 더 높아진 덩어리 / Blocks Made Taller by Fog — 책과 일치
+
+![안개로 더 높아진 덩어리 / Blocks Made Taller by Fog](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkxOS9vcmlnaW5hbF9mMGQwMmU3ZjY3MzZmNzAxMDhkOTA2MzQ0YmZhNjdkMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 거친 콘크리트 덩어리들이 안개 속으로 겹겹이 쌓여 올라가는 건물을 아래에서 올려다본 장면이다. 앞쪽 덩어리는 짙고 표면의 나무 거푸집 결까지 선명한데, 위로 갈수록 안개에 묻혀 옅어지고 가장 높은 덩어리는 하늘과 거의 구분되지 않는다(대기 원근). 이 흐려짐 때문에 실제보다 훨씬 멀고 높게 느껴진다. 아래에서 올려다보는 시점이라 덩어리들이 위로 솟구치듯 보이고, 그래서 평범한 건물이 기념비처럼 보인다(증폭된 원근). 사람이나 창문 같은 단서는 없지만, 세로로 난 거푸집 결 하나하나가 판자 한 장 폭이라는 걸 알기에 덩어리의 크기를 짐작하게 된다(내부 비례와 기준). 꼭대기가 안개 속으로 사라져서 이 건물이 어디까지 이어지는지 알 수 없다는 점이 압도감을 더하는 것 같다(인간 스케일 기준).
+
+**영어 설명(제안)**
+
+> Board-marked concrete blocks are stacked upward into fog, seen from below. The front blocks are dark and sharply textured while the highest dissolves into the sky, so atmospheric perspective and the low viewpoint make an ordinary building feel monumental and endless.
+
+**라우어 개념** 대기 원근(Aerial (Atmospheric) Perspective, p.204) · 증폭된 원근(Amplified Perspective, p.216) · 내부 비례와 기준(Internal Proportions and References, p.74) · 인간 스케일 기준(Human Scale Reference, p.72)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849919)
+
+### [ ] 77. 위로 갈수록 작아지는 창 / Windows Shrinking Upward — 책과 일치
+
+![위로 갈수록 작아지는 창 / Windows Shrinking Upward](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkyMC9vcmlnaW5hbF83YjI4ZTcwNTUyNTkyNDAxOGZjZDU3ZmVkNWI2NzBkNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 비틀린 창들이 층층이 쌓인 고층 건물을 바로 아래에서 올려다본 장면이다. 같은 모양의 창 모듈이 반복되는데, 위로 갈수록 점점 작아지고 촘촘해진다(크기). 창 하나가 사람이 사는 방 한 칸 크기라는 걸 알기 때문에, 작아지는 창들을 세다 보면 건물의 높이가 실감 난다(내부 비례와 기준). 층마다 창의 방향이 조금씩 틀어지며 올라가서, 단단한 건물이 위로 꼬여 올라가는 듯한 움직임이 생긴다(점진적 리듬). 건물이 화면 위쪽 가운데의 한 점으로 좁아지며 하늘을 찌르는 모양이라, 시선도 그 끝으로 끌려 올라간다(증폭된 원근). 오른쪽에 걸친 크레인은 작게 보이지만, 오히려 건물의 크기를 한 번 더 확인시켜 주는 비교 대상 같다.
+
+**영어 설명(제안)**
+
+> A tower of twisting bay windows is seen from directly below. The repeated window modules shrink toward the top, and since each one is the size of a room, counting them measures the height, while the gradual turn of each floor sets the building spiraling upward.
+
+**라우어 개념** 크기(Size, p.198) · 내부 비례와 기준(Internal Proportions and References, p.74) · 점진적 리듬(Progressive Rhythm, p.120) · 증폭된 원근(Amplified Perspective, p.216)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849920)
+
+### [ ] 78. 멀어지며 작아지는 아치 / Arches Shrinking into the Distance — 책과 일치
+
+![멀어지며 작아지는 아치 / Arches Shrinking into the Distance](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkyMS9vcmlnaW5hbF9lZmU0MWNjZTZjOGVlYTc1NzFlODljODE2OGJmNTNjZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 콘크리트 아치가 같은 간격으로 반복되며 안쪽으로 끝없이 이어지는 복도이다. 아치들은 실제로는 모두 같은 크기일 텐데 멀어질수록 작아져서, 그 크기 차이가 곧 거리로 읽힌다(크기). 바닥의 선과 아치의 꼭대기가 모두 가운데 한 점으로 모여서, 시선이 복도 끝의 밝은 점으로 빨려 들어간다(1점 투시). 같은 아치가 조금씩 작아지며 겹치는 것이 일정한 박자로 멀어지는 리듬처럼 느껴진다(점진적 리듬). 사람은 없지만 콘크리트 거푸집 자국과 기둥 굵기를 보면, 사람 키보다 훨씬 높은 공간이라는 걸 짐작하게 된다(내부 비례와 기준). 바닥에 떨어진 반원 모양의 빛도 아치와 같은 모양을 되풀이해서, 빛과 구조가 하나의 리듬으로 묶이는 것 같다.
+
+**영어 설명(제안)**
+
+> Identical concrete arches repeat down a long corridor toward a bright vanishing point. Their decreasing size reads as distance, and the steady shrinking sets up a progressive rhythm echoed by the half-circle patches of light on the floor.
+
+**라우어 개념** 크기(Size, p.198) · 1점 투시(One-Point Perspective, p.210) · 점진적 리듬(Progressive Rhythm, p.120) · 내부 비례와 기준(Internal Proportions and References, p.74)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849921)
+
+### [ ] 79. 끝없이 겹친 층 / Floors Without End — 책과 일치
+
+![끝없이 겹친 층 / Floors Without End](https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI1MTg0OTkyMi9vcmlnaW5hbF81M2E0M2JhNTZjNzI0Y2YwMTFiMDg1ZDIzOWY0ZTk5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=)
+
+**기존 설명**
+
+> 수십 층의 둥근 발코니가 위아래로 겹겹이 이어지는 거대한 아트리움 내부이다. 가운데 엘리베이터 기둥을 축으로 왼쪽과 오른쪽이 거울처럼 똑같이 나뉘어서, 시선이 가장 먼저 그 세로축에 고정된다(대칭 균형). 같은 모양의 층이 반복되며 위로도 아래로도 점점 좁아지고 촘촘해져서, 끝이 보이지 않는 깊이가 생긴다(크기). 이 공간의 크기를 알려 주는 것은 아래쪽의 작은 에스컬레이터와 층마다 박힌 작은 불빛이다. 사람이 오르내리는 에스컬레이터가 이렇게 작게 보이니, 건물 전체가 얼마나 거대한지 실감하게 된다(내부 비례와 기준). 사람은 보이지 않지만, 감상자가 그 한가운데에 서 있는 것처럼 사방이 둘러싸여 있어서 압도감이 크다(인간 스케일 기준). 반복되는 층의 곡선이 갈비뼈처럼 보여서, 건물이 아니라 거대한 생물의 몸속에 들어온 듯한 느낌도 드는 것 같다.
+
+**영어 설명(제안)**
+
+> Dozens of curved balcony floors repeat above and below a central elevator core in a vast atrium. The mirror symmetry fixes the eye on the vertical axis, the floors narrow into endless depth, and tiny escalators and lights reveal how immense the space is.
+
+**라우어 개념** 대칭 균형(Symmetrical Balance, p.92) · 크기(Size, p.198) · 내부 비례와 기준(Internal Proportions and References, p.74) · 인간 스케일 기준(Human Scale Reference, p.72)
+
+**점검 메모**
+
+
+
+[Are.na에서 보기](https://www.are.na/block/51849922)

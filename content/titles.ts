@@ -74,6 +74,17 @@ export const titles: Record<number, { ko: string; en: string }> = {
   67: { ko: '굵은 선이 먼저 보인다', en: 'Thick Lines Come First' },
   68: { ko: '모으는 원, 흩어지는 점', en: 'Gathering Circles, Scattered Dots' },
   69: { ko: '흐린 배경 위 검은 글자', en: 'Black Type on a Faded Ground' },
+  // WK07 스케일과 비례
+  70: { ko: '빈 의자가 알려 주는 크기', en: 'An Empty Chair Tells the Size' },
+  71: { ko: '거대한 원 앞의 작은 사람', en: 'A Small Figure Before a Giant Circle' },
+  72: { ko: '능선이 데려가는 작은 사람', en: 'The Ridge Leads to a Tiny Figure' },
+  73: { ko: '사람 하나로 재는 기둥', en: 'Columns Measured by One Walker' },
+  74: { ko: '빛나는 입구의 작은 실루엣', en: 'A Small Silhouette at the Bright Opening' },
+  75: { ko: '크기를 알 수 없는 삼각형', en: 'Triangles of Unknown Size' },
+  76: { ko: '안개로 더 높아진 덩어리', en: 'Blocks Made Taller by Fog' },
+  77: { ko: '위로 갈수록 작아지는 창', en: 'Windows Shrinking Upward' },
+  78: { ko: '멀어지며 작아지는 아치', en: 'Arches Shrinking into the Distance' },
+  79: { ko: '끝없이 겹친 층', en: 'Floors Without End' },
 };
 
 /** Are.na 제목 */
