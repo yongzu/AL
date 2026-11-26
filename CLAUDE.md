@@ -1,3 +1,5 @@
+> **폴더 구조 변경 (2026-11-26):** 이 저장소의 이전 작업은 모두 `previous/` 아래로 옮겨졌습니다. 아래 문서에 나오는 경로는 `previous/` 기준으로 읽으세요. 새 작업은 `WK13/` ~ `WK16/`에서 합니다.
+
 # AL 프로젝트 — Claude 작업 규칙
 
 Aesthetic Literacy 학습 사이트(https://yongzu.github.io/AL/)와 Are.na 채널(`1-aesthetic-literacy-qhm68ahvlpk`) 분석 저장소. 구조와 명령어는 README.md 참고.

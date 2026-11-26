@@ -1,0 +1,19 @@
+# ---------- 비밀 · 저작권 자료: 절대 올리지 않는다 ----------
+# Are.na 토큰
+.env
+# 라우어 『Design Basics』 PDF와 추출한 원문 — 공개 저장소이므로 업로드 금지
+book/
+# Are.na 이미지 원본 — 사이트는 Are.na 주소를 링크해서 보여 준다
+data/images/
+
+# ---------- 빌드 · 도구 ----------
+node_modules
+dist
+dist-ssr
+*.local
+*.log
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+.claude/
